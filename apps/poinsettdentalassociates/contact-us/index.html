@@ -3,9 +3,6 @@
 
 <head>
 	<meta charset="UTF-8">
-	<script>
-		var gform; gform || (document.addEventListener("gform_main_scripts_loaded", function () { gform.scriptsLoaded = !0 }), document.addEventListener("gform/theme/scripts_loaded", function () { gform.themeScriptsLoaded = !0 }), window.addEventListener("DOMContentLoaded", function () { gform.domLoaded = !0 }), gform = { domLoaded: !1, scriptsLoaded: !1, themeScriptsLoaded: !1, isFormEditor: () => "function" == typeof InitializeEditor, callIfLoaded: function (o) { return !(!gform.domLoaded || !gform.scriptsLoaded || !gform.themeScriptsLoaded && !gform.isFormEditor() || (gform.isFormEditor() && console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."), o(), 0)) }, initializeOnLoaded: function (o) { gform.callIfLoaded(o) || (document.addEventListener("gform_main_scripts_loaded", () => { gform.scriptsLoaded = !0, gform.callIfLoaded(o) }), document.addEventListener("gform/theme/scripts_loaded", () => { gform.themeScriptsLoaded = !0, gform.callIfLoaded(o) }), window.addEventListener("DOMContentLoaded", () => { gform.domLoaded = !0, gform.callIfLoaded(o) })) }, hooks: { action: {}, filter: {} }, addAction: function (o, r, e, t) { gform.addHook("action", o, r, e, t) }, addFilter: function (o, r, e, t) { gform.addHook("filter", o, r, e, t) }, doAction: function (o) { gform.doHook("action", o, arguments) }, applyFilters: function (o) { return gform.doHook("filter", o, arguments) }, removeAction: function (o, r) { gform.removeHook("action", o, r) }, removeFilter: function (o, r, e) { gform.removeHook("filter", o, r, e) }, addHook: function (o, r, e, t, n) { null == gform.hooks[o][r] && (gform.hooks[o][r] = []); var d = gform.hooks[o][r]; null == n && (n = r + "_" + d.length), gform.hooks[o][r].push({ tag: n, callable: e, priority: t = null == t ? 10 : t }) }, doHook: function (r, o, e) { var t; if (e = Array.prototype.slice.call(e, 1), null != gform.hooks[r][o] && ((o = gform.hooks[r][o]).sort(function (o, r) { return o.priority - r.priority }), o.forEach(function (o) { "function" != typeof (t = o.callable) && (t = window[t]), "action" == r ? t.apply(null, e) : e[0] = t.apply(null, e) })), "filter" == r) return e[0] }, removeHook: function (o, r, t, n) { var e; null != gform.hooks[o][r] && (e = (e = gform.hooks[o][r]).filter(function (o, r, e) { return !!(null != n && n != o.tag || null != t && t != o.priority) }), gform.hooks[o][r] = e) } });
-	</script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 	<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
@@ -677,14 +674,6 @@
 		href='../wp-content/uploads/salient/menu-dynamic%EF%B9%96ver=68869.css' media='all' />
 	<link rel='stylesheet' id='js_composer_front-css'
 		href='../wp-content/plugins/js_composer_salient/assets/css/js_composer.min%EF%B9%96ver=7.1.css' media='all' />
-	<link rel='stylesheet' id='gforms_reset_css-css'
-		href='../wp-content/plugins/gravityforms/legacy/css/formreset.min%EF%B9%96ver=2.10.5.css' media='all' />
-	<link rel='stylesheet' id='gforms_formsmain_css-css'
-		href='../wp-content/plugins/gravityforms/legacy/css/formsmain.min%EF%B9%96ver=2.10.5.css' media='all' />
-	<link rel='stylesheet' id='gforms_ready_class_css-css'
-		href='../wp-content/plugins/gravityforms/legacy/css/readyclass.min%EF%B9%96ver=2.10.5.css' media='all' />
-	<link rel='stylesheet' id='gforms_browsers_css-css'
-		href='../wp-content/plugins/gravityforms/legacy/css/browsers.min%EF%B9%96ver=2.10.5.css' media='all' />
 	<link rel='stylesheet' id='dynamic-css-css'
 		href='../wp-content/themes/salient/css/salient-dynamic-styles%EF%B9%96ver=87304.css' media='all' />
 	<style id="dynamic-css-inline-css">
@@ -1317,23 +1306,6 @@
 
 	<script id="jquery-core-js" src="../wp-includes/js/jquery/jquery.min%EF%B9%96ver=3.7.1.js"></script>
 	<script id="jquery-migrate-js" src="../wp-includes/js/jquery/jquery-migrate.min%EF%B9%96ver=3.4.1.js"></script>
-	<script id="gform_json-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/js/jquery.json.min%EF%B9%96ver=2.10.5.js"></script>
-	<script id="gform_gravityforms-js-extra">
-		var gf_global = { "gf_currency_config": { "name": "U.S. Dollar", "symbol_left": "$", "symbol_right": "", "symbol_padding": "", "thousand_separator": ",", "decimal_separator": ".", "decimals": 2, "code": "USD" }, "base_url": "https://poinsettdentalassociates.com/wp-content/plugins/gravityforms", "number_formats": [], "spinnerUrl": "https://poinsettdentalassociates.com/wp-content/plugins/gravityforms/images/spinner.svg", "version_hash": "8ea527782959a79d3bf558a2f0c7fa87", "strings": { "newRowAdded": "New row added.", "rowRemoved": "Row removed", "formSaved": "The form has been saved.  The content contains the link to return and complete the form." } };
-		var gform_i18n = { "datepicker": { "days": { "monday": "Mo", "tuesday": "Tu", "wednesday": "We", "thursday": "Th", "friday": "Fr", "saturday": "Sa", "sunday": "Su" }, "months": { "january": "January", "february": "February", "march": "March", "april": "April", "may": "May", "june": "June", "july": "July", "august": "August", "september": "September", "october": "October", "november": "November", "december": "December" }, "firstDay": 0, "iconText": "Select date" } };
-		var gf_legacy_multi = { "2": "1" };
-		var gform_gravityforms = { "strings": { "invalid_file_extension": "This type of file is not allowed. Must be one of the following:", "file_uploaded": "File uploaded", "delete_file": "Delete this file", "in_progress": "in progress", "file_exceeds_limit": "File exceeds size limit", "illegal_extension": "This type of file is not allowed.", "max_reached": "Maximum number of files reached", "unknown_error": "There was a problem while saving the file on the server", "currently_uploading": "Please wait for the uploading to complete", "cancel": "Cancel", "cancel_upload": "Cancel this upload", "cancelled": "Cancelled", "error": "Error", "message": "Message" }, "vars": { "images_url": "https://poinsettdentalassociates.com/wp-content/plugins/gravityforms/images" } };
-		//# sourceURL=gform_gravityforms-js-extra
-	</script>
-	<script id="gform_gravityforms-js-before">
-
-		//# sourceURL=gform_gravityforms-js-before
-	</script>
-	<script id="gform_gravityforms-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/js/gravityforms.min%EF%B9%96ver=2.10.5.js"></script>
-	<script id="gform_gravityforms_utils-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/assets/js/dist/utils.min%EF%B9%96ver=3f278756f0a3032bed328ff6a9f6c01d.js"></script>
 	<script></script>
 	<link rel="https://api.w.org/" href="../wp-json/index.json" />
 	<link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/pages/51.json" />
@@ -2195,48 +2167,13 @@
 		src="../wp-content/themes/salient/js/build/third-party/select2.min%EF%B9%96ver=4.0.1.js"></script>
 	<script id="wp-dom-ready-js"
 		src="../wp-includes/js/dist/dom-ready.min%EF%B9%96ver=a06281ae5cf5500e9317.js"></script>
-	<script id="wp-hooks-js" src="../wp-includes/js/dist/hooks.min%EF%B9%96ver=7496969728ca0f95732d.js"></script>
-	<script id="wp-i18n-js" src="../wp-includes/js/dist/i18n.min%EF%B9%96ver=781d11515ad3d91786ec.js"></script>
-	<script id="wp-i18n-js-after">
-		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
-		//# sourceURL=wp-i18n-js-after
-	</script>
 	<script id="wp-a11y-js" src="../wp-includes/js/dist/a11y.min%EF%B9%96ver=af934e5259bc51b8718e.js"></script>
-	<script id="gform_masked_input-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/js/jquery.maskedinput.min%EF%B9%96ver=2.10.5.js"></script>
-	<script id="gform_gravityforms_theme_vendors-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min%EF%B9%96ver=7c651d0ba638ce98b9c65141edddd567.js"></script>
-	<script id="gform_gravityforms_theme-js-extra">
-		var gform_theme_config = { "common": { "form": { "honeypot": { "version_hash": "8ea527782959a79d3bf558a2f0c7fa87" }, "ajax": { "ajaxurl": "https://poinsettdentalassociates.com/wp-admin/admin-ajax.php", "ajax_submission_nonce": "18cfac520b", "i18n": { "step_announcement": "Step %1$s of %2$s, %3$s", "unknown_error": "There was an unknown error processing your request. Please try again.", "error_403": "The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again." } } } }, "hmr_dev": "", "public_path": "https://poinsettdentalassociates.com/wp-content/plugins/gravityforms/assets/js/dist/", "config_nonce": "defd96a7ba" };
-		//# sourceURL=gform_gravityforms_theme-js-extra
-	</script>
-	<script id="gform_gravityforms_theme-js" defer='defer'
-		src="../wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min%EF%B9%96ver=301fdc9aa6144168f3b854c4c2c8f6d3.js"></script>
-	<script id="google-recaptcha-js"
-		src="https://www.google.com/recaptcha/api.js?render=6Ld_paglAAAAAPD9z8A80TEgOKenteDoy8UVTHJo&amp;ver=3.0"></script>
-	<script id="wp-polyfill-js" src="../wp-includes/js/dist/vendor/wp-polyfill.min%EF%B9%96ver=3.15.0.js"></script>
-	<script id="wpcf7-recaptcha-js-before">
-		var wpcf7_recaptcha = {
-			"sitekey": "6Ld_paglAAAAAPD9z8A80TEgOKenteDoy8UVTHJo",
-			"actions": {
-				"homepage": "homepage",
-				"contactform": "contactform"
-			}
-		};
-		//# sourceURL=wpcf7-recaptcha-js-before
-	</script>
 
 	<script id="wpb_composer_front_js-js"
 		src="../wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min%EF%B9%96ver=7.1.js"></script>
 	<script defer id="akismet-frontend-js"
 		src="../wp-content/plugins/akismet/_inc/akismet-frontend%EF%B9%96ver=1777092546.js"></script>
 	<script></script>
-	<script>
-		gform.initializeOnLoaded(function () { jQuery(document).on('gform_post_render', function (event, formId, currentPage) { if (formId == 2) { jQuery('#input_2_3').mask('(999) 999-9999').bind('keypress', function (e) { if (e.which == 13) { jQuery(this).blur(); } }); } }); jQuery(document).on('gform_post_conditional_logic', function (event, formId, fields, isInit) { }) });
-	</script>
-	<script>
-		gform.initializeOnLoaded(function () { jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "1", abort: function () { this.preventDefault(); } }]); if (event && event.defaultPrevented) { return; } const gformWrapperDiv = document.getElementById("gform_wrapper_2"); if (gformWrapperDiv) { const visibilitySpan = document.createElement("span"); visibilitySpan.id = "gform_visibility_test_2"; gformWrapperDiv.insertAdjacentElement("afterend", visibilitySpan); } const visibilityTestDiv = document.getElementById("gform_visibility_test_2"); let postRenderFired = false; function triggerPostRender() { if (postRenderFired) { return; } postRenderFired = true; gform.core.triggerPostRenderEvents(2, 1); if (visibilityTestDiv) { visibilityTestDiv.parentNode.removeChild(visibilityTestDiv); } } function debounce(func, wait, immediate) { var timeout; return function () { var context = this, args = arguments; var later = function () { timeout = null; if (!immediate) func.apply(context, args); }; var callNow = immediate && !timeout; clearTimeout(timeout); timeout = setTimeout(later, wait); if (callNow) func.apply(context, args); }; } const debouncedTriggerPostRender = debounce(function () { triggerPostRender(); }, 200); if (visibilityTestDiv && visibilityTestDiv.offsetParent === null) { const observer = new MutationObserver((mutations) => { mutations.forEach((mutation) => { if (mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null) { debouncedTriggerPostRender(); observer.disconnect(); } }); }); observer.observe(document.body, { attributes: true, childList: false, subtree: true, attributeFilter: ['style', 'class'], }); } else { triggerPostRender(); } });
-	</script>
 	<script defer
 		src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
 		data-cf-beacon='{"version":"2024.11.0","token":"00fa7076e6c8456594b456fffdda64ad","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'></script>
