@@ -586,7 +586,7 @@ Anderson, SC 29621</p>
   </label>
   <label>
     Phone number:
-    <input type="tel" name="phone" required>
+    <input type="tel" name="phone" id="formspree-phone" placeholder="(864) 555-1234" pattern="\(\d{3}\) \d{3}-\d{4}" maxlength="14" inputmode="numeric" title="Please enter a 10-digit phone number, e.g. (864) 555-1234" required>
   </label>
   <label>
     Your message:
@@ -595,6 +595,26 @@ Anderson, SC 29621</p>
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
+<script>
+(function () {
+  var phone = document.getElementById("formspree-phone");
+  if (!phone) return;
+  function formatPhone(value) {
+    var digits = value.replace(/\D/g, "").slice(0, 10);
+    if (digits.length === 0) return "";
+    if (digits.length < 4) return "(" + digits;
+    if (digits.length < 7) return "(" + digits.slice(0, 3) + ") " + digits.slice(3);
+    return "(" + digits.slice(0, 3) + ") " + digits.slice(3, 6) + "-" + digits.slice(6);
+  }
+  phone.addEventListener("input", function () {
+    var formatted = formatPhone(phone.value);
+    if (phone.value !== formatted) phone.value = formatted;
+  });
+  phone.addEventListener("blur", function () {
+    phone.value = formatPhone(phone.value);
+  });
+})();
+</script>
 
 
 </div>
