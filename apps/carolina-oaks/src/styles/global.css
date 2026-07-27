@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette (from the original Salient theme settings) */
+  --color-brand: #498868; /* green — headings, thank-you button */
+  --color-accent: #49c5b1; /* teal — CTA buttons, stars, links */
+  --color-forest: #2a4e3c; /* dark green — testimonial overlay */
+  --color-ink: #292e2d; /* near-black — h5/h6, footer background */
+  --color-body: #676767; /* default body copy */
+  --color-gold: #e8bf3a; /* gold accent */
+  --color-page: #f4f4f4; /* page background */
+
+  --font-heading: "Lora", Georgia, serif;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif-alt: "Baskervville", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-page);
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Heading scale ported from the Salient dynamic stylesheet */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--font-heading);
+    text-transform: capitalize;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-brand);
+  }
+
+  h5 {
+    color: var(--color-ink);
+  }
+
+  h1 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 56px;
+    line-height: 76px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color-ink);
+  }
+
+  @media (max-width: 1300px) {
+    h1 {
+      font-size: 49.5px;
+      line-height: 57px;
+    }
+    h2 {
+      font-size: 42px;
+      line-height: 57px;
+    }
+    h3 {
+      font-size: 42.5px;
+      line-height: 59.5px;
+    }
+  }
+
+  @media (max-width: 999px) {
+    h1 {
+      font-size: 46.2px;
+      line-height: 53.2px;
+    }
+    h2 {
+      font-size: 39.2px;
+      line-height: 53.2px;
+    }
+    h3 {
+      font-size: 40px;
+      line-height: 56px;
+    }
+    h4 {
+      font-size: 32.4px;
+      line-height: 41.4px;
+    }
+    h5 {
+      font-size: 23.4px;
+      line-height: 32.4px;
+    }
+  }
+
+  @media (max-width: 690px) {
+    h1 {
+      font-size: 36.3px;
+      line-height: 41.8px;
+    }
+    h2 {
+      font-size: 30.8px;
+      line-height: 41.8px;
+    }
+    h3 {
+      font-size: 35px;
+      line-height: 49px;
+    }
+    h4 {
+      font-size: 28.8px;
+      line-height: 36.8px;
+    }
+    h5 {
+      font-size: 20.8px;
+      line-height: 28.8px;
+    }
+  }
+}
+
+@utility btn {
+  /* Salient "nectar-button" — rounded pill, uppercase Poppins */
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 200px;
+  text-align: center;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    opacity: 0.88;
+  }
+}
+
+@utility btn-large {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px 27px;
+}
+
+@utility btn-jumbo {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 17px 31px;
+}
+
+/* Larger body copy used in intro paragraphs and service lists (.medium-p) */
+@utility medium-p {
+  & p,
+  & ul li {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  @media (max-width: 999px) {
+    & p,
+    & ul li {
+      font-size: 19px;
+      line-height: 26px;
+    }
+  }
+}

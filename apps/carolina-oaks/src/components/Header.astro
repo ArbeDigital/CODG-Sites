@@ -1,0 +1,228 @@
+---
+interface Props {
+  /** Transparent over the hero (homepage); solid white elsewhere. */
+  transparent?: boolean;
+}
+
+const { transparent = false } = Astro.props;
+
+const locations = [
+  { label: "Greenville", href: "https://www.carolinaoaksgreenville.com" },
+  { label: "Clemson", href: "https://www.carolinaoaksclemson.com" },
+  { label: "Travelers Rest", href: "https://www.carolinaoakstr.com" },
+  { label: "Anderson", href: "https://www.carolinaoaksanderson.com" },
+];
+
+const [left, right] = [locations.slice(0, 2), locations.slice(2)];
+---
+
+<header
+  id="site-header"
+  data-transparent={transparent ? "true" : "false"}
+  class:list={[
+    "top-0 right-0 left-0 z-40 transition-[background-color,box-shadow,padding] duration-300",
+    transparent ? "fixed" : "sticky bg-white shadow-[0_1px_10px_rgba(0,0,0,0.12)]",
+  ]}
+>
+  <div class="mx-auto flex max-w-[1425px] items-center justify-between px-6 py-4 lg:justify-center lg:py-7">
+    <!-- Mobile: logo left -->
+    <a href="/" class="lg:hidden" aria-label="Carolina Oaks Dental Care — Home">
+      <img
+        src="/images/carolina-oak-dental-care-logo.svg"
+        alt="Carolina Oaks Dental Care"
+        class="logo-dark h-[60px] w-auto"
+        width="220"
+        height="60"
+      />
+      <img
+        src="/images/carolina-oak-dental-care-logo-white.svg"
+        alt=""
+        aria-hidden="true"
+        class="logo-light hidden h-[60px] w-auto"
+        width="220"
+        height="60"
+      />
+    </a>
+
+    <!-- Desktop: centered logo between menu halves -->
+    <nav class="hidden items-center gap-12 lg:flex" aria-label="Locations">
+      {
+        left.map(({ label, href }) => (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener"
+            class="nav-link font-heading text-[15px] leading-[18px] font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+          >
+            {label}
+          </a>
+        ))
+      }
+
+      <a
+        href="/"
+        class="mx-8 shrink-0"
+        aria-label="Carolina Oaks Dental Care — Home"
+      >
+        <img
+          src="/images/carolina-oak-dental-care-logo.svg"
+          alt="Carolina Oaks Dental Care"
+          class="logo-dark h-20 w-auto"
+          width="293"
+          height="80"
+        />
+        <img
+          src="/images/carolina-oak-dental-care-logo-white.svg"
+          alt=""
+          aria-hidden="true"
+          class="logo-light hidden h-20 w-auto"
+          width="293"
+          height="80"
+        />
+      </a>
+
+      {
+        right.map(({ label, href }) => (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener"
+            class="nav-link font-heading text-[15px] leading-[18px] font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+          >
+            {label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <!-- Mobile: menu toggle -->
+    <button
+      id="menu-open"
+      type="button"
+      class="nav-link flex items-center gap-3 lg:hidden"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <span class="font-heading text-[15px] font-bold tracking-[2px] uppercase">Menu</span>
+      <span class="flex flex-col gap-[5px]" aria-hidden="true">
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+      </span>
+    </button>
+  </div>
+</header>
+
+<!-- Fullscreen mobile menu -->
+<div
+  id="mobile-menu"
+  class="bg-forest invisible fixed inset-0 z-50 flex items-center justify-center opacity-0 transition-[opacity,visibility] duration-300"
+  hidden
+>
+  <button
+    id="menu-close"
+    type="button"
+    class="absolute top-6 right-6 p-3 text-white transition-opacity hover:opacity-70"
+    aria-label="Close menu"
+  >
+    <svg
+      width="28"
+      height="28"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      aria-hidden="true"
+    >
+      <path d="M18 6 6 18M6 6l12 12"></path>
+    </svg>
+  </button>
+
+  <nav aria-label="Locations">
+    <ul class="flex flex-col items-center gap-8 text-center">
+      {
+        locations.map(({ label, href }) => (
+          <li>
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener"
+              class="font-heading text-[36px] leading-[42px] font-bold text-white capitalize transition-opacity hover:opacity-70"
+            >
+              {label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>
+
+<style>
+  /* Solid header (default): dark text and dark logo */
+  #site-header .nav-link {
+    color: var(--color-ink);
+  }
+  #site-header .menu-line {
+    background-color: var(--color-ink);
+  }
+
+  /* Transparent state (over the hero, before scrolling) */
+  #site-header.is-transparent {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  #site-header.is-transparent .nav-link {
+    color: #fff;
+  }
+  #site-header.is-transparent .menu-line {
+    background-color: #fff;
+  }
+  #site-header.is-transparent .logo-dark {
+    display: none;
+  }
+  #site-header.is-transparent .logo-light {
+    display: block;
+  }
+
+  /* Scrolled state for the transparent header: becomes solid white */
+  #site-header[data-transparent="true"]:not(.is-transparent) {
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  #mobile-menu.is-open {
+    visibility: visible;
+    opacity: 1;
+  }
+</style>
+
+<script>
+  const header = document.getElementById("site-header")!;
+  const menu = document.getElementById("mobile-menu")!;
+  const openBtn = document.getElementById("menu-open")!;
+  const closeBtn = document.getElementById("menu-close")!;
+
+  if (header.dataset.transparent === "true") {
+    const update = () => {
+      header.classList.toggle("is-transparent", window.scrollY < 60);
+    };
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+  }
+
+  menu.removeAttribute("hidden");
+
+  const setOpen = (open: boolean) => {
+    menu.classList.toggle("is-open", open);
+    openBtn.setAttribute("aria-expanded", String(open));
+    document.body.style.overflow = open ? "hidden" : "";
+  };
+
+  openBtn.addEventListener("click", () => setOpen(true));
+  closeBtn.addEventListener("click", () => setOpen(false));
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") setOpen(false);
+  });
+</script>

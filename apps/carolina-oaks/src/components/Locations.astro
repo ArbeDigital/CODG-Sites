@@ -1,0 +1,80 @@
+---
+const locations = [
+  {
+    name: "Greenville",
+    address: ["498 S. Pleasantburg Dr", "Greenville, SC 29607"],
+    phone: "864-235-3949",
+    site: "https://carolinaoaksgreenville.com/",
+    map: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13098.416477066587!2d-82.3644637!3d34.8410448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6ba36e5edd27117!2sCarolina%20Oaks%20Dental%20Care%20LLC!5e0!3m2!1sen!2sca!4v1648154375908!5m2!1sen!2sca",
+  },
+  {
+    name: "Clemson",
+    address: ["1000 College Avenue", "Clemson, SC 29631"],
+    phone: "864-654-6700",
+    site: "https://carolinaoaksclemson.com/",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0480818608617!2d-82.83524734858634!3d34.70396718033774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88585e8fa383b2db%3A0xa1540fc3efd9c745!2sCarolina%20Oaks%20Dental%20Care%20of%20Clemson!5e0!3m2!1sen!2sca!4v1647324773641!5m2!1sen!2sca",
+  },
+  {
+    name: "Travelers Rest",
+    address: ["23 South Main Street", "Travelers Rest, SC 29690"],
+    phone: "864-836-8416",
+    site: "https://carolinaoakstr.com/",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.628773493562!2d-82.44408204858121!3d34.965911980270995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88583324d8fbdf93%3A0x42916b344f256666!2sCarolina%20Oaks%20Dental%20Care!5e0!3m2!1sen!2sca!4v1647324794449!5m2!1sen!2sca",
+  },
+  {
+    name: "Anderson",
+    address: ["105 Professional Court", "Anderson, SC 29621"],
+    phone: "864-261-3132",
+    site: "https://carolinaoaksanderson.com/",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.8901935788767!2d-82.63657704858979!3d34.53100988038255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88586c163bf0d6ed%3A0x457091662fba31ff!2sCarolina%20Oaks%20Dental%20Care%20of%20Anderson!5e0!3m2!1sen!2sca!4v1647324819959!5m2!1sen!2sca",
+  },
+];
+---
+
+<section
+  class="mx-auto max-w-[1425px] px-6 py-[6%] md:px-12 xl:px-[90px]"
+>
+  <h2>Locations</h2>
+
+  <div class="mt-8 grid grid-cols-1 gap-10 md:grid-cols-2">
+    {
+      locations.map(({ name, address, phone, site, map }) => (
+        <div class="flex flex-col items-start rounded-[10px] bg-white p-[4%]">
+          <h5 class="mb-4">{name}</h5>
+          <iframe
+            src={map}
+            title={`Map of the ${name} office`}
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          />
+          <p class="mt-5">
+            {address[0]}
+            <br />
+            {address[1]}
+          </p>
+          <p class="mt-4 mb-6">
+            Phone :{" "}
+            <a
+              href={`tel:${phone}`}
+              class="text-accent transition-opacity hover:opacity-70"
+            >
+              {phone}
+            </a>
+          </p>
+          <a
+            href={site}
+            target="_blank"
+            rel="noopener"
+            class="btn btn-large mt-auto"
+          >
+            Contact {name} Office
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</section>

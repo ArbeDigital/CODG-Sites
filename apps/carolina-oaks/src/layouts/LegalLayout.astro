@@ -1,0 +1,56 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} ogType="article">
+  <article
+    class="legal-prose mx-auto max-w-[1425px] px-6 py-16 md:px-12 xl:px-[90px]"
+  >
+    <slot />
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .legal-prose h1 {
+    margin-bottom: 16px;
+  }
+
+  .legal-prose h2,
+  .legal-prose h3 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .legal-prose p + p {
+    margin-top: 16px;
+  }
+
+  .legal-prose ol,
+  .legal-prose ul {
+    margin: 16px 0 16px 8px;
+  }
+
+  .legal-prose ol {
+    list-style: decimal inside;
+  }
+
+  .legal-prose ul {
+    list-style: disc inside;
+  }
+
+  .legal-prose a {
+    color: var(--color-accent);
+    transition: opacity 0.2s ease;
+  }
+
+  .legal-prose a:hover {
+    opacity: 0.7;
+  }
+</style>

@@ -1,0 +1,73 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import AppointmentForm from "../components/AppointmentForm.astro";
+import ValueProps from "../components/ValueProps.astro";
+import Services from "../components/Services.astro";
+import Locations from "../components/Locations.astro";
+import Testimonials from "../components/Testimonials.astro";
+---
+
+<BaseLayout
+  title="Carolina Oaks Dental Care | Dentist South Carolina"
+  description="Carolina Oaks Dental Care has a location near you, and we will put your family’s dental health first. Our entire team is dedicated to providing you with the personalized, gentle care that you deserve."
+  transparentHeader
+>
+  <Hero />
+
+  <div class="relative overflow-x-clip">
+    <!-- Decorative leaf shadows -->
+    <img
+      src="/images/shadow-leaves-left.png"
+      alt=""
+      aria-hidden="true"
+      class="pointer-events-none absolute top-0 left-0 max-[690px]:-left-[200px]"
+      width="503"
+      height="641"
+      loading="lazy"
+    />
+    <img
+      src="/images/shadow-leaves-right.png"
+      alt=""
+      aria-hidden="true"
+      class="pointer-events-none absolute right-[-80px] bottom-[-160px] max-[1250px]:hidden"
+      width="503"
+      height="762"
+      loading="lazy"
+    />
+
+    <!-- Welcome + appointment form -->
+    <section
+      id="form"
+      class="relative mx-auto grid max-w-[1425px] scroll-mt-24 grid-cols-1 items-start gap-10 px-6 pt-[6%] pb-[4%] max-md:pt-12 max-md:pb-10 md:px-12 lg:grid-cols-2 xl:px-[90px]"
+    >
+      <div>
+        <h2>Welcome To Carolina Oaks Dental Care</h2>
+        <div class="medium-p mt-6">
+          <p>
+            When searching for a dentist, we realize that you have a variety
+            of options to choose from in the Upstate of South Carolina.
+            Carolina Oaks Dental Care has a location near you, and we will put
+            your family&rsquo;s dental health first. Our entire team is
+            dedicated to providing you with the personalized, gentle care that
+            you deserve. We ensure that each and every visit is comfortable
+            and relaxing, and that you will always leave with a SMILE on your
+            face.
+          </p>
+          <p class="mt-6">
+            Click on a location near you to learn more about what Carolina
+            Oaks Dental Care can offer you and your family.
+          </p>
+        </div>
+      </div>
+
+      <AppointmentForm />
+    </section>
+
+    <ValueProps />
+    <Services />
+  </div>
+
+  <Locations />
+  <Testimonials />
+</BaseLayout>

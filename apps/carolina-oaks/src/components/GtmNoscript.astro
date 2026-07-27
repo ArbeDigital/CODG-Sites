@@ -1,0 +1,21 @@
+---
+/**
+ * GTM noscript iframe — place immediately after the opening <body> tag.
+ * Pair with the head script in Tracking.astro.
+ */
+interface Props {
+  id?: string;
+}
+
+const { id = "GTM-NZVQ83P" } = Astro.props;
+---
+
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src={`https://www.googletagmanager.com/ns.html?id=${id}`}
+    height="0"
+    width="0"
+    style="display:none;visibility:hidden"></iframe
+  ></noscript>
+<!-- End Google Tag Manager (noscript) -->

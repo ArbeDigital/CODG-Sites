@@ -1,0 +1,163 @@
+---
+const testimonials = [
+  {
+    quote:
+      "After moving around the country the last few years I am embarrassed to admit making time for dentist appointments was not a high priority. I went in for a check up and cleaning today and they made me feel very comfortable and welcome. My cleaning was more than a bit over due and I was expecting to be very sore after. Just the opposite, she was very gentle and understating of my procrastination. I made my next appointments with no hesitation. Pleasant experience and that says a lot when it refers to a dentist appointment.",
+    name: "Michele Z.",
+  },
+  {
+    quote:
+      "Couldn\u2019t be happier! The staff are so friendly and personable; appointments are quick yet thorough. The best service I\u2019ve ever received at a dentist office.",
+    name: "Jenni C.",
+  },
+  {
+    quote:
+      "The staff is wonderful and extremely helpful!!! I did not hesitate to refer my family and friends.",
+    name: "Angela W.",
+  },
+  {
+    quote:
+      "Great dentist office in awesome location\u2026staff is extremely nice, professional, and accommodating. Would definitely recommend this office to anyone looking for a new dentist.",
+    name: "Mike W.",
+  },
+  {
+    quote:
+      "I am so happy I decided to pick Carolina Oaks as my new Dentist! They are so friendly. If you need a new dentist, go here! You won\u2019t regret it!",
+    name: "Lauren G.",
+  },
+  {
+    quote:
+      "I was very impressed with how friendly and helpful everyone was. I love the location, its very convenient to where I work so making it very easy to visit during my lunch hour. Just a great experience, would definitely recommend",
+    name: "Scott M.",
+  },
+];
+---
+
+<section
+  class="bg-[#ecf3f0] bg-[url('/images/testimonial-bg.jpg')] bg-cover bg-position-[left_top] py-[6%] max-md:py-14"
+>
+  <div class="mx-auto max-w-[1425px] px-6 text-center md:px-12 xl:px-[90px]">
+    <h2 class="text-white!">Patient Reviews</h2>
+    <p class="mt-2 text-white">Just a few reviews from our happy patients</p>
+
+    <div id="testimonial-slider" class="relative mx-auto mt-10 max-w-[820px]">
+      <div class="grid">
+        {
+          testimonials.map(({ quote, name }, i) => (
+            <blockquote
+              class="testimonial-slide col-start-1 row-start-1 transition-opacity duration-500"
+              data-active={i === 0 ? "true" : undefined}
+            >
+              <p class="text-[20px] leading-8 text-white max-[999px]:text-[19px] max-[999px]:leading-[26px] max-[690px]:text-[16px] max-[690px]:leading-6">
+                &ldquo;{quote}&rdquo;
+              </p>
+              <span
+                class="mt-5 flex items-center justify-center gap-1 text-accent"
+                role="img"
+                aria-label="5 out of 5 stars"
+              >
+                {[...Array(5)].map(() => (
+                  <svg
+                    class="size-[14px]"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2l2.94 6.36 6.96.8-5.16 4.73 1.38 6.86L12 17.3l-6.12 3.45 1.38-6.86L2.1 9.16l6.96-.8L12 2z" />
+                  </svg>
+                ))}
+              </span>
+              <span class="mt-6 block text-white">{name}</span>
+            </blockquote>
+          ))
+        }
+      </div>
+
+      <button
+        type="button"
+        data-dir="-1"
+        class="slider-arrow absolute top-1/2 -left-2 -translate-y-1/2 p-3 text-white/80 transition-opacity hover:opacity-60 md:-left-16"
+        aria-label="Previous review"
+      >
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg
+        >
+      </button>
+      <button
+        type="button"
+        data-dir="1"
+        class="slider-arrow absolute top-1/2 -right-2 -translate-y-1/2 p-3 text-white/80 transition-opacity hover:opacity-60 md:-right-16"
+        aria-label="Next review"
+      >
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg
+        >
+      </button>
+
+      <p class="mt-12 text-white/80" aria-live="polite">
+        <span id="testimonial-current">1</span> / {testimonials.length}
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonial-slide {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .testimonial-slide[data-active] {
+    opacity: 1;
+    visibility: visible;
+  }
+</style>
+
+<script>
+  const slider = document.getElementById("testimonial-slider")!;
+  const slides = Array.from(
+    slider.querySelectorAll<HTMLElement>(".testimonial-slide")
+  );
+  const counter = document.getElementById("testimonial-current")!;
+  let index = 0;
+  let timer: ReturnType<typeof setInterval>;
+
+  const show = (next: number) => {
+    index = (next + slides.length) % slides.length;
+    slides.forEach((slide, i) => {
+      if (i === index) slide.setAttribute("data-active", "true");
+      else slide.removeAttribute("data-active");
+    });
+    counter.textContent = String(index + 1);
+  };
+
+  const startAutorotate = () => {
+    clearInterval(timer);
+    timer = setInterval(() => show(index + 1), 8000);
+  };
+
+  slider.querySelectorAll<HTMLButtonElement>(".slider-arrow").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      show(index + Number(btn.dataset.dir));
+      startAutorotate();
+    })
+  );
+
+  startAutorotate();
+</script>
