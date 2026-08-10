@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Doctors from "../components/Doctors.astro";
+import ServiceCtaGrid from "../components/ServiceCtaGrid.astro";
+import Testimonials from "../components/Testimonials.astro";
+import home from "../data/home.json";
+---
+
+<BaseLayout
+  title="Carolina Oaks Dental Care of Clemson | Dentist in Clemson, SC"
+  description="Are you looking for an experienced, trusted dentist in Clemson, SC? Carolina Oaks Dental Care offers gentle, comprehensive dentistry for the whole family."
+  transparentHeader
+  ogImage="/images/happy-woman-home-banner.jpg"
+>
+  <Hero />
+
+  <section class="relative overflow-x-clip bg-white py-[6%]">
+    <img
+      src="/images/shadow-leaves-left.png"
+      alt=""
+      aria-hidden="true"
+      class="pointer-events-none absolute top-0 left-0 max-w-[280px] opacity-70 max-[690px]:-left-[120px]"
+      width="400"
+      height="500"
+      loading="lazy"
+    />
+    <div class="relative mx-auto max-w-[900px] px-6 text-center md:px-12">
+      <p class="font-serif-alt text-[18px] text-brand italic">{home.welcome.eyebrow}</p>
+      <h2 class="mt-3">{home.welcome.heading}</h2>
+      {
+        home.welcome.paragraphs.map((p) => (
+          <p class="medium-p mt-6 text-[18px] leading-8">{p}</p>
+        ))
+      }
+      <ul class="mt-8 flex flex-wrap justify-center gap-4">
+        {
+          home.welcome.features.map((f) => (
+            <li class="rounded-full border border-brand/20 px-5 py-2 text-[13px] font-semibold tracking-[1.5px] text-brand uppercase">
+              {f}
+            </li>
+          ))
+        }
+      </ul>
+      <a href={home.appointmentBanner.cta.href} class="btn btn-jumbo mt-10">
+        {home.appointmentBanner.cta.label}
+      </a>
+    </div>
+  </section>
+
+  <Doctors />
+  <ServiceCtaGrid />
+  <Testimonials />
+</BaseLayout>

@@ -1,0 +1,63 @@
+---
+import home from "../data/home.json";
+
+const testimonials = home.testimonials;
+---
+
+<section
+  class="relative bg-cover bg-center py-20 text-white"
+  style="background-image: linear-gradient(rgba(82,47,32,0.88), rgba(82,47,32,0.88)), url(/images/testimonial-brown-bg.jpg)"
+>
+  <div class="mx-auto max-w-[900px] px-6 text-center">
+    <h2 class="text-white!">What Our Patients Say</h2>
+    <div id="testimonial-slider" class="relative mt-10 min-h-[180px]">
+      {
+        testimonials.map((t, i) => (
+          <blockquote
+            class:list={["testimonial absolute inset-x-0 transition-opacity duration-500", i === 0 ? "opacity-100" : "opacity-0 pointer-events-none"]}
+            data-index={i}
+          >
+            <p class="font-serif-alt text-[22px] leading-9 italic text-white/95">“{t.quote}”</p>
+            <cite class="mt-6 block text-[14px] tracking-[2px] text-gold not-italic uppercase">— {t.author}</cite>
+          </blockquote>
+        ))
+      }
+    </div>
+    <div class="mt-8 flex items-center justify-center gap-4">
+      <button id="testimonial-prev" type="button" class="rounded-full border border-white/40 px-4 py-2 text-sm uppercase tracking-widest hover:bg-white/10" aria-label="Previous testimonial">Prev</button>
+      <span id="testimonial-count" class="text-sm text-white/70">1 / {testimonials.length}</span>
+      <button id="testimonial-next" type="button" class="rounded-full border border-white/40 px-4 py-2 text-sm uppercase tracking-widest hover:bg-white/10" aria-label="Next testimonial">Next</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const slides = Array.from(document.querySelectorAll<HTMLElement>(".testimonial"));
+  const countEl = document.getElementById("testimonial-count");
+  let index = 0;
+  let timer: number | undefined;
+
+  const show = (next: number) => {
+    slides[index]?.classList.add("opacity-0", "pointer-events-none");
+    slides[index]?.classList.remove("opacity-100");
+    index = (next + slides.length) % slides.length;
+    slides[index]?.classList.remove("opacity-0", "pointer-events-none");
+    slides[index]?.classList.add("opacity-100");
+    if (countEl) countEl.textContent = `${index + 1} / ${slides.length}`;
+  };
+
+  const restart = () => {
+    window.clearInterval(timer);
+    timer = window.setInterval(() => show(index + 1), 8000);
+  };
+
+  document.getElementById("testimonial-prev")?.addEventListener("click", () => {
+    show(index - 1);
+    restart();
+  });
+  document.getElementById("testimonial-next")?.addEventListener("click", () => {
+    show(index + 1);
+    restart();
+  });
+  restart();
+</script>

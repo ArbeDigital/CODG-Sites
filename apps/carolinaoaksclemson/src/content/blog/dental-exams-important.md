@@ -11,7 +11,7 @@ At Carolina Oaks Dental Care, we want all our patients to have beautiful smiles 
 
 Don’t make the common mistake of waiting for a toothache to call the dentist! Bring your family in and we will do everything in our power to make sure your teeth stay clean, healthy, and cavity-free!
 
-**Call Carolina Oaks if you need a[ _dentist in Clemson, SC_](/). Drs. Molly Netzler and Tait Carpenter provide gentle, customized care for every member of your family. [_Contact our office online or at 864-654-6700_](/contact-us/) to make an appointment.**
+**Call Carolina Oaks if you need a[ _dentist in Clemson, SC_](/). Dr. Stephen Parker and Dr. Kendon Ross provide gentle, customized care for every member of your family. [_Contact our office online or at 864-654-6700_](/contact-us/) to make an appointment.**
 
 ## Why You Need Dental Exams
 
@@ -42,4 +42,4 @@ Medical conditions such as pregnancy, acid reflux, and diabetes can also affect 
 
 Whether you are a child, teen, adult, or senior–dental exams are a necessary part of good oral health. Each stage of life comes with unique factors that affect your teeth and gum tissue. Dentists and dental professionals are the best people to help you understand those unique factors and keep your smiles healthy and bright. If someone in your family hasn’t been getting the regular dental appointments they need, it’s never too late to get back on track.
 
-**[_Contact our office online or at 864-654-6700_](/contact-us/) to make an appointment with Dr. Molly Netzler or Dr. Tait Carpenter. Carolina Oaks Dental Care believes a great dental office is a judgment-free zone, where we can work together with you for the best outcomes. if you need a _dentist in Clemson, SC,_ call us today to learn more!**
+**[_Contact our office online or at 864-654-6700_](/contact-us/) to make an appointment with Dr. Stephen Parker or Dr. Kendon Ross. Carolina Oaks Dental Care believes a great dental office is a judgment-free zone, where we can work together with you for the best outcomes. if you need a _dentist in Clemson, SC,_ call us today to learn more!**

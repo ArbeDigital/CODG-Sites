@@ -1,0 +1,74 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  imageAlt?: string;
+  pubDate?: Date;
+}
+
+const { title, description, image, imageAlt, pubDate } = Astro.props;
+---
+
+<BaseLayout
+  title={`${title} | Carolina Oaks Dental Care`}
+  description={description}
+  ogType="article"
+  ogImage={image}
+>
+  {
+    image && (
+      <header
+        class="relative flex min-h-[360px] items-end bg-brand bg-cover bg-center text-white"
+        style={`background-image: linear-gradient(180deg, rgba(82,47,32,0.25) 0%, rgba(82,47,32,0.85) 100%), url(${image})`}
+      >
+        <div class="mx-auto w-full max-w-[900px] px-6 py-14 md:px-12">
+          {pubDate && (
+            <time class="text-[13px] tracking-[2px] text-gold uppercase" datetime={pubDate.toISOString()}>
+              {pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+            </time>
+          )}
+          <h1 class="mt-3 text-white!">{title}</h1>
+        </div>
+      </header>
+    )
+  }
+
+  <article class="blog-prose mx-auto max-w-[800px] px-6 py-14 md:px-12">
+    {!image && <h1 class="mb-8">{title}</h1>}
+    <slot />
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .blog-prose h2 {
+    margin-top: 2.25rem;
+    margin-bottom: 0.85rem;
+  }
+  .blog-prose h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .blog-prose p + p {
+    margin-top: 1rem;
+  }
+  .blog-prose ul,
+  .blog-prose ol {
+    margin: 1rem 0 1rem 1.25rem;
+  }
+  .blog-prose ul {
+    list-style: disc;
+  }
+  .blog-prose ol {
+    list-style: decimal;
+  }
+  .blog-prose a {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+  .blog-prose strong {
+    color: var(--color-ink);
+  }
+</style>

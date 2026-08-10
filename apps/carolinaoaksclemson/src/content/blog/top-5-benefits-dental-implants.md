@@ -9,7 +9,7 @@ imageAlt: "Dental Implants"
 
 For patients who have lost their natural teeth, wearing dentures can be a difficult situation. Not only are they challenging to get used to, but they also limit your enjoyment of foods. Overall, they just don’t feel natural. Luckily, [dental implants](/dental-services/dental-implant-restorations/) offer a restorative option that circumscribes these problems entirely. Dental implants first showed up around 30 years ago, and have totally changed the world of prosthetic teeth. If someone you love has struggled with dentures, now is the perfect time to learn about the benefits of dental implants.
 
-**Would you like to learn more about implant treatments? Contact Carolina Oaks Dental Care today and[Dr. Molly Netzler or Dr. Tait Carpenter](/) will be happy to tell you more about the options and procedures involved. [Contact our Clemson, SC dental office today at 864-654-6700](/contact-us/) to make an appointment!**
+**Would you like to learn more about implant treatments? Contact Carolina Oaks Dental Care today and[Dr. Stephen Parker or Dr. Kendon Ross](/) will be happy to tell you more about the options and procedures involved. [Contact our Clemson, SC dental office today at 864-654-6700](/contact-us/) to make an appointment!**
 
 ## 1\. Stability
 
@@ -33,4 +33,4 @@ With implant-based prosthetic teeth, you will appear more confident because you 
 
 Because dental implants function more like natural teeth, they offer a greater variety of conservative restoration options. One missing tooth can be replaced with a single implant and a porcelain crown. Lost teeth in only one quadrant of the mouth can be replaced with two implants and a bridge, (a situation that previously could only be corrected with a partial denture). Partial dentures can be attached with only two implants, and more healthy teeth can be preserved. Furthermore, many prosthetics can be made to be permanently attached to the implants, which is great news for patients who cannot care for themselves independently or who may be otherwise more likely to “lose their teeth.” Ultimately, more things are possible with dental implants!
 
-**Contact Carolina Oaks Dental Care today to explore whether dental implants might be right for you. Dr. Netzler or Dr. Carpenter will be happy to give you a consultation to assess your situation, and tell you about the options and treatment steps..[Contact our Clemson, SC dental office today at 864-654-6700](/contact-us/) to make an appointment!**
+**Contact Carolina Oaks Dental Care today to explore whether dental implants might be right for you. Dr. Parker or Dr. Ross will be happy to give you a consultation to assess your situation, and tell you about the options and treatment steps..[Contact our Clemson, SC dental office today at 864-654-6700](/contact-us/) to make an appointment!**

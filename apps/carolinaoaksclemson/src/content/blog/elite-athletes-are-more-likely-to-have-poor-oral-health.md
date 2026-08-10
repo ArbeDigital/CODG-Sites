@@ -78,4 +78,4 @@ One thing the study didn’t look at was orofacial trauma, which is extremely co
 
 ## **Schedule a Visit with a Dentist in Clemson, SC**
 
-[Book an appointment](/contact-us/) at Carolina Oaks Dental Care of Clemson. Dr. Molly Netzler, Dr. Tait Carpenter, Dr. Stephen Parker and Dr. Katie Sino can help you keep your teeth and gums healthy, so you can continue to enjoy your active lifestyle.
+[Book an appointment](/contact-us/) at Carolina Oaks Dental Care of Clemson. Dr. Stephen Parker and Dr. Kendon Ross can help you keep your teeth and gums healthy, so you can continue to enjoy your active lifestyle.

@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Dental Forms | Carolina Oaks Dental Care Clemson"
+  description="Download patient registration and medical history forms for Carolina Oaks Dental Care of Clemson."
+>
+  <section class="bg-brand py-16 text-white">
+    <div class="mx-auto max-w-[1425px] px-6 md:px-12 xl:px-[90px]">
+      <h1 class="text-white!">Dental Forms</h1>
+      <p class="mt-4 max-w-2xl text-[18px] leading-8 text-white/90">
+        Save time at your visit by completing these forms ahead of your appointment.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-[800px] px-6 py-14 md:px-12">
+    <ul class="divide-y divide-brand/10 rounded-xl bg-white shadow-[0_8px_30px_rgba(47,58,53,0.08)]">
+      <li>
+        <a
+          href="/forms/PatientReg.pdf"
+          class="flex items-center justify-between gap-4 px-6 py-5 transition-colors hover:bg-[#f5efe9]"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong class="block text-ink">Patient Registration</strong>
+            <span class="text-[14px]">PDF download</span>
+          </span>
+          <span class="text-[13px] font-bold tracking-[2px] text-accent uppercase">Download</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/forms/MedHx.pdf"
+          class="flex items-center justify-between gap-4 px-6 py-5 transition-colors hover:bg-[#f5efe9]"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong class="block text-ink">Medical History</strong>
+            <span class="text-[14px]">PDF download</span>
+          </span>
+          <span class="text-[13px] font-bold tracking-[2px] text-accent uppercase">Download</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</BaseLayout>

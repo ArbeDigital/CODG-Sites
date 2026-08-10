@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+
+const posts = (await getCollection("blog"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="Blog | Carolina Oaks Dental Care Clemson"
+  description="Dental health tips and insights from Carolina Oaks Dental Care of Clemson."
+>
+  <section class="bg-brand py-16 text-white">
+    <div class="mx-auto max-w-[1425px] px-6 md:px-12 xl:px-[90px]">
+      <h1 class="text-white!">Blog</h1>
+      <p class="mt-4 max-w-2xl text-[18px] leading-8 text-white/90">
+        Tips, insights, and answers to common dental questions from our Clemson team.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-[1425px] px-6 py-14 md:px-12 xl:px-[90px]">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            href={`/${post.id}/`}
+            image={post.data.image || "/images/banner-dental-general.jpg"}
+            pubDate={post.data.pubDate}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

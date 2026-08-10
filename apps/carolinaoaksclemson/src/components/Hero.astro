@@ -1,0 +1,28 @@
+---
+import home from "../data/home.json";
+import { publicImage } from "../lib/images";
+
+const hero = home.hero;
+const img = publicImage(hero.image);
+---
+
+<section
+  id="hero"
+  class="relative flex min-h-[100svh] items-center bg-brand bg-cover bg-center text-white"
+  style={`background-image: linear-gradient(100deg, rgba(82,47,32,0.82) 0%, rgba(133,57,25,0.45) 55%, rgba(82,47,32,0.2) 100%), url(${img})`}
+>
+  <div class="mx-auto w-full max-w-[1425px] px-6 pt-28 pb-24 md:px-12 xl:px-[90px]">
+    <p class="font-serif-alt text-[18px] tracking-[1px] text-gold italic">
+      Carolina Oaks Dental Care of Clemson
+    </p>
+    <h1 class="mt-4 max-w-3xl text-white!">{hero.headline}</h1>
+    <p class="mt-6 max-w-xl text-[18px] leading-8 text-white/90">{hero.subcopy}</p>
+    <a href={hero.cta.href} class="btn btn-jumbo mt-8">{hero.cta.label}</a>
+  </div>
+  <img
+    src="/images/acorn-divider-grey.svg"
+    alt=""
+    aria-hidden="true"
+    class="pointer-events-none absolute right-0 bottom-0 left-0 w-full"
+  />
+</section>

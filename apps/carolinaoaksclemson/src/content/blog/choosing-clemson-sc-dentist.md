@@ -9,7 +9,7 @@ imageAlt: "Things to Consider When Choosing a Clemson, SC Dentist"
 
 Finding a great dentist for your family may seem like a daunting challenge, but there are a wealth of caring, qualified dental providers out there. These tips will help you crystallize your needs and priorities before you start your search.
 
-**If you are looking for[ _dental care in Clemson, South Carolina_](/dental-services/), call Carolina Oaks Dental Care and interview one of our friendly dentists. Call us today at 864-654-6700 for a meet-up with [Dr. Molly Netzler or Dr. Tait Carpenter](/about-us/).**
+**If you are looking for [_dental care in Clemson, South Carolina_](/dental-services/), call Carolina Oaks Dental Care and interview one of our friendly dentists. Call us today at 864-654-6700 for a meet-up with [Dr. Stephen Parker or Dr. Kendon Ross](/contact-us/).**
 
 ## Before You Start
 
@@ -64,6 +64,6 @@ Also consider the dentist’s office hours. Will you want to schedule appointmen
 
 Ultimately, there are so many good dentists out there, we’re sure you’ll find one that’s right for you and your family. Be intentional in how you search, approach the challenge with an open mind, and trust your intuition. Happy searching!
 
-**If you are looking for[ _dental care in Clemson, South Carolina_](/dental-services/), call Carolina Oaks Dental Care and interview one of our friendly dentists. Call us today at 864-654-6700 for a meet-up with [_Dr. Molly Netzler or Dr. Tait Carpenter_](/about-us/).**
+**If you are looking for[ _dental care in Clemson, South Carolina_](/dental-services/), call Carolina Oaks Dental Care and interview one of our friendly dentists. Call us today at 864-654-6700 for a meet-up with [_Dr. Stephen Parker or Dr. Kendon Ross_](/contact-us/).**
 
 ##

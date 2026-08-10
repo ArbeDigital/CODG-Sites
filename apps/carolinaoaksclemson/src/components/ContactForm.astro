@@ -1,0 +1,111 @@
+---
+import site from "../data/site.json";
+---
+
+<div class="rounded-[10px] bg-white p-[8%] shadow-[0_10px_40px_rgba(47,58,53,0.08)] lg:p-[6%]">
+  <h5 class="mb-6">Request An Appointment</h5>
+
+  <form
+    action={site.formspreeEndpoint}
+    method="POST"
+    class="flex flex-col gap-[24px]"
+  >
+    <input type="hidden" name="_next" value="https://carolinaoaksclemson.com/thank-you/" />
+    <label class="form-label">
+      Name:
+      <input type="text" name="name" required class="form-field" />
+    </label>
+    <label class="form-label">
+      Your email:
+      <input type="email" name="email" required class="form-field" />
+    </label>
+    <label class="form-label">
+      Phone number:
+      <input
+        type="tel"
+        name="phone"
+        id="formspree-phone"
+        placeholder="(864) 555-1234"
+        pattern="\(\d{3}\) \d{3}-\d{4}"
+        maxlength="14"
+        inputmode="numeric"
+        title="Please enter a 10-digit phone number, e.g. (864) 555-1234"
+        required
+        class="form-field"
+      />
+    </label>
+    <label class="form-label">
+      Your message:
+      <textarea name="message" rows="4" class="form-field"></textarea>
+    </label>
+    <button type="submit" class="btn btn-large w-full cursor-pointer">
+      Send
+    </button>
+  </form>
+</div>
+
+<style>
+  .form-label {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #3a3a3a;
+  }
+
+  .form-field {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 12px 15px;
+    background-color: var(--color-page);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3a3a3a;
+    transition: border-color 0.2s ease;
+  }
+
+  .form-field:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+
+  textarea.form-field {
+    resize: vertical;
+  }
+</style>
+
+<script>
+  const phone = document.getElementById(
+    "formspree-phone"
+  ) as HTMLInputElement | null;
+
+  if (phone) {
+    const formatPhone = (value: string) => {
+      const digits = value.replace(/\D/g, "").slice(0, 10);
+      if (digits.length === 0) return "";
+      if (digits.length < 4) return "(" + digits;
+      if (digits.length < 7)
+        return "(" + digits.slice(0, 3) + ") " + digits.slice(3);
+      return (
+        "(" +
+        digits.slice(0, 3) +
+        ") " +
+        digits.slice(3, 6) +
+        "-" +
+        digits.slice(6)
+      );
+    };
+
+    phone.addEventListener("input", () => {
+      const formatted = formatPhone(phone.value);
+      if (phone.value !== formatted) phone.value = formatted;
+    });
+    phone.addEventListener("blur", () => {
+      phone.value = formatPhone(phone.value);
+    });
+  }
+</script>
