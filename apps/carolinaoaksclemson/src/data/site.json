@@ -1,0 +1,49 @@
+{
+  "name": "Carolina Oaks Dental Care",
+  "locationName": "Carolina Oaks Dental Care of Clemson",
+  "phone": "(864) 654-6700",
+  "phoneTel": "864-654-6700",
+  "address": {
+    "street": "1000 College Avenue",
+    "city": "Clemson",
+    "region": "SC",
+    "postal": "29631",
+    "lines": [
+      "1000 College Avenue",
+      "Clemson, SC 29631"
+    ],
+    "note": "The Carolina Oaks Clemson, SC is across from the 12 Mile Recreation Park"
+  },
+  "hours": [
+    {
+      "days": "Mon",
+      "hours": "8:30am – 5:00pm",
+      "note": "Closed for Lunch 12:30pm – 2:00pm"
+    },
+    {
+      "days": "Tue, Wed, Thur",
+      "hours": "8:30am – 3:30pm"
+    }
+  ],
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13120.187170342046!2d-82.8330672!3d34.7039997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1540fc3efd9c745!2sCarolina%20Oaks%20Dental%20Care%20of%20Clemson!5e0!3m2!1sen!2sca!4v1648168076717!5m2!1sen!2sca",
+  "formspreeEndpoint": "https://formspree.io/f/mvzjqdlb",
+  "analytics": {
+    "gtm": "GTM-W5L2WM6",
+    "ga4": "G-4WQN0L7MMW",
+    "facebookDomainVerification": "ak644i10xu763vbcvkoyr2ky6rkpvf"
+  },
+  "sisterLocations": [
+    {
+      "name": "Anderson",
+      "url": "https://carolinaoaksanderson.com/"
+    },
+    {
+      "name": "Greenville",
+      "url": "https://carolinaoaksgreenville.com/"
+    },
+    {
+      "name": "Travelers Rest",
+      "url": "https://carolinaoakstr.com/"
+    }
+  ]
+}

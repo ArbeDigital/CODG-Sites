@@ -1,0 +1,58 @@
+# Asset manifest for carolinaoaksclemson Astro conversion
+# Copy from apps/.clemson-wp-src/<path> → apps/carolinaoaksclemson/public/<dest>
+
+## Site / page images → public/images/
+wp-content/uploads/2017/01/CO_Clemson.png	→	public/images/CO_Clemson.png
+wp-content/uploads/2022/02/cropped-favicon-clemson-180x180.png	→	public/images/cropped-favicon-clemson-180x180.png
+wp-content/uploads/2022/02/cropped-favicon-clemson-192x192.png	→	public/images/cropped-favicon-clemson-192x192.png
+wp-content/uploads/2022/02/cropped-favicon-clemson-32x32.png	→	public/images/cropped-favicon-clemson-32x32.png
+wp-content/uploads/2022/03/acorn-divider-grey.svg	→	public/images/acorn-divider-grey.svg
+wp-content/uploads/2022/03/clemson-map-1.jpg	→	public/images/clemson-map-1.jpg
+wp-content/uploads/2022/03/criss-cross-brown.png	→	public/images/criss-cross-brown.png
+wp-content/uploads/2022/03/shadow-leaves-left.png	→	public/images/shadow-leaves-left.png
+wp-content/uploads/2022/03/testimonial-brown-bg.jpg	→	public/images/testimonial-brown-bg.jpg
+wp-content/uploads/2022/04/CO_Clemson-logo-large.png	→	public/images/CO_Clemson-logo-large.png
+wp-content/uploads/2022/04/CO_Clemson-logo.png	→	public/images/CO_Clemson-logo.png
+wp-content/uploads/2022/04/Cosmetic-Dentistry.jpg	→	public/images/Cosmetic-Dentistry.jpg
+wp-content/uploads/2022/04/banner-cosmetic-dentistry.jpg	→	public/images/banner-cosmetic-dentistry.jpg
+wp-content/uploads/2022/04/banner-dental-general.jpg	→	public/images/banner-dental-general.jpg
+wp-content/uploads/2022/04/banner-denture.jpg	→	public/images/banner-denture.jpg
+wp-content/uploads/2022/04/banner-family.jpg	→	public/images/banner-family.jpg
+wp-content/uploads/2022/04/banner-kids-dentistry.jpg	→	public/images/banner-kids-dentistry.jpg
+wp-content/uploads/2022/04/banner-teeth-whitening.jpg	→	public/images/banner-teeth-whitening.jpg
+wp-content/uploads/2022/04/banner-woman-smiling.jpg	→	public/images/banner-woman-smiling.jpg
+wp-content/uploads/2022/04/dentist-visit.jpg	→	public/images/dentist-visit.jpg
+wp-content/uploads/2022/04/dentistry-for-kids.jpg	→	public/images/dentistry-for-kids.jpg
+wp-content/uploads/2022/04/eating-dentures.jpg	→	public/images/eating-dentures.jpg
+wp-content/uploads/2022/04/grandparents-with-kid.jpg	→	public/images/grandparents-with-kid.jpg
+wp-content/uploads/2022/04/happy-woman-home-banner.jpg	→	public/images/happy-woman-home-banner.jpg
+wp-content/uploads/2022/04/happy-woman-home-cta.jpg	→	public/images/happy-woman-home-cta.jpg
+wp-content/uploads/2022/04/mouth-guards-sport.jpg	→	public/images/mouth-guards-sport.jpg
+wp-content/uploads/2022/04/old-man-running.jpg	→	public/images/old-man-running.jpg
+wp-content/uploads/2022/04/sleeping.jpg	→	public/images/sleeping.jpg
+wp-content/uploads/2022/04/smiling-dentures.jpg	→	public/images/smiling-dentures.jpg
+wp-content/uploads/2022/04/teeth-whitening.jpg	→	public/images/teeth-whitening.jpg
+wp-content/uploads/2022/04/toothach-2.jpg	→	public/images/toothach-2.jpg
+wp-content/uploads/2022/04/toothach.jpg	→	public/images/toothach.jpg
+wp-content/uploads/2022/04/veneers-man.jpg	→	public/images/veneers-man.jpg
+wp-content/uploads/2022/04/veneers.jpg	→	public/images/veneers.jpg
+wp-content/uploads/2022/08/dr-parker-circle.jpg	→	public/images/dr-parker-circle.jpg
+wp-content/uploads/2026/06/kendon-headshot-e1740666105632.png	→	public/images/kendon-headshot-e1740666105632.png
+
+## Blog images → public/images/blog/
+wp-content/uploads/2017/02/thumbs-up.jpg	→	public/images/blog/thumbs-up.jpg
+wp-content/uploads/2017/02/tree-of-health.jpg	→	public/images/blog/tree-of-health.jpg
+wp-content/uploads/2017/03/beautiful-smiling-woman.jpg	→	public/images/blog/beautiful-smiling-woman.jpg
+wp-content/uploads/2017/04/family-photo.jpg	→	public/images/blog/family-photo.jpg
+wp-content/uploads/2017/04/woman-with-strawberries.jpg	→	public/images/blog/woman-with-strawberries.jpg
+wp-content/uploads/2022/09/The-Link-Between-Gum-Disease-and-Your-Overall-Health.jpeg	→	public/images/blog/The-Link-Between-Gum-Disease-and-Your-Overall-Health.jpeg
+wp-content/uploads/2023/02/AdobeStock_226262774-scaled.jpeg	→	public/images/blog/AdobeStock_226262774-scaled.jpeg
+wp-content/uploads/2023/02/AdobeStock_343528364-scaled.jpeg	→	public/images/blog/AdobeStock_343528364-scaled.jpeg
+wp-content/uploads/2023/02/AdobeStock_422265543.jpeg	→	public/images/blog/AdobeStock_422265543.jpeg
+wp-content/uploads/2023/03/AdobeStock_209690268-scaled.jpeg	→	public/images/blog/AdobeStock_209690268-scaled.jpeg
+
+## Notes
+- Home treatment CTA column backgrounds used WP attachment IDs 107/108/103/104 which are missing from the HTML mirror and 404 on the live media API.
+  Substituted service banner images (banner-family, banner-cosmetic-dentistry, banner-dental-general, banner-woman-smiling) for serviceCtas[].image.
+- Prefer full-size uploads over -NNxNN resized variants when copying.
+- Logo/favicon paths included for site chrome.
