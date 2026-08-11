@@ -46,40 +46,45 @@ const locations = site.sisterLocations;
       />
     </a>
 
-    <nav class="hidden items-center gap-1 xl:gap-3 lg:flex" aria-label="Primary">
-      {
-        primary.slice(0, 3).map((item) =>
-          item.children ? (
-            <div class="group relative">
+    <nav
+      class="hidden w-full max-w-[1200px] grid-cols-[1fr_auto_1fr] items-center gap-x-4 xl:gap-x-6 lg:grid"
+      aria-label="Primary"
+    >
+      <div class="flex items-center justify-end gap-1 xl:gap-3">
+        {
+          primary.slice(0, 3).map((item) =>
+            item.children ? (
+              <div class="group relative">
+                <a
+                  href={item.href}
+                  class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+                >
+                  {item.label}
+                  <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                </a>
+                <ul class="invisible absolute top-full left-0 z-50 min-w-[260px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  {item.children.map((child) => (
+                    <li>
+                      <a href={child.href} class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand">
+                        {child.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
               <a
                 href={item.href}
-                class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+                class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
               >
                 {item.label}
-                <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
               </a>
-              <ul class="invisible absolute top-full left-0 z-50 min-w-[260px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                {item.children.map((child) => (
-                  <li>
-                    <a href={child.href} class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand">
-                      {child.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <a
-              href={item.href}
-              class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
-            >
-              {item.label}
-            </a>
+            )
           )
-        )
-      }
+        }
+      </div>
 
-      <a href="/" class="mx-4 shrink-0 xl:mx-8" aria-label="Carolina Oaks Dental Care Clemson — Home">
+      <a href="/" class="shrink-0" aria-label="Carolina Oaks Dental Care Clemson — Home">
         <img
           src="/images/CO_Clemson.png"
           alt="Carolina Oaks Dental Care"
@@ -97,41 +102,43 @@ const locations = site.sisterLocations;
         />
       </a>
 
-      {
-        primary.slice(3).map((item) => (
-          <a
-            href={item.href}
-            class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
-          >
-            {item.label}
-          </a>
-        ))
-      }
+      <div class="flex items-center justify-start gap-1 xl:gap-3">
+        {
+          primary.slice(3).map((item) => (
+            <a
+              href={item.href}
+              class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+            >
+              {item.label}
+            </a>
+          ))
+        }
 
-      <div class="group relative">
-        <button
-          type="button"
-          class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
-        >
-          Other Locations
-          <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        </button>
-        <ul class="invisible absolute top-full right-0 z-50 min-w-[200px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-          {
-            locations.map((loc) => (
-              <li>
-                <a
-                  href={loc.url}
-                  target="_blank"
-                  rel="noopener"
-                  class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand"
-                >
-                  {loc.name}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+        <div class="group relative">
+          <button
+            type="button"
+            class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+          >
+            Other Locations
+            <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <ul class="invisible absolute top-full right-0 z-50 min-w-[200px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            {
+              locations.map((loc) => (
+                <li>
+                  <a
+                    href={loc.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand"
+                  >
+                    {loc.name}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
       </div>
     </nav>
 

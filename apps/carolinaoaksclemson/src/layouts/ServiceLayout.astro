@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
 import { publicImage } from "../lib/images";
 
 interface Props {
@@ -13,17 +14,18 @@ const { title, description, intro, heroImage } = Astro.props;
 const heroSrc = publicImage(heroImage) || "/images/banner-dental-general.jpg";
 ---
 
-<BaseLayout title={`${title} | Carolina Oaks Dental Care Clemson`} description={description} ogImage={heroSrc}>
-  <section
-    class="relative flex min-h-[420px] items-end bg-brand bg-cover bg-center text-white"
-    style={`background-image: linear-gradient(90deg, rgba(82,47,32,0.88) 0%, rgba(82,47,32,0.35) 70%), url(${heroSrc})`}
-  >
-    <div class="mx-auto w-full max-w-[1425px] px-6 py-16 md:px-12 xl:px-[90px]">
-      <h1 class="max-w-2xl text-white!">{title}</h1>
-      {intro && <p class="medium-p mt-4 max-w-xl text-[18px] leading-8 text-white/90">{intro}</p>}
-      <a href="/contact-us/" class="btn btn-jumbo mt-8">Request An Appointment</a>
-    </div>
-  </section>
+<BaseLayout
+  title={`${title} | Carolina Oaks Dental Care Clemson`}
+  description={description}
+  ogImage={heroSrc}
+  transparentHeader
+>
+  <PageHero
+    title={title}
+    intro={intro}
+    image={heroSrc}
+    cta={{ label: "Request An Appointment", href: "/contact-us/" }}
+  />
 
   <div class="mx-auto max-w-[900px] px-6 py-14 md:px-12 service-prose">
     <slot />

@@ -8,40 +8,42 @@ import site from "../data/site.json";
   title="Contact Us | Carolina Oaks Dental Care Clemson"
   description="Contact Carolina Oaks Dental Care of Clemson to request an appointment. Call (864) 654-6700 or send us a message."
 >
-  <section class="bg-brand py-16 text-white">
-    <div class="mx-auto max-w-[1425px] px-6 md:px-12 xl:px-[90px]">
-      <h1 class="text-white!">Contact Us</h1>
-      <p class="mt-4 max-w-2xl text-[18px] leading-8 text-white/90">
-        We’d love to hear from you. Request an appointment online or call our Clemson office.
-      </p>
-    </div>
-  </section>
+  <section class="mx-auto max-w-[1425px] px-6 pt-10 pb-16 md:px-12 md:pt-14 md:pb-20 xl:px-[90px]">
+    <div class="grid grid-cols-1 items-start gap-12 lg:grid-cols-2 lg:gap-16">
+      <div>
+        <h1 class="text-accent!">Contact Us</h1>
 
-  <section class="mx-auto grid max-w-[1425px] grid-cols-1 gap-12 px-6 py-14 md:px-12 lg:grid-cols-2 xl:px-[90px]">
-    <ContactForm />
-    <div>
-      <h2 class="text-[36px]!">Our Office</h2>
-      <p class="mt-4">
-        <strong>{site.locationName}</strong><br />
-        {site.address.lines[0]}<br />
-        {site.address.lines[1]}
-      </p>
-      <p class="mt-2 text-[15px]">{site.address.note}</p>
-      <p class="mt-6">
-        <strong>Phone:</strong>{" "}
-        <a class="text-accent hover:opacity-80" href={`tel:${site.phoneTel}`}>{site.phone}</a>
-      </p>
-      <div class="mt-6 overflow-hidden rounded-xl">
-        <iframe
-          title="Carolina Oaks Dental Care of Clemson map"
-          src={site.mapEmbedUrl}
-          width="600"
-          height="450"
-          style="border:0; width:100%;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3 class="mt-10">Phone:</h3>
+        <a
+          href={`tel:${site.phoneTel}`}
+          class="mt-4 inline-block rounded-full border-2 border-black/75 px-[22px] py-[13px] text-[16px] font-semibold text-black transition-opacity hover:opacity-70"
+        >
+          {site.phone}
+        </a>
+
+        <h3 class="mt-10">Address:</h3>
+        <p class="mt-4 text-[16px] leading-7 text-ink">
+          {site.address.lines[0]}<br />
+          {site.address.lines[1]}
+        </p>
+        <p class="mt-2 text-[15px] leading-6 text-body">{site.address.note}</p>
+
+        <h3 class="mt-10">Office Hours:</h3>
+        <ul class="mt-4 space-y-2 text-[16px] leading-7 text-ink">
+          {
+            site.hours.map((h) => (
+              <li>
+                <strong>{h.days}</strong> {h.hours}
+                {h.note ? (
+                  <span class="mt-1 block text-[15px] text-body italic">{h.note}</span>
+                ) : null}
+              </li>
+            ))
+          }
+        </ul>
       </div>
+
+      <ContactForm />
     </div>
   </section>
 </BaseLayout>

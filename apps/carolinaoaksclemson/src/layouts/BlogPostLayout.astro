@@ -17,14 +17,15 @@ const { title, description, image, imageAlt, pubDate } = Astro.props;
   description={description}
   ogType="article"
   ogImage={image}
+  transparentHeader={Boolean(image)}
 >
   {
     image && (
       <header
-        class="relative flex min-h-[360px] items-end bg-brand bg-cover bg-center text-white"
-        style={`background-image: linear-gradient(180deg, rgba(82,47,32,0.25) 0%, rgba(82,47,32,0.85) 100%), url(${image})`}
+        class="relative flex min-h-[420px] items-end bg-cover bg-center text-white md:min-h-[480px]"
+        style={`background-image: linear-gradient(180deg, rgba(82,47,32,0.15) 0%, rgba(82,47,32,0.55) 100%), url(${image})`}
       >
-        <div class="mx-auto w-full max-w-[900px] px-6 py-14 md:px-12">
+        <div class="mx-auto w-full max-w-[900px] px-6 pt-36 pb-14 md:px-12 md:pt-44 md:pb-16">
           {pubDate && (
             <time class="text-[13px] tracking-[2px] text-gold uppercase" datetime={pubDate.toISOString()}>
               {pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
