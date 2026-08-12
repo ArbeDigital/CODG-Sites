@@ -4,16 +4,17 @@ interface Props {
   description: string;
   href: string;
   image: string;
+  imageAlt?: string;
   pubDate?: Date;
 }
 
-const { title, description, href, image, pubDate } = Astro.props;
+const { title, description, href, image, imageAlt, pubDate } = Astro.props;
 ---
 
 <a href={href} class="group block overflow-hidden rounded-xl bg-white shadow-[0_8px_30px_rgba(47,58,53,0.08)] transition-transform hover:-translate-y-1">
   <img
     src={image}
-    alt=""
+    alt={imageAlt || title}
     class="aspect-[16/10] w-full object-cover"
     width="800"
     height="500"

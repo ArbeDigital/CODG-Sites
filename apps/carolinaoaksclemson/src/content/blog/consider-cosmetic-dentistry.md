@@ -4,7 +4,7 @@ description: "Do you have small flaws in your smile you'd like to fix? Cosmetic 
 pubDate: "2017-03-15T23:09:03-04:00"
 updatedDate: "2023-03-07T01:48:04-05:00"
 image: "/images/blog/beautiful-smiling-woman.jpg"
-imageAlt: "cosmetic dentistry"
+imageAlt: "Woman with a confident smile after cosmetic dentistry"
 ---
 
 It doesn’t take too much work to keep your teeth healthy: brush and floss daily, and see your dentist twice a year for cleanings and restorative treatments. Unfortunately, just having strong and healthy teeth doesn’t always make us happy with the state of our smile. Whether it be chips, gaps, intrinsic stains, or a crooked smile, most of us see flaws in our teeth, and would be happier and more confident if we could correct them.

@@ -4,7 +4,7 @@ description: "Elite Athletes are More Likely to Have Poor Oral Health, in spite
 pubDate: "2023-02-21T02:24:01-05:00"
 updatedDate: "2023-03-07T01:48:02-05:00"
 image: "/images/blog/AdobeStock_226262774-scaled.jpeg"
-imageAlt: "Dental Health"
+imageAlt: "Athlete smiling while prioritizing dental health"
 ---
 
 Elite athletes tend to be in peak physical condition thanks to rigorous training and a healthy diet. That’s why it might be pretty surprising to hear that [a study](https://www.sciencedaily.com/releases/2019/08/190823080012.htm) conducted at University College London (UCL) found this group had high rates of oral disease in spite of brushing twice a day. The team at Carolina Oaks Dental Care of Clemson will be taking a look at why this is and what the takeaways are for active people. 

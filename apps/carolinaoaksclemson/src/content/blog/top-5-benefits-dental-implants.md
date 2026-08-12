@@ -4,7 +4,7 @@ description: "Learn what makes dental implants the superior option over traditio
 pubDate: "2017-04-24T13:55:20-04:00"
 updatedDate: "2023-03-07T01:48:03-05:00"
 image: "/images/blog/woman-with-strawberries.jpg"
-imageAlt: "Dental Implants"
+imageAlt: "Woman enjoying strawberries with a healthy smile supported by dental implants"
 ---
 
 For patients who have lost their natural teeth, wearing dentures can be a difficult situation. Not only are they challenging to get used to, but they also limit your enjoyment of foods. Overall, they just don’t feel natural. Luckily, [dental implants](/dental-services/dental-implant-restorations/) offer a restorative option that circumscribes these problems entirely. Dental implants first showed up around 30 years ago, and have totally changed the world of prosthetic teeth. If someone you love has struggled with dentures, now is the perfect time to learn about the benefits of dental implants.

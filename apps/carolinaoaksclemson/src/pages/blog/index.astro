@@ -25,6 +25,7 @@ const posts = (await getCollection("blog"))
             description={post.data.description}
             href={`/${post.id}/`}
             image={post.data.image || "/images/banner-dental-general.jpg"}
+            imageAlt={post.data.imageAlt}
             pubDate={post.data.pubDate}
           />
         ))

@@ -4,7 +4,7 @@ description: "Enrolling in dental insurance can be confusing. Let Carolina Oaks 
 pubDate: "2017-02-15T22:28:13-05:00"
 updatedDate: "2023-03-07T01:48:05-05:00"
 image: "/images/blog/tree-of-health.jpg"
-imageAlt: "Medical tree concept"
+imageAlt: "Tree of health symbolizing wellness and dental insurance coverage"
 ---
 
 Enrolling in [dental insurance](/) plans can be confusing. If you haven’t spent much money on a dentist in recent years, do you even need insurance? How much coverage is enough? Will I still have to pay for routine visits?

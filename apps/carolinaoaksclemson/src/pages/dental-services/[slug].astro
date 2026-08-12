@@ -48,7 +48,7 @@ const { service } = Astro.props;
         {section.images?.map((img) => (
           <img
             src={publicImage(img.src)}
-            alt={img.alt || ""}
+            alt={img.alt || `${service.title} at Carolina Oaks Dental Care of Clemson`}
             width="800"
             height="500"
             loading="lazy"

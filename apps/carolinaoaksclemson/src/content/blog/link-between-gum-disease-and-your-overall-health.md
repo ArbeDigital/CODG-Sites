@@ -4,7 +4,7 @@ description: "Besides the obvious dental concerns (like red, puffy gums or loose
 pubDate: "2022-10-04T10:03:25-04:00"
 updatedDate: "2023-03-07T01:48:03-05:00"
 image: "/images/blog/The-Link-Between-Gum-Disease-and-Your-Overall-Health.jpeg"
-imageAlt: "The Link Between Gum Disease And Your Overall Health"
+imageAlt: "Illustration connecting gum disease to overall health"
 ---
 
 It’s common knowledge that we have to take good care of our teeth and gums to maintain a healthy smile. What might not be so widely known is how vital our teeth and gums are to our overall health. That’s right: when your [Clemson dentist](/contact-us/) tells you to brush twice and floss at least once daily, they’re not just saying it for fun! Proper oral hygiene (or lack thereof) can have significant impacts on your whole body, for better or worse.

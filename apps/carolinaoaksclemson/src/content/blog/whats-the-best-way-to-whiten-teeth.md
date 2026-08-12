@@ -4,7 +4,7 @@ description: "Teeth whitening involved risk when it's done at home. Teeth whiten
 pubDate: "2023-02-07T08:36:26-05:00"
 updatedDate: "2023-03-07T01:48:02-05:00"
 image: "/images/blog/AdobeStock_422265543.jpeg"
-imageAlt: "Teeth Whitening"
+imageAlt: "Bright white smile after professional teeth whitening"
 ---
 
 A sparkling white smile is something that is always in demand. In fact, according to the National Consumer Survey (NHCS),[ 37.0 million Americans](https://www.statista.com/statistics/287384/usage-of-tooth-whiteners-in-the-us-trend/#:~:text=Usage%20of%20tooth%20whiteners%20in%20the%20U.S.%202011%2D2024&text=The%20data%20has%20been%20calculated,to%2035.22%20million%20in%202024.) used tooth whiteners in 2020. A fresh-looking, bright smile makes you feel more confident, healthier and even more attractive, so it’s no surprise that that perfect set of shining pearly whites is something we all strive for. You might be wondering what the very best way to whiten teeth is. If you are, you’ve come to the right place! 
@@ -29,7 +29,7 @@ They can also be too weak and are essentially ineffective at giving you that bri
 
 Your Clemson, SC, dental experts at Carolina Oaks Dental Care can prevent you from bleaching or burning your gums, which is a typical result of a faulty whitening kit. Additionally, an experienced professional can ensure that any fillings, crowns, or veneers on your teeth match your new, bright smile and can prevent splotchy-looking teeth.
 
-![Teeth Whitening](/images/blog/AdobeStock_343528364-scaled.jpeg)
+![Close-up of a bright, professionally whitened smile](/images/blog/AdobeStock_343528364-scaled.jpeg)
 
 ## **How long does teeth whitening last?**
 

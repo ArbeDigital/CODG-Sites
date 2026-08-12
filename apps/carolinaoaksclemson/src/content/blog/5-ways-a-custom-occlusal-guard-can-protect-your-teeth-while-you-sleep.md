@@ -4,7 +4,7 @@ description: "An occlusal night guard is a custom-fabricated dental appliance th
 pubDate: "2023-03-19T18:07:06-04:00"
 updatedDate: "2023-03-19T18:10:17-04:00"
 image: "/images/blog/AdobeStock_209690268-scaled.jpeg"
-imageAlt: "Custom Occlusal Guard"
+imageAlt: "Person sleeping peacefully with a custom occlusal night guard"
 ---
 
 After your last dental check-up, your dentist mentioned you might benefit from an [occlusal guard](/dental-services/occlusal-guards/). But maybe you’re wondering, do I _really_ need this?

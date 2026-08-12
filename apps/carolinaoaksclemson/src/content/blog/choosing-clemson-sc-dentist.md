@@ -4,7 +4,7 @@ description: "Do you need a Clemson dentist? These tips will point you in the ri
 pubDate: "2017-02-16T16:04:51-05:00"
 updatedDate: "2023-03-07T01:48:05-05:00"
 image: "/images/blog/thumbs-up.jpg"
-imageAlt: "Things to Consider When Choosing a Clemson, SC Dentist"
+imageAlt: "Patient giving a thumbs-up after choosing a Clemson dentist"
 ---
 
 Finding a great dentist for your family may seem like a daunting challenge, but there are a wealth of caring, qualified dental providers out there. These tips will help you crystallize your needs and priorities before you start your search.

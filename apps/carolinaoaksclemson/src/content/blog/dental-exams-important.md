@@ -4,7 +4,7 @@ description: "Dental exams give your dentist the chance to help you prevent pain
 pubDate: "2017-04-11T23:17:58-04:00"
 updatedDate: "2023-03-07T01:48:04-05:00"
 image: "/images/blog/family-photo.jpg"
-imageAlt: "Happy Family"
+imageAlt: "Happy family smiling after a dental checkup in Clemson, SC"
 ---
 
 At Carolina Oaks Dental Care, we want all our patients to have beautiful smiles and healthy teeth—for life! If your family’s teeth are important to you, dental exams are a must for preventing tooth decay and gum disease. From the youngest patient to the oldest, we view every dental appointment as a valuable opportunity to share useful information and prevent conditions that can hinder your quality of life.
