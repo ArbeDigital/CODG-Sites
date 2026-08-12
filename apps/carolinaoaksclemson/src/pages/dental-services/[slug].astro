@@ -1,0 +1,66 @@
+---
+import ServiceLayout from "../../layouts/ServiceLayout.astro";
+import services from "../../data/services.json";
+import { publicImage } from "../../lib/images";
+
+export function getStaticPaths() {
+  return services.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+---
+
+<ServiceLayout
+  title={service.title}
+  description={service.description}
+  intro={service.intro}
+  heroImage={service.heroImage}
+>
+  {
+    service.sections.map((section) => (
+      <section class="mt-10 first:mt-0">
+        <h2>{section.heading}</h2>
+        {section.html ? (
+          <div class="medium-p" set:html={section.html} />
+        ) : (
+          <div class="medium-p">
+            {section.paragraphs?.map((p) => <p>{p}</p>)}
+            {section.lists?.map((list) =>
+              list.ordered ? (
+                <ol>
+                  {list.items.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ol>
+              ) : (
+                <ul>
+                  {list.items.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              )
+            )}
+          </div>
+        )}
+        {section.images?.map((img) => (
+          <img
+            src={publicImage(img.src)}
+            alt={img.alt || `${service.title} at Carolina Oaks Dental Care of Clemson`}
+            width="800"
+            height="500"
+            loading="lazy"
+          />
+        ))}
+      </section>
+    ))
+  }
+
+  <div class="mt-14 rounded-xl bg-[#f5efe9] p-8 text-center">
+    <h3 class="text-[28px]!">Ready to Get Started?</h3>
+    <p class="mt-3">Request an appointment with our Clemson team today.</p>
+    <a href="/contact-us/" class="btn btn-large mt-6">Request An Appointment</a>
+  </div>
+</ServiceLayout>

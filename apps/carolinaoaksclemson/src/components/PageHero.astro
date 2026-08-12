@@ -1,0 +1,44 @@
+---
+interface Props {
+  title: string;
+  intro?: string;
+  /** Studio banner image — already includes the bright orange field */
+  image?: string;
+  cta?: {
+    label: string;
+    href: string;
+  };
+}
+
+const { title, intro, image, cta } = Astro.props;
+---
+
+<section
+  class:list={[
+    "relative flex min-h-[480px] items-center text-white md:min-h-[580px] lg:min-h-[683px]",
+    image ? "bg-[#853919] bg-cover bg-[center_top]" : "bg-brand",
+  ]}
+  style={image ? `background-image: url(${image})` : undefined}
+>
+  <div class="relative mx-auto w-full max-w-[1425px] px-6 pt-36 pb-16 md:px-12 md:pt-44 md:pb-24 xl:px-[90px]">
+    <div class="max-w-xl">
+      <h1 class="text-white!">{title}</h1>
+      {
+        intro && (
+          <p class="mt-4 text-[18px] leading-8 text-white/95">{intro}</p>
+        )
+      }
+      {
+        cta && (
+          <a
+            href={cta.href}
+            class="btn btn-jumbo mt-8 bg-[#f1c40f] hover:bg-[#f1c40f]"
+          >
+            {cta.label}
+          </a>
+        )
+      }
+      <slot />
+    </div>
+  </div>
+</section>

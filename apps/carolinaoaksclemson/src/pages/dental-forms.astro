@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+---
+
+<BaseLayout
+  title="Dental Forms | Carolina Oaks Dental Care Clemson"
+  description="Download patient registration and medical history forms for Carolina Oaks Dental Care of Clemson."
+  transparentHeader
+>
+  <PageHero
+    title="Dental Forms"
+    image="/images/banner-woman-smiling.jpg"
+    cta={{ label: "Request An Appointment", href: "/contact-us/" }}
+  />
+
+  <section class="mx-auto max-w-[800px] px-6 py-14 md:px-12">
+    <ul class="divide-y divide-brand/10 rounded-xl bg-white shadow-[0_8px_30px_rgba(47,58,53,0.08)]">
+      <li>
+        <a
+          href="/forms/PatientReg.pdf"
+          class="flex items-center justify-between gap-4 px-6 py-5 transition-colors hover:bg-[#f5efe9]"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong class="block text-ink">Patient Registration Form</strong>
+            <span class="text-[14px]">PDF download</span>
+          </span>
+          <span class="text-[13px] font-bold tracking-[2px] text-accent uppercase">Download PDF</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/forms/MedHx.pdf"
+          class="flex items-center justify-between gap-4 px-6 py-5 transition-colors hover:bg-[#f5efe9]"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong class="block text-ink">Medical History Form</strong>
+            <span class="text-[14px]">PDF download</span>
+          </span>
+          <span class="text-[13px] font-bold tracking-[2px] text-accent uppercase">Download PDF</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</BaseLayout>

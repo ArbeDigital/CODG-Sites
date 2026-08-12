@@ -1,0 +1,30 @@
+---
+import home from "../data/home.json";
+import { publicImage } from "../lib/images";
+
+const hero = home.hero;
+const img = publicImage(hero.image);
+---
+
+<section
+  id="hero"
+  class="relative flex min-h-[100svh] items-center bg-[#853919] bg-cover bg-center text-white"
+  style={`background-image: url(${img})`}
+>
+  <div class="mx-auto w-full max-w-[1425px] px-6 pt-40 pb-32 md:px-12 md:pt-48 md:pb-40 xl:px-[90px]">
+    <h1 class="max-w-3xl text-white!">{hero.headline}</h1>
+    <p class="mt-6 max-w-xl text-[18px] leading-8 text-white/95">{hero.subcopy}</p>
+    <a
+      href={hero.cta.href}
+      class="btn btn-jumbo mt-8 mb-10 bg-[#f1c40f] hover:bg-[#f1c40f] md:mb-14"
+    >
+      {hero.cta.label}
+    </a>
+  </div>
+  <img
+    src="/images/acorn-divider-grey.svg"
+    alt=""
+    aria-hidden="true"
+    class="pointer-events-none absolute right-0 bottom-0 left-0 w-full"
+  />
+</section>

@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "headline": "A Brighter Smile For Brighter Days",
+    "subcopy": "Are you looking for an experienced, trusted dentist in Clemson, SC? Carolina Oaks Dental Care has you covered! Our knowledgeable, compassionate dentists and team deliver high quality, comprehensive dentistry with a gentle approach.",
+    "cta": {
+      "label": "Request An Appointment",
+      "href": "/contact-us/"
+    },
+    "image": "wp-content/uploads/2022/04/happy-woman-home-banner.jpg"
+  },
+  "welcome": {
+    "eyebrow": "Carolina Oaks Dental care of Clemson",
+    "heading": "Full-Service Dentistry From Our Family to Yours",
+    "paragraphs": [
+      "At our dentist-owned and led practice, we offer general, restorative and cosmetic dentistry, as well as emergency services, in one convenient location. We pride ourselves on delivering outstanding care and an experience to match. With modern technology and a focus on your comfort and satisfaction, our team makes achieving excellent oral health positive and stress-free. Give us a call to schedule an appointment with a Clemson, SC dentist today!"
+    ],
+    "features": [
+      "Expert Care",
+      "Fun, Friendly Atmosphere",
+      "Top-Notch Service"
+    ]
+  },
+  "doctors": [
+    {
+      "name": "Dr. Stephen Parker",
+      "credentials": "DMD",
+      "title": "Dr. Stephen Parker, DMD",
+      "image": "wp-content/uploads/2022/08/dr-parker-circle.jpg",
+      "bio": [
+        "Dr. Stephen Parker was a long-time resident of Summerville, but is very excited to relocate back to the Upstate and be near his alma mater Clemson University. He attended Clemson University and received his B.S. and doctorate in microbiology and molecular medicine. After a successful career in pharmaceutical research and development, Dr. Parker made the decision to pursue his childhood dream of becoming a dentist. Dr. Parker earned his Doctor of Dental Medicine from the Medical College of Georgia. He worked several years in Augusta, but he returned home to Summerville in 2015."
+      ]
+    },
+    {
+      "name": "Dr. Kendon Ross",
+      "credentials": "DDS",
+      "title": "Dr. Kendon Ross, DDS",
+      "image": "wp-content/uploads/2026/06/kendon-headshot-e1740666105632.png",
+      "bio": [
+        "Dr. Kendon Ross has been treating patients in the Seneca and Anderson areas since 1994 and brings nearly 30 years of experience to our practice. He earned his undergraduate degree from the University of Arizona and completed his Doctor of Dental Surgery at Loma Linda University School of Dentistry. A long-standing member of the South Carolina Dental Association and the American Dental Association, Dr. Ross is passionate about creating healthy, confident smiles. He lives in Clemson with his wife, two children, and two dogs. Outside of dentistry, he enjoys spending time with his family, reading, and being outdoors."
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "It was my first time, and I had an amazing experience. The staff are all very friendly and my cleaning was the most comfortable one I’ve ever had. Excited to have found a trusted dental care office",
+      "author": "Glory K"
+    },
+    {
+      "quote": "Great dentist office in awesome location…staff is extremely nice, professional, and accommodating. Would definitely recommend this office to anyone looking for a new dentist.",
+      "author": "Mike W"
+    },
+    {
+      "quote": "I am so happy I decided to pick Carolina Oaks as my new Dentist! They are so friendly. If you need a new dentist, go here! You won’t regret it!",
+      "author": "Lauren G"
+    },
+    {
+      "quote": "I was very impressed with how friendly and helpful everyone was. I love the location, its very convenient to where I work so making it very easy to visit during my lunch hour. Just a great experience, would definitely recommend.",
+      "author": "Scott M"
+    },
+    {
+      "quote": "After moving around the country the last few years I am embarrassed to admit making time for dentist appointments was not a high priority. I went in for a check up and cleaning today and they made me feel very comfortable and welcome. My cleaning was more than a bit over due and I was expecting to be very sore after. Just the opposite, she was very gentle and understating of my procrastination. I made my next appointments with no hesitation. Pleasant experience and that says a lot when it refers to a dentist appointment.",
+      "author": "Michele Z"
+    },
+    {
+      "quote": "Couldn’t be happier! The staff are so friendly and personable; appointments are quick yet thorough. The best service I’ve ever received at a dentist office.",
+      "author": "Jenni C"
+    }
+  ],
+  "serviceCtas": [
+    {
+      "title": "Family Dentistry",
+      "href": "/dental-services/family-dentistry/",
+      "image": "wp-content/uploads/2022/04/banner-family.jpg",
+      "blurb": "As your neighborhood family dentist, we offer expert, personalized care for the entire family."
+    },
+    {
+      "title": "Teeth Whitening",
+      "href": "/dental-services/teeth-whitening/",
+      "image": "wp-content/uploads/2022/04/banner-cosmetic-dentistry.jpg",
+      "blurb": "Professional teeth whitening will remove set-in stains and give you dramatic results in just one visit."
+    },
+    {
+      "title": "Dental Crowns",
+      "href": "/dental-services/dental-crowns/",
+      "image": "wp-content/uploads/2022/04/banner-dental-general.jpg",
+      "blurb": "A dental crown can restore the function, strength and appearance of a decayed or damaged tooth."
+    },
+    {
+      "title": "Complete Dental Care",
+      "href": "/dental-services/",
+      "image": "wp-content/uploads/2022/04/banner-woman-smiling.jpg",
+      "blurb": "Our dentists and team have the training and knowledge to take care of all of your oral health needs under one roof."
+    }
+  ],
+  "appointmentBanner": {
+    "image": "wp-content/uploads/2022/04/happy-woman-home-cta.jpg",
+    "cta": {
+      "label": "Request An Appointment",
+      "href": "/contact-us/"
+    }
+  }
+}
