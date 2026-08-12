@@ -47,17 +47,17 @@ const locations = site.sisterLocations;
     </a>
 
     <nav
-      class="hidden w-full max-w-[1200px] grid-cols-[1fr_auto_1fr] items-center gap-x-4 xl:gap-x-6 lg:grid"
+      class="hidden w-full max-w-[1300px] grid-cols-[1fr_auto_1fr] items-center gap-x-8 xl:gap-x-12 lg:grid"
       aria-label="Primary"
     >
-      <div class="flex items-center justify-end gap-1 xl:gap-3">
+      <div class="flex items-center justify-end gap-6 xl:gap-8">
         {
           primary.slice(0, 3).map((item) =>
             item.children ? (
               <div class="group relative">
                 <a
                   href={item.href}
-                  class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+                  class="nav-link font-heading inline-flex items-center gap-1.5 px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
                 >
                   {item.label}
                   <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
@@ -75,7 +75,7 @@ const locations = site.sisterLocations;
             ) : (
               <a
                 href={item.href}
-                class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+                class="nav-link font-heading px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
               >
                 {item.label}
               </a>
@@ -102,12 +102,12 @@ const locations = site.sisterLocations;
         />
       </a>
 
-      <div class="flex items-center justify-start gap-1 xl:gap-3">
+      <div class="flex items-center justify-start gap-6 xl:gap-8">
         {
           primary.slice(3).map((item) => (
             <a
               href={item.href}
-              class="nav-link font-heading px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+              class="nav-link font-heading px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
             >
               {item.label}
             </a>
@@ -117,7 +117,7 @@ const locations = site.sisterLocations;
         <div class="group relative">
           <button
             type="button"
-            class="nav-link font-heading inline-flex items-center gap-1 px-2 py-2 text-[13px] leading-[18px] font-bold tracking-[1.5px] uppercase transition-opacity hover:opacity-70"
+            class="nav-link font-heading inline-flex items-center gap-1.5 px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
           >
             Other Locations
             <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>

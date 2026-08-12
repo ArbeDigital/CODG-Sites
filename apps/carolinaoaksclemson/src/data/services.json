@@ -34,7 +34,8 @@
             "src": "wp-content/uploads/2022/04/toothach-2.jpg",
             "alt": "The Dangers of Having a Missing Tooth"
           }
-        ]
+        ],
+        "imagePosition": "right"
       },
       {
         "heading": "The Dental Bridge",
@@ -56,33 +57,56 @@
     "sections": [
       {
         "heading": "What Does a Cosmetic Dentist Do?",
-        "paragraphs": [
-          "An experienced cosmetic dentist provides aesthetic and structural improvements to the look and feel of your teeth. Any dental work that involves improving the appearance of your bite, teeth, or even gums, falls under the practice of cosmetic dentistry.",
-          "While cosmetic dentistry doesn’t always involve correcting the operation of your mouth or teeth sometimes cosmetic dental care and regular dental care can overlap. This is why you want a professional, experienced, and accredited dentist helping you with every aspect of your dental care, cosmetic and otherwise.",
-          "Do you find yourself working to hide your teeth behind a tight-lipped grin?",
-          "A personalized cosmetic dental procedure might be the answer. Here are just a few commonly practiced cosmetic dental procedures that will help your smile become something you love sharing:",
-          "For many years, filings were usually made from metal alloys that gave excellent protection. Unfortunately, they also were very visible and often made people self-conscious about their smiles. Modern technology created fillings that can offer you incredible strength and protection for your teeth while still offering natural looking results. Our gentle and experienced staff will work with you to create perfectly matched fillings that look great and keep your teeth safe.",
-          "Even the most beautiful smile can fade and become dull with age or stained from food or favorite drinks. With cosmetic dentistry, you can get a whiter and brighter smile with teeth whitening procedures. Our top of the line technology offers a healthy, safe, and reliable way to create a stunning smile. The kind and friendly staff at Carolina Oaks Dental Care provide professional teeth whitening services with proper supervision that will gently bring you the lasting results you are looking for.",
-          "Cracked teeth, gaps or crooked spaces in your teeth can make you want to hide your smile. These issues are easy to correct and improve with properly fitted veneers. In fact, customized veneers can fix cracks, gaps, and crooked spaces in your smile while also making them brighter and whiter. Veneers are very thin cases that are placed on top of your natural teeth. Usually made of porcelain, veneers are ultra-tough, long-lasting and create a beautiful natural looking smile that will last a long time. The entire process is simple, easy, and painless in the hands of your trusted cosmetic dentist in Clemson, SC.",
-          "Occasionally there are cracks or chips that not only lower your confidence but are also damaging to your dental health. When you have an issue that is threatening the health and stability of your tooth, a dental crown might be needed to correct and improve the look and feel of your tooth. Our gentle doctors and staff work with you to provide dental crowns easily that will fit you comfortably and last a long time.",
-          "The entire staff at Carolina Oaks Dental Care are experienced in providing efficient and effective cosmetic dental procedures with a personal touch. We make sure you feel comfortable and relaxed during each visit.",
-          "Sometimes you have strong, healthy teeth that simply have a few flaws. Maybe your smile is crooked or has a gap that makes you feel uncomfortable. If your smile is in need of a little fine-tuning or an entire make-over, Carolina Oaks Dental Care is here for you.",
-          "We will work with you to design your dream smile. Our staff will carefully go over every option with you and help you choose the perfect cosmetic dental procedure that best suits you and your continued dental health.",
-          "Once you’ve decided on your dream smile, you can sit back while we provide you with safe, gentle, and trustworthy cosmetic dental care in Clemson, SC.",
-          "We know you have a busy schedule, so we work with you to provide easily accessible care in a convenient location. Our office is less than five miles away from Clemson University, at 1000 College Avenue in Clemson, SC, so you can get brighter teeth without going out of your way."
-        ],
+        "paragraphs": [],
         "lists": [],
-        "html": "<p>An experienced cosmetic dentist provides aesthetic and structural improvements to the look and feel of your teeth. Any dental work that involves improving the appearance of your bite, teeth, or even gums, falls under the practice of cosmetic dentistry.</p>\n<p>While cosmetic dentistry doesn’t always involve correcting the operation of your mouth or teeth sometimes cosmetic dental care and regular dental care can overlap. This is why you want a professional, experienced, and accredited dentist helping you with every aspect of your dental care, cosmetic and otherwise.</p>\n<h3>Cosmetic Dental Practices and Procedures Explained</h3>\n<p>Do you find yourself working to hide your teeth behind a tight-lipped grin?</p>\n<h4>Are you less than confident in your smile?</h4>\n<p>A personalized cosmetic dental procedure might be the answer. Here are just a few commonly practiced cosmetic dental procedures that will help your smile become something you love sharing:</p>\n<p>For many years, filings were usually made from metal alloys that gave excellent protection. Unfortunately, they also were very visible and often made people self-conscious about their smiles. Modern technology created fillings that can offer you incredible strength and protection for your teeth while still offering natural looking results. Our gentle and experienced staff will work with you to create perfectly matched fillings that look great and keep your teeth safe.</p>\n<p>Even the most beautiful smile can fade and become dull with age or stained from food or favorite drinks. With cosmetic dentistry, you can get a whiter and brighter smile with teeth whitening procedures. Our top of the line technology offers a healthy, safe, and reliable way to create a stunning smile. The kind and friendly staff at Carolina Oaks Dental Care provide professional teeth whitening services with proper supervision that will gently bring you the lasting results you are looking for.</p>\n<p>Cracked teeth, gaps or crooked spaces in your teeth can make you want to hide your smile. These issues are easy to correct and improve with properly fitted veneers. In fact, customized veneers can fix cracks, gaps, and crooked spaces in your smile while also making them brighter and whiter. Veneers are very thin cases that are placed on top of your natural teeth. Usually made of porcelain, veneers are ultra-tough, long-lasting and create a beautiful natural looking smile that will last a long time. The entire process is simple, easy, and painless in the hands of your trusted cosmetic dentist in Clemson, SC.</p>\n<p>Occasionally there are cracks or chips that not only lower your confidence but are also damaging to your dental health. When you have an issue that is threatening the health and stability of your tooth, a dental crown might be needed to correct and improve the look and feel of your tooth. Our gentle doctors and staff work with you to provide dental crowns easily that will fit you comfortably and last a long time.</p>\n<p>The entire staff at Carolina Oaks Dental Care are experienced in providing efficient and effective cosmetic dental procedures with a personal touch. We make sure you feel comfortable and relaxed during each visit.</p>\n<h3>Designing Your Dream Smile</h3>\n<p>Sometimes you have strong, healthy teeth that simply have a few flaws. Maybe your smile is crooked or has a gap that makes you feel uncomfortable. If your smile is in need of a little fine-tuning or an entire make-over, Carolina Oaks Dental Care is here for you.</p>\n<p>We will work with you to design your dream smile. Our staff will carefully go over every option with you and help you choose the perfect cosmetic dental procedure that best suits you and your continued dental health.</p>\n<p>Once you’ve decided on your dream smile, you can sit back while we provide you with safe, gentle, and trustworthy cosmetic dental care in Clemson, SC.</p>\n<p>We know you have a busy schedule, so we work with you to provide easily accessible care in a convenient location. Our office is less than five miles away from Clemson University, at 1000 College Avenue in Clemson, SC, so you can get brighter teeth without going out of your way.</p>",
+        "html": "<p>An experienced cosmetic dentist provides aesthetic and structural improvements to the look and feel of your teeth. Any dental work that involves improving the appearance of your bite, teeth, or even gums, falls under the practice of cosmetic dentistry.</p>\n<p>While cosmetic dentistry doesn’t always involve correcting the operation of your mouth or teeth sometimes cosmetic dental care and regular dental care can overlap. This is why you want a professional, experienced, and accredited dentist helping you with every aspect of your dental care, cosmetic and otherwise.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/smiling-dentures.jpg",
             "alt": "Smiling Dentures"
+          }
+        ],
+        "imagePosition": "right"
+      },
+      {
+        "heading": "Cosmetic Dental Practices and Procedures Explained",
+        "layout": "procedureCards",
+        "introHtml": "<p>Do you find yourself working to hide your teeth behind a tight-lipped grin?</p>\n<h4>Are you less than confident in your smile?</h4>\n<p>A personalized cosmetic dental procedure might be the answer. Here are just a few commonly practiced cosmetic dental procedures that will help your smile become something you love sharing:</p>",
+        "cards": [
+          {
+            "title": "Fillings with Natural Looking Results",
+            "bodyHtml": "<p>For many years, filings were usually made from metal alloys that gave excellent protection. Unfortunately, they also were very visible and often made people self-conscious about their smiles. Modern technology created fillings that can offer you incredible strength and protection for your teeth while still offering natural looking results. Our gentle and experienced staff will work with you to create perfectly matched fillings that look great and keep your teeth safe.</p>"
           },
+          {
+            "title": "Teeth Whiteners",
+            "bodyHtml": "<p>Even the most beautiful smile can fade and become dull with age or stained from food or favorite drinks. With cosmetic dentistry, you can get a whiter and brighter smile with teeth whitening procedures. Our top of the line technology offers a healthy, safe, and reliable way to create a stunning smile. The kind and friendly staff at Carolina Oaks Dental Care provide professional teeth whitening services with proper supervision that will gently bring you the lasting results you are looking for.</p>"
+          },
+          {
+            "title": "Veneers",
+            "bodyHtml": "<p>Cracked teeth, gaps or crooked spaces in your teeth can make you want to hide your smile. These issues are easy to correct and improve with properly fitted veneers. In fact, customized veneers can fix cracks, gaps, and crooked spaces in your smile while also making them brighter and whiter. Veneers are very thin cases that are placed on top of your natural teeth. Usually made of porcelain, veneers are ultra-tough, long-lasting and create a beautiful natural looking smile that will last a long time. The entire process is simple, easy, and painless in the hands of your trusted cosmetic dentist in Clemson, SC.</p>"
+          },
+          {
+            "title": "Dental Crown",
+            "bodyHtml": "<p>Occasionally there are cracks or chips that not only lower your confidence but are also damaging to your dental health. When you have an issue that is threatening the health and stability of your tooth, a dental crown might be needed to correct and improve the look and feel of your tooth. Our gentle doctors and staff work with you to provide dental crowns easily that will fit you comfortably and last a long time.</p>"
+          }
+        ],
+        "footerHtml": "<p>The entire staff at Carolina Oaks Dental Care are experienced in providing efficient and effective cosmetic dental procedures with a personal touch. We make sure you feel comfortable and relaxed during each visit.</p>",
+        "paragraphs": [],
+        "lists": [],
+        "images": []
+      },
+      {
+        "heading": "Designing Your Dream Smile",
+        "paragraphs": [],
+        "lists": [],
+        "html": "<p>Sometimes you have strong, healthy teeth that simply have a few flaws. Maybe your smile is crooked or has a gap that makes you feel uncomfortable. If your smile is in need of a little fine-tuning or an entire make-over, Carolina Oaks Dental Care is here for you.</p>\n<p>We will work with you to design your dream smile. Our staff will carefully go over every option with you and help you choose the perfect cosmetic dental procedure that best suits you and your continued dental health.</p>\n<p>Once you’ve decided on your dream smile, you can sit back while we provide you with safe, gentle, and trustworthy cosmetic dental care in Clemson, SC.</p>\n<p>We know you have a busy schedule, so we work with you to provide easily accessible care in a convenient location. Our office is less than five miles away from Clemson University, at 1000 College Avenue in Clemson, SC, so you can get brighter teeth without going out of your way.</p>",
+        "images": [
           {
             "src": "wp-content/uploads/2022/04/teeth-whitening.jpg",
             "alt": "Teeth Whitening"
           }
-        ]
+        ],
+        "imagePosition": "left"
       }
     ]
   },
@@ -95,27 +119,30 @@
     "sections": [
       {
         "heading": "What are Dental Crowns?",
-        "paragraphs": [
-          "Dental Crowns are simply caps that are placed on top of your tooth. They are used to protect your tooth from further damage, decay, or prevent your tooth from breaking. Dental crowns add structural strength to chipped, broken, or cracked teeth while also sealing the tooth to keep bacteria and disease out.",
-          "Your trusted dentist in Clemson, SC may recommend using a dental crown for various reasons. Here are just a few:",
-          "For teeth that are chipped, cracked, or broken, a crown is used to repair the break, prevent infection and improve the look and function of your tooth.",
-          "In instances where a tooth has a lot of infection, like a cavity, the dental crown will help salvage the remaining structure and end the spread of infection.",
-          "Over time, fillings can become worn down from use. In this case, the skilled team at Carolina Oaks Dental Care will carefully craft a crown to match your tooth for a seamless, natural look. The crown will be used to restore and repair the structure of your tooth while preventing disease.",
-          "Crowns are a vital part of the dental bridge procedure that is used to replace a missing tooth. In a dental bridge , crowns are used to support a replacement tooth and create stronger teeth.",
-          "During some dental procedures, the strength and interior of the tooth can become vulnerable. In this instance, the crown is used to seal the tooth and keep it structurally sound and healthy for many years.",
-          "Dental crowns are common procedures that can conveniently be done in the comfort of our serene and relaxing dental office. Usually, the process takes two visits.",
-          "During the first visit, our gentle and highly skilled dental team will prepare your tooth for the crown. We will carefully take an impression of your tooth or teeth. The impressions is used to craft a customized crown that will fit perfectly to your tooth.",
-          "Once your crown has been individually fabricated, the friendly staff at Carolina Oaks Dental Care will bring you in for the fitting. We will always work with your schedule so you can keep your life running smoothly.",
-          "During the crown delivery visit, your trusted dentist in Clemson, SC will delicately fit the crown to your tooth. They will make sure the crown fits perfectly before they bond it to your tooth to ensure the crown has a comfortable fit and looks and feels natural. You’ll be able to leave our office with greater confidence and a healthier smile."
-        ],
+        "paragraphs": [],
         "lists": [],
-        "html": "<p>Dental Crowns are simply caps that are placed on top of your tooth. They are used to protect your tooth from further damage, decay, or prevent your tooth from breaking. Dental crowns add structural strength to chipped, broken, or cracked teeth while also sealing the tooth to keep bacteria and disease out.</p>\n<h3>When are Dental Crowns Used?</h3>\n<p>Your trusted dentist in Clemson, SC may recommend using a dental crown for various reasons. Here are just a few:</p>\n<h4>Damaged Tooth</h4>\n<p>For teeth that are chipped, cracked, or broken, a crown is used to repair the break, prevent infection and improve the look and function of your tooth.</p>\n<h4>Diseased or Decaying Teeth</h4>\n<p>In instances where a tooth has a lot of infection, like a cavity, the dental crown will help salvage the remaining structure and end the spread of infection.</p>\n<h4>Faded or Worn Fillings</h4>\n<p>Over time, fillings can become worn down from use. In this case, the skilled team at Carolina Oaks Dental Care will carefully craft a crown to match your tooth for a seamless, natural look. The crown will be used to restore and repair the structure of your tooth while preventing disease.</p>\n<h4>Assist in Dental Bridge Work</h4>\n<p>Crowns are a vital part of the dental bridge procedure that is used to replace a missing tooth. In a <a href=\"/bridges/\">dental bridge</a>, crowns are used to support a replacement tooth and create stronger teeth.</p>\n<h4>Preserve and Protect Teeth After Dental Procedures</h4>\n<p>During some dental procedures, the strength and interior of the tooth can become vulnerable. In this instance, the crown is used to seal the tooth and keep it structurally sound and healthy for many years.</p>\n<h3>The Dental Crown Procedure</h3>\n<p>Dental crowns are common procedures that can conveniently be done in the comfort of our serene and relaxing dental office. Usually, the process takes two visits.</p>\n<p>During the first visit, our gentle and highly skilled dental team will prepare your tooth for the crown. We will carefully take an impression of your tooth or teeth. The impressions is used to craft a customized crown that will fit perfectly to your tooth.</p>\n<p>Once your crown has been individually fabricated, the friendly staff at Carolina Oaks Dental Care will bring you in for the fitting. We will always work with your schedule so you can keep your life running smoothly.</p>\n<p>During the crown delivery visit, your trusted dentist in Clemson, SC will delicately fit the crown to your tooth. They will make sure the crown fits perfectly before they bond it to your tooth to ensure the crown has a comfortable fit and looks and feels natural. You’ll be able to leave our office with greater confidence and a healthier smile.</p>",
+        "html": "<p>Dental Crowns are simply caps that are placed on top of your tooth. They are used to protect your tooth from further damage, decay, or prevent your tooth from breaking. Dental crowns add structural strength to chipped, broken, or cracked teeth while also sealing the tooth to keep bacteria and disease out.</p>",
+        "images": []
+      },
+      {
+        "heading": "When are Dental Crowns Used?",
+        "paragraphs": [],
+        "lists": [],
+        "html": "<p>Your trusted dentist in Clemson, SC may recommend using a dental crown for various reasons. Here are just a few:</p>\n<h4>Damaged Tooth</h4>\n<p>For teeth that are chipped, cracked, or broken, a crown is used to repair the break, prevent infection and improve the look and function of your tooth.</p>\n<h4>Diseased or Decaying Teeth</h4>\n<p>In instances where a tooth has a lot of infection, like a cavity, the dental crown will help salvage the remaining structure and end the spread of infection.</p>\n<h4>Faded or Worn Fillings</h4>\n<p>Over time, fillings can become worn down from use. In this case, the skilled team at Carolina Oaks Dental Care will carefully craft a crown to match your tooth for a seamless, natural look. The crown will be used to restore and repair the structure of your tooth while preventing disease.</p>\n<h4>Assist in Dental Bridge Work</h4>\n<p>Crowns are a vital part of the dental bridge procedure that is used to replace a missing tooth. In a <a href=\"/bridges/\">dental bridge</a>, crowns are used to support a replacement tooth and create stronger teeth.</p>\n<h4>Preserve and Protect Teeth After Dental Procedures</h4>\n<p>During some dental procedures, the strength and interior of the tooth can become vulnerable. In this instance, the crown is used to seal the tooth and keep it structurally sound and healthy for many years.</p>",
+        "images": []
+      },
+      {
+        "heading": "The Dental Crown Procedure",
+        "paragraphs": [],
+        "lists": [],
+        "html": "<p>Dental crowns are common procedures that can conveniently be done in the comfort of our serene and relaxing dental office. Usually, the process takes two visits.</p>\n<p>During the first visit, our gentle and highly skilled dental team will prepare your tooth for the crown. We will carefully take an impression of your tooth or teeth. The impressions is used to craft a customized crown that will fit perfectly to your tooth.</p>\n<p>Once your crown has been individually fabricated, the friendly staff at Carolina Oaks Dental Care will bring you in for the fitting. We will always work with your schedule so you can keep your life running smoothly.</p>\n<p>During the crown delivery visit, your trusted dentist in Clemson, SC will delicately fit the crown to your tooth. They will make sure the crown fits perfectly before they bond it to your tooth to ensure the crown has a comfortable fit and looks and feels natural. You’ll be able to leave our office with greater confidence and a healthier smile.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dentist-visit.jpg",
             "alt": "The Dental Crown Procedure"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   },
@@ -131,19 +158,31 @@
         "paragraphs": [
           "A dental implant is the most lasting, comfortable tooth replacement option. The implant is a titanium screw that replaces the root structure of a missing tooth. It provides a stable foundation for a fixed or removable prosthesis.",
           "The dental implant is surgically inserted into the lower or upper jaw, usually by an oral surgeon or prosthodontist. It fuses with the bone in a process known as osseointegration. Once it heals, it allows a replacement tooth to fit securely into the gums and imitate the appearance, feel and function of a natural tooth.",
-          "Whether you’re replacing one, several or even all of your teeth with dental implants, the team at Carolina Oaks Dental Care will work closely with your oral surgeon or prosthodontist. After your dental implant surgery and healing period, your Clemson, SC dentist will create a custom replacement tooth and securely attach it to the implant.",
-          "Overall, dental implants have an extremely high success rate of 98%. However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It’s crucial to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.",
-          "Your oral surgeon or prosthodontist will perform the dental implant surgery. Your implants will be allowed to heal for several months. You’ll then return to your surgeon’s office and they’ll uncover the implants and attach small abutments.",
-          "Once the healing period is complete and the abutments are in place, you’ll visit Carolina Oaks Dental Care. A skilled team member will take impressions. The lab will use your impressions to create a high quality, natural-looking dental crown (or crowns).",
-          "When your restorations are ready, your Clemson dentist will attach them to your dental implants. They’ll check the fit and your bite before making any necessary adjustments. You’ll leave our office with gorgeous replacement teeth that allow you to chew, speak and smile with confidence."
+          "Whether you’re replacing one, several or even all of your teeth with dental implants, the team at Carolina Oaks Dental Care will work closely with your oral surgeon or prosthodontist. After your dental implant surgery and healing period, your Clemson, SC dentist will create a custom replacement tooth and securely attach it to the implant."
         ],
         "lists": [],
-        "html": "<p>A dental implant is the most lasting, comfortable tooth replacement option. The implant is a titanium screw that replaces the root structure of a missing tooth. It provides a stable foundation for a fixed or removable prosthesis.</p>\n<p>The dental implant is surgically inserted into the lower or upper jaw, usually by an oral surgeon or prosthodontist. It fuses with the bone in a process known as osseointegration. Once it heals, it allows a replacement tooth to fit securely into the gums and imitate the appearance, feel and function of a natural tooth.</p>\n<p>Whether you’re replacing one, several or even all of your teeth with dental implants, the team at Carolina Oaks Dental Care will work closely with your oral surgeon or prosthodontist. After your dental implant surgery and healing period, your Clemson, SC dentist will create a custom replacement tooth and securely attach it to the implant.</p>\n<h3>Are Dental Implants Successful Replacements for Natural Teeth?</h3>\n<p>Overall, dental implants have an extremely high success rate of 98%. However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It’s crucial to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.</p>\n<h3>How Does the Dental Implant Restoration Process Work?</h3>\n<p>Your oral surgeon or prosthodontist will perform the dental implant surgery. Your implants will be allowed to heal for several months. You’ll then return to your surgeon’s office and they’ll uncover the implants and attach small abutments.</p>\n<p>Once the healing period is complete and the abutments are in place, you’ll visit Carolina Oaks Dental Care. A skilled team member will take impressions. The lab will use your impressions to create a high quality, natural-looking <a href=\"/dental-crowns/\">dental crown</a> (or crowns).</p>\n<p>When your restorations are ready, your Clemson dentist will attach them to your dental implants. They’ll check the fit and your bite before making any necessary adjustments. You’ll leave our office with gorgeous replacement teeth that allow you to chew, speak and smile with confidence.</p>",
+        "html": "<p>A dental implant is the most lasting, comfortable tooth replacement option. The implant is a titanium screw that replaces the root structure of a missing tooth. It provides a stable foundation for a fixed or removable prosthesis.</p>\n<p>The dental implant is surgically inserted into the lower or upper jaw, usually by an oral surgeon or prosthodontist. It fuses with the bone in a process known as osseointegration. Once it heals, it allows a replacement tooth to fit securely into the gums and imitate the appearance, feel and function of a natural tooth.</p>\n<p>Whether you’re replacing one, several or even all of your teeth with dental implants, the team at Carolina Oaks Dental Care will work closely with your oral surgeon or prosthodontist. After your dental implant surgery and healing period, your Clemson, SC dentist will create a custom replacement tooth and securely attach it to the implant.</p>"
+      },
+      {
+        "heading": "Are Dental Implants Successful Replacements for Natural Teeth?",
+        "paragraphs": [],
+        "lists": [],
+        "html": "<p>Overall, dental implants have an extremely high success rate of 98%. However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It’s crucial to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.</p>",
+        "imagePosition": "right",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/Cosmetic-Dentistry.jpg",
             "alt": "Cosmetic Dentistry"
-          },
+          }
+        ]
+      },
+      {
+        "heading": "How Does the Dental Implant Restoration Process Work?",
+        "paragraphs": [],
+        "lists": [],
+        "html": "<p>Your oral surgeon or prosthodontist will perform the dental implant surgery. Your implants will be allowed to heal for several months. You’ll then return to your surgeon’s office and they’ll uncover the implants and attach small abutments.</p>\n<p>Once the healing period is complete and the abutments are in place, you’ll visit Carolina Oaks Dental Care. A skilled team member will take impressions. The lab will use your impressions to create a high quality, natural-looking <a href=\"/dental-crowns/\">dental crown</a> (or crowns).</p>\n<p>When your restorations are ready, your Clemson dentist will attach them to your dental implants. They’ll check the fit and your bite before making any necessary adjustments. You’ll leave our office with gorgeous replacement teeth that allow you to chew, speak and smile with confidence.</p>",
+        "imagePosition": "left",
+        "images": [
           {
             "src": "wp-content/uploads/2022/04/old-man-running.jpg",
             "alt": "Dental Implant Restorations"
@@ -161,20 +200,14 @@
     "sections": [
       {
         "heading": "Your Smile Makeover Starts Here",
-        "paragraphs": [
-          "The gentle and experienced team at Carolina Oaks Dental Care offers beautiful veneers that will transform and strengthen your smile. You’ll leave our office feeling like a superstar!"
-        ],
+        "paragraphs": [],
         "lists": [],
-        "html": "<p>The gentle and experienced team at Carolina Oaks Dental Care offers beautiful veneers that will transform and strengthen your smile. You’ll leave our office feeling like a superstar!</p>"
+        "html": "<p>The gentle and experienced team at Carolina Oaks Dental Care offers beautiful veneers that will transform and strengthen your smile. You’ll leave our office feeling like a superstar!</p>",
+        "images": []
       },
       {
         "heading": "Veneers Cover Dental Imperfections Flawlessly",
-        "paragraphs": [
-          "A veneer is a perfectly fitted to your teeth to mask flaws. Each veneer is custom crafted to perfectly suit every individual tooth. Veneers are made up of a very thin, but extremely durable layer of porcelain that is placed on top of the tooth to cover up imperfections and flaws.",
-          "Veneers can correct many different issues, here are a few:",
-          "Veneers can straighten your smile while making it brighter, whiter, and beautiful.",
-          "If you have a less than confident smile, veneers could be the perfect choice for transforming your smile. With your trusted dentist in Clemson, SC, the process is quick, easy, and pain-free. They also come with many advantages."
-        ],
+        "paragraphs": [],
         "lists": [
           {
             "ordered": false,
@@ -201,17 +234,52 @@
             ]
           }
         ],
-        "html": "<p>A veneer is a perfectly fitted to your teeth to mask flaws. Each veneer is custom crafted to perfectly suit every individual tooth. Veneers are made up of a very thin, but extremely durable layer of porcelain that is placed on top of the tooth to cover up imperfections and flaws.</p>\n<p>Veneers can correct many different issues, here are a few:</p>\n<ul>\n<li>Cracks in teeth</li>\n<li>Chips in teeth</li>\n<li>Broken teeth</li>\n<li>Gaps between teeth</li>\n<li>Worn-down teeth</li>\n<li>Crooked teeth</li>\n</ul>\n<p>Veneers can straighten your smile while making it brighter, whiter, and beautiful.</p>\n<h3>Are Veneers the Right Choice for You?</h3>\n<p>If you have a less than confident smile, veneers could be the perfect choice for transforming your smile. With your trusted dentist in Clemson, SC, the process is quick, easy, and pain-free. They also come with many advantages.</p>\n<ul>\n<li>Stain resistant, including hard to remove stains like coffee, wine, tea, or even smoking.</li>\n<li>Very durable.</li>\n<li>Easy to care for and maintain.</li>\n<li>Personally designed to match your teeth. Veneers can <a href=\"/teeth-whitening/\">whiten your teeth</a> and also change the size, shape, and alignment of your teeth.</li>\n<li>Closely mimic the natural look, feel, and strength of natural teeth.</li>\n<li>One of the gentlest restoration options for your gums.</li>\n<li>Easily replaced or repaired if a veneer is damaged.</li>\n<li>Cost efficient and effective.</li>\n</ul>",
+        "html": "<p>A veneer is a perfectly fitted to your teeth to mask flaws. Each veneer is custom crafted to perfectly suit every individual tooth. Veneers are made up of a very thin, but extremely durable layer of porcelain that is placed on top of the tooth to cover up imperfections and flaws.</p>\n<p>Veneers can correct many different issues, here are a few:</p>\n<ul>\n<li>Cracks in teeth</li>\n<li>Chips in teeth</li>\n<li>Broken teeth</li>\n<li>Gaps between teeth</li>\n<li>Worn-down teeth</li>\n<li>Crooked teeth</li>\n</ul>\n<p>Veneers can straighten your smile while making it brighter, whiter, and beautiful.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/veneers.jpg",
             "alt": "Veneers Cover Dental Imperfections Flawlessly"
+          }
+        ],
+        "imagePosition": "right"
+      },
+      {
+        "heading": "Are Veneers the Right Choice for You?",
+        "paragraphs": [],
+        "lists": [
+          {
+            "ordered": false,
+            "items": [
+              "Cracks in teeth",
+              "Chips in teeth",
+              "Broken teeth",
+              "Gaps between teeth",
+              "Worn-down teeth",
+              "Crooked teeth"
+            ]
           },
           {
-            "src": "wp-content/uploads/2022/04/veneers-man.jpg",
-            "alt": "Veneers the Right Choice for You"
+            "ordered": false,
+            "items": [
+              "Stain resistant, including hard to remove stains like coffee, wine, tea, or even smoking.",
+              "Very durable.",
+              "Easy to care for and maintain.",
+              "Personally designed to match your teeth. Veneers can whiten your teeth and also change the size, shape, and alignment of your teeth.",
+              "Closely mimic the natural look, feel, and strength of natural teeth.",
+              "One of the gentlest restoration options for your gums.",
+              "Easily replaced or repaired if a veneer is damaged.",
+              "Cost efficient and effective."
+            ]
           }
-        ]
+        ],
+        "html": "<p>If you have a less than confident smile, veneers could be the perfect choice for transforming your smile. With your trusted dentist in Clemson, SC, the process is quick, easy, and pain-free. They also come with many advantages.</p>\n<ul>\n<li>Stain resistant, including hard to remove stains like coffee, wine, tea, or even smoking.</li>\n<li>Very durable.</li>\n<li>Easy to care for and maintain.</li>\n<li>Personally designed to match your teeth. Veneers can <a href=\"/teeth-whitening/\">whiten your teeth</a> and also change the size, shape, and alignment of your teeth.</li>\n<li>Closely mimic the natural look, feel, and strength of natural teeth.</li>\n<li>One of the gentlest restoration options for your gums.</li>\n<li>Easily replaced or repaired if a veneer is damaged.</li>\n<li>Cost efficient and effective.</li>\n</ul>",
+        "images": [
+          {
+            "src": "wp-content/uploads/2022/04/veneers-man.jpg",
+            "alt": "Are Veneers the Right Choice for You?"
+          }
+        ],
+        "imagePosition": "left"
       }
     ]
   },
@@ -226,20 +294,7 @@
         "heading": "Why are Dentures Important?",
         "paragraphs": [
           "Your mouth needs teeth to work properly. Missing teeth can cause a wide variety of problems that can be damaging to your dental and physical health. Some issues caused by missing teeth include:",
-          "Replacing your teeth can prevent other serious dental and health issues and revitalize functions like chewing and speaking. Ignoring the missing spaces in your smile is not only uncomfortable, it can also be dangerous.",
-          "While many people know about dentures, they don’t often understand how they perform in the place of teeth.",
-          "Dentures are a dental appliance used to replace a full arch of missing natural teeth. They are customized to the individual needs of the patient and are removable for cleaning, care, and during sleep.",
-          "Full dentures use a foundation of acrylic material that is attached over your gums. The base is created to mimic the look and feel of your gums, so you’ll always feel more comfortable and confident.",
-          "Lower dentures resemble a horseshoe so they can create a secure but comfortable room for your tongue.",
-          "Upper dentures use a plate to cover the roof of your mouth and make room for eating and speaking.",
-          "The caring staff at Carolina Oaks Dental Care will patiently and thoroughly guide you through the entire denture process, from design to fitting. The result will be a beautiful new set of teeth that will look and feel natural.",
-          "Once your trusted dentist in Clemson, SC determines that you are a candidate for dentures, they will begin the process of creating and fitting customized dentures to your gums and any remaining teeth.",
-          "First we’ll create impressions from your jaw and mouth. This impression will then be used to create a model that is tailored to your mouth. Before any dentures are fabricated, the model will be used to ensure your dentures will be a perfect match and fit snugly and comfortably in your mouth. The Carolina Oaks Dental Care staff will work with you to ensure you have the most comfortable and most dependable fit for your dentures.",
-          "Once the permanent dentures have been customized and created for you, our team of dental experts carefully begin fitting them to your mouth. During this visit, we will gently guide you through every step of using your dentures. We will also give you thorough and simple care instructions.",
-          "For people with multiple missing teeth, dentures can bring back health and beauty to a flawed smile. They can also make life easier and more comfortable. In fact, there are multiple benefits to denture use, here are just a few:",
-          "Losing multiple teeth can be a challenging and very difficult experience, not to mention extremely uncomfortable. Dentures can immediately improve your life and health.",
-          "Transitioning to wearing dentures can take some time – don’t worry, our gentle and experienced staff will help you through the entire procedure and make any adjustments you may need.",
-          "In the beginning, your dentures will feel awkward and may even be uncomfortable. Don’t ever hesitate to call us if you have any concerns or discomfort; our staff is here to patiently help you make a successful transition to wearing dentures. We will make sure you have a smile you can enjoy and be proud of."
+          "Replacing your teeth can prevent other serious dental and health issues and revitalize functions like chewing and speaking. Ignoring the missing spaces in your smile is not only uncomfortable, it can also be dangerous."
         ],
         "lists": [
           {
@@ -255,26 +310,34 @@
               "Early Aging",
               "Heart Disease"
             ]
-          },
-          {
-            "ordered": false,
-            "items": [
-              "Provide much-needed support for facial muscles.",
-              "Apply the pressure needed to keep jawbone structure intact.",
-              "Help you chew food without pain.",
-              "Help with speech functions.",
-              "Give you a healthier and more natural looking smile.",
-              "Prevent further tooth decay or"
-            ]
           }
         ],
-        "html": "<p>Your mouth needs teeth to work properly. Missing teeth can cause a wide variety of problems that can be damaging to your dental and physical health. Some issues caused by missing teeth include:</p>\n<ul>\n<li>Increased Chance of Infections</li>\n<li>Increased Dental Decay</li>\n<li>More Missing Teeth</li>\n<li>Teeth Shifting</li>\n<li>Jaw Pain</li>\n<li>Weakening of Jawbone</li>\n<li>Weakening of Dental Structure</li>\n<li>Early Aging</li>\n<li>Heart Disease</li>\n</ul>\n<p>Replacing your teeth can prevent other serious dental and health issues and revitalize functions like chewing and speaking. Ignoring the missing spaces in your smile is not only uncomfortable, it can also be dangerous.</p>\n<p>While many people know about dentures, they don’t often understand how they perform in the place of teeth.</p>\n<p>Dentures are a dental appliance used to replace a full arch of missing natural teeth. They are customized to the individual needs of the patient and are removable for cleaning, care, and during sleep.</p>\n<p>Full dentures use a foundation of acrylic material that is attached over your gums. The base is created to mimic the look and feel of your gums, so you’ll always feel more comfortable and confident.</p>\n<p>Lower dentures resemble a horseshoe so they can create a secure but comfortable room for your tongue.</p>\n<p>Upper dentures use a plate to cover the roof of your mouth and make room for eating and speaking.</p>\n<p>The caring staff at Carolina Oaks Dental Care will patiently and thoroughly guide you through the entire denture process, from design to fitting. The result will be a beautiful new set of teeth that will look and feel natural.</p>\n<p>Once your trusted dentist in Clemson, SC determines that you are a candidate for dentures, they will begin the process of creating and fitting customized dentures to your gums and any remaining teeth.</p>\n<p>First we’ll create impressions from your jaw and mouth. This impression will then be used to create a model that is tailored to your mouth. Before any dentures are fabricated, the model will be used to ensure your dentures will be a perfect match and fit snugly and comfortably in your mouth. The Carolina Oaks Dental Care staff will work with you to ensure you have the most comfortable and most dependable fit for your dentures.</p>\n<p>Once the permanent dentures have been customized and created for you, our team of dental experts carefully begin fitting them to your mouth. During this visit, we will gently guide you through every step of using your dentures. We will also give you thorough and simple care instructions.</p>\n<p>For people with multiple missing teeth, dentures can bring back health and beauty to a flawed smile. They can also make life easier and more comfortable. In fact, there are multiple benefits to denture use, here are just a few:</p>\n<ul>\n<li>Provide much-needed support for facial muscles.</li>\n<li>Apply the pressure needed to keep jawbone structure intact.</li>\n<li>Help you chew food without pain.</li>\n<li>Help with speech functions.</li>\n<li>Give you a healthier and more natural looking smile.</li>\n<li>Prevent further tooth decay or</li>\n</ul>\n<p>Losing multiple teeth can be a challenging and very difficult experience, not to mention extremely uncomfortable. Dentures can immediately improve your life and health.</p>\n<p>Transitioning to wearing dentures can take some time – don’t worry, our gentle and experienced staff will help you through the entire procedure and make any adjustments you may need.</p>\n<p>In the beginning, your dentures will feel awkward and may even be uncomfortable. Don’t ever hesitate to call us if you have any concerns or discomfort; our staff is here to patiently help you make a successful transition to wearing dentures. We will make sure you have a smile you can enjoy and be proud of.</p>",
+        "html": "<p>Your mouth needs teeth to work properly. Missing teeth can cause a wide variety of problems that can be damaging to your dental and physical health. Some issues caused by missing teeth include:</p>\n<ul>\n<li>Increased Chance of Infections</li>\n<li>Increased Dental Decay</li>\n<li>More Missing Teeth</li>\n<li>Teeth Shifting</li>\n<li>Jaw Pain</li>\n<li>Weakening of Jawbone</li>\n<li>Weakening of Dental Structure</li>\n<li>Early Aging</li>\n<li>Heart Disease</li>\n</ul>\n<p>Replacing your teeth can prevent other serious dental and health issues and revitalize functions like chewing and speaking. Ignoring the missing spaces in your smile is not only uncomfortable, it can also be dangerous.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/grandparents-with-kid.jpg",
             "alt": "Why are Dentures Important?"
           }
-        ]
+        ],
+        "imagePosition": "right"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How Do Dentures Work?",
+        "answerHtml": "<p>While many people know about dentures, they don’t often understand how they perform in the place of teeth.</p>\n<p>Dentures are a dental appliance used to replace a full arch of missing natural teeth. They are customized to the individual needs of the patient and are removable for cleaning, care, and during sleep.</p>"
+      },
+      {
+        "question": "How Do Dentures Replace Missing Teeth?",
+        "answerHtml": "<p>Full dentures use a foundation of acrylic material that is attached over your gums. The base is created to mimic the look and feel of your gums, so you’ll always feel more comfortable and confident.</p>\n<p>Lower dentures resemble a horseshoe so they can create a secure but comfortable room for your tongue.</p>\n<p>Upper dentures use a plate to cover the roof of your mouth and make room for eating and speaking.</p>\n<p>The caring staff at Carolina Oaks Dental Care will patiently and thoroughly guide you through the entire denture process, from design to fitting. The result will be a beautiful new set of teeth that will look and feel natural.</p>"
+      },
+      {
+        "question": "What Is The Procedure For Getting Dentures?",
+        "answerHtml": "<p>Once your trusted dentist in Clemson, SC determines that you are a candidate for dentures, they will begin the process of creating and fitting customized dentures to your gums and any remaining teeth.</p>\n<p>First we’ll create impressions from your jaw and mouth. This impression will then be used to create a model that is tailored to your mouth. Before any dentures are fabricated, the model will be used to ensure your dentures will be a perfect match and fit snugly and comfortably in your mouth. The Carolina Oaks Dental Care staff will work with you to ensure you have the most comfortable and most dependable fit for your dentures.</p>\n<p>Once the permanent dentures have been customized and created for you, our team of dental experts carefully begin fitting them to your mouth. During this visit, we will gently guide you through every step of using your dentures. We will also give you thorough and simple care instructions.</p>"
+      },
+      {
+        "question": "What Are The Benefits Of Dentures?",
+        "answerHtml": "<p>For people with multiple missing teeth, dentures can bring back health and beauty to a flawed smile. They can also make life easier and more comfortable. In fact, there are multiple benefits to denture use, here are just a few:</p>\n<ul>\n<li>Provide much-needed support for facial muscles.</li>\n<li>Apply the pressure needed to keep jawbone structure intact.</li>\n<li>Help you chew food without pain.</li>\n<li>Help with speech functions.</li>\n<li>Give you a healthier and more natural looking smile.</li>\n<li>Prevent further tooth decay or gum disease.</li>\n</ul>\n<p>Losing multiple teeth can be a challenging and very difficult experience, not to mention extremely uncomfortable. Dentures can immediately improve your life and health.</p>\n<p>Transitioning to wearing dentures can take some time – don’t worry, our gentle and experienced staff will help you through the entire procedure and make any adjustments you may need.</p>\n<p>In the beginning, your dentures will feel awkward and may even be uncomfortable. Don’t ever hesitate to call us if you have any concerns or discomfort; our staff is here to patiently help you make a successful transition to wearing dentures. We will make sure you have a smile you can enjoy and be proud of.</p>"
       }
     ]
   },
@@ -351,7 +414,8 @@
             "src": "wp-content/uploads/2022/04/dentistry-for-kids.jpg",
             "alt": "Dentistry for Kids"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   },
@@ -403,7 +467,8 @@
             "src": "wp-content/uploads/2022/04/mouth-guards-sport.jpg",
             "alt": "Mouth Guards Sport"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   },
@@ -432,7 +497,8 @@
             "src": "wp-content/uploads/2022/04/sleeping.jpg",
             "alt": "Custom Occlusal Guard"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   },
@@ -445,19 +511,7 @@
     "sections": [
       {
         "heading": "What are Partial Dentures?",
-        "paragraphs": [
-          "When you have a missing tooth, your whole mouth suffers. With partial dentures, your dentist can help you improve the function and appearance of your teeth.",
-          "Partial dentures replace a missing tooth or a few missing teeth with a dental appliance . Unlike full dentures, partial dentures are used to replace a portion of teeth and not a full dental arch. Partials are removable plates with a replacement tooth that fits into the space left by your missing tooth or teeth.",
-          "Having a missing tooth or teeth affects your entire mouth and even your physical health. Avoiding dental solutions for your missing tooth can lead to the following issues:",
-          "The compassionate and experienced team at Carolina Oaks Dental Care will work with you to repair your teeth before disease or infections can spread. We know many people are frightened of tooth loss or embarrassed of their missing teeth, so we approach each dental issue with kindness and consideration. Our carefully constructed partials will restore beauty and function to your teeth.",
-          "Partials are placed inside your mouth and held into place by being attached to existing teeth. You can remove your partials when needed for cleaning or during sleep.",
-          "Partials are designed to perfectly fit the space left by your missing teeth. They provide much-needed support and pressure to your jaw to ensure continued health in your jaw bone. Partials allow you to eat, speak and smile more confidently and comfortably.",
-          "Every patient is unique so every type of partial denture will need to be custom-made to suit the patient and fit their individual needs. At Carolina Oaks Dental Care, we believe in focused and individualized care for each of our patients. We will discuss every option and solution with you before we begin any course of treatment.",
-          "If you decide partials are the right choice for you, we will carefully work with you to perfectly design your partials and get them fitted as quickly and comfortably as possible.",
-          "The procedure for getting partials is simple and stress-free. At your first visit, our experienced dental team will make a detailed impression of your teeth that will be used to fabricate your removable partial denture.",
-          "When your partial dentures are ready, our friendly dental staff will bring you back in for your fitting. We will work with your busy schedule to make sure the appointment is convenient and timely. Our gentle dentists will take great care to ensure your partials look natural and fit perfectly. While it could take a small period of adjustment, your teeth will start benefiting from the new partials almost immediately.",
-          "If you have any concerns, questions, or issues with your partial dentures, contact your trusted dentist in Clemson, SC right away to make sure your partials are working properly and feel comfortable."
-        ],
+        "paragraphs": [],
         "lists": [
           {
             "ordered": false,
@@ -475,17 +529,66 @@
             ]
           }
         ],
-        "html": "<p>When you have a missing tooth, your whole mouth suffers. With partial dentures, your dentist can help you improve the function and appearance of your teeth.</p>\n<p>Partial dentures replace a missing tooth or a few missing teeth with a <a href=\"/dental-crowns/\">dental appliance</a>. Unlike full dentures, partial dentures are used to replace a portion of teeth and not a full dental arch. Partials are removable plates with a replacement tooth that fits into the space left by your missing tooth or teeth.</p>\n<h3>Dangers of Ignoring Missing Teeth</h3>\n<p>Having a missing tooth or teeth affects your entire mouth and even your physical health. Avoiding dental solutions for your missing tooth can lead to the following issues:</p>\n<ul>\n<li>Damage or deterioration of the Jaw bone</li>\n<li>Facial muscles start to lack the support they receive from teeth and your face will begin to sag</li>\n<li>Early signs of aging</li>\n<li>Damage and decay spread to other teeth</li>\n<li>Damage to your gums</li>\n<li>Gum disease</li>\n<li>Tilting and shifting of other teeth as they try to fill the space</li>\n<li>Jaw pain</li>\n<li>Immune system issues</li>\n<li>Heart disease</li>\n</ul>\n<p>The compassionate and experienced team at Carolina Oaks Dental Care will work with you to repair your teeth before disease or infections can spread. We know many people are frightened of tooth loss or embarrassed of their missing teeth, so we approach each dental issue with kindness and consideration. Our carefully constructed partials will restore beauty and function to your teeth.</p>\n<h4>How Partials Work</h4>\n<p>Partials are placed inside your mouth and held into place by being attached to existing teeth. You can remove your partials when needed for cleaning or during sleep.</p>\n<p>Partials are designed to perfectly fit the space left by your missing teeth. They provide much-needed support and pressure to your jaw to ensure continued health in your jaw bone. Partials allow you to eat, speak and smile more confidently and comfortably.</p>\n<h3>Crafting and Using Your Partial Dentures</h3>\n<p>Every patient is unique so every type of partial denture will need to be custom-made to suit the patient and fit their individual needs. At Carolina Oaks Dental Care, we believe in focused and individualized care for each of our patients. We will discuss every option and solution with you before we begin any course of treatment.</p>\n<p>If you decide partials are the right choice for you, we will carefully work with you to perfectly design your partials and get them fitted as quickly and comfortably as possible.</p>\n<p>The procedure for getting partials is simple and stress-free. At your first visit, our experienced dental team will make a detailed impression of your teeth that will be used to fabricate your removable partial denture.</p>\n<p>When your partial dentures are ready, our friendly dental staff will bring you back in for your fitting. We will work with your busy schedule to make sure the appointment is convenient and timely. Our gentle dentists will take great care to ensure your partials look natural and fit perfectly. While it could take a small period of adjustment, your teeth will start benefiting from the new partials almost immediately.</p>\n<p>If you have any concerns, questions, or issues with your partial dentures, contact your trusted dentist in Clemson, SC right away to make sure your partials are working properly and feel comfortable.</p>",
+        "html": "<p>When you have a missing tooth, your whole mouth suffers. With partial dentures, your dentist can help you improve the function and appearance of your teeth.</p>\n<p>Partial dentures replace a missing tooth or a few missing teeth with a <a href=\"/dental-crowns/\">dental appliance</a>. Unlike full dentures, partial dentures are used to replace a portion of teeth and not a full dental arch. Partials are removable plates with a replacement tooth that fits into the space left by your missing tooth or teeth.</p>",
+        "images": []
+      },
+      {
+        "heading": "Dangers of Ignoring Missing Teeth",
+        "paragraphs": [],
+        "lists": [
+          {
+            "ordered": false,
+            "items": [
+              "Damage or deterioration of the Jaw bone",
+              "Facial muscles start to lack the support they receive from teeth and your face will begin to sag",
+              "Early signs of aging",
+              "Damage and decay spread to other teeth",
+              "Damage to your gums",
+              "Gum disease",
+              "Tilting and shifting of other teeth as they try to fill the space",
+              "Jaw pain",
+              "Immune system issues",
+              "Heart disease"
+            ]
+          }
+        ],
+        "html": "<p>Having a missing tooth or teeth affects your entire mouth and even your physical health. Avoiding dental solutions for your missing tooth can lead to the following issues:</p>\n<ul>\n<li>Damage or deterioration of the Jaw bone</li>\n<li>Facial muscles start to lack the support they receive from teeth and your face will begin to sag</li>\n<li>Early signs of aging</li>\n<li>Damage and decay spread to other teeth</li>\n<li>Damage to your gums</li>\n<li>Gum disease</li>\n<li>Tilting and shifting of other teeth as they try to fill the space</li>\n<li>Jaw pain</li>\n<li>Immune system issues</li>\n<li>Heart disease</li>\n</ul>\n<p>The compassionate and experienced team at Carolina Oaks Dental Care will work with you to repair your teeth before disease or infections can spread. We know many people are frightened of tooth loss or embarrassed of their missing teeth, so we approach each dental issue with kindness and consideration. Our carefully constructed partials will restore beauty and function to your teeth.</p>\n<h4>How Partials Work</h4>\n<p>Partials are placed inside your mouth and held into place by being attached to existing teeth. You can remove your partials when needed for cleaning or during sleep.</p>\n<p>Partials are designed to perfectly fit the space left by your missing teeth. They provide much-needed support and pressure to your jaw to ensure continued health in your jaw bone. Partials allow you to eat, speak and smile more confidently and comfortably.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/eating-dentures.jpg",
             "alt": "Dentures"
-          },
+          }
+        ],
+        "imagePosition": "right"
+      },
+      {
+        "heading": "Crafting and Using Your Partial Dentures",
+        "paragraphs": [],
+        "lists": [
+          {
+            "ordered": false,
+            "items": [
+              "Damage or deterioration of the Jaw bone",
+              "Facial muscles start to lack the support they receive from teeth and your face will begin to sag",
+              "Early signs of aging",
+              "Damage and decay spread to other teeth",
+              "Damage to your gums",
+              "Gum disease",
+              "Tilting and shifting of other teeth as they try to fill the space",
+              "Jaw pain",
+              "Immune system issues",
+              "Heart disease"
+            ]
+          }
+        ],
+        "html": "<p>Every patient is unique so every type of partial denture will need to be custom-made to suit the patient and fit their individual needs. At Carolina Oaks Dental Care, we believe in focused and individualized care for each of our patients. We will discuss every option and solution with you before we begin any course of treatment.</p>\n<p>If you decide partials are the right choice for you, we will carefully work with you to perfectly design your partials and get them fitted as quickly and comfortably as possible.</p>\n<p>The procedure for getting partials is simple and stress-free. At your first visit, our experienced dental team will make a detailed impression of your teeth that will be used to fabricate your removable partial denture.</p>\n<p>When your partial dentures are ready, our friendly dental staff will bring you back in for your fitting. We will work with your busy schedule to make sure the appointment is convenient and timely. Our gentle dentists will take great care to ensure your partials look natural and fit perfectly. While it could take a small period of adjustment, your teeth will start benefiting from the new partials almost immediately.</p>\n<p>If you have any concerns, questions, or issues with your partial dentures, contact your trusted dentist in Clemson, SC right away to make sure your partials are working properly and feel comfortable.</p>",
+        "images": [
           {
             "src": "wp-content/uploads/2022/04/smiling-dentures.jpg",
-            "alt": "Smiling Dentures"
+            "alt": "Dentures"
           }
-        ]
+        ],
+        "imagePosition": "left"
       }
     ]
   },
@@ -536,7 +639,8 @@
             "src": "wp-content/uploads/2022/04/dentistry-for-kids.jpg",
             "alt": "Dentistry for Kids"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   },
@@ -549,14 +653,7 @@
     "sections": [
       {
         "heading": "Root Canal Treatment Explained",
-        "paragraphs": [
-          "There is a tiny channel that runs down the middle of your inner tooth through your roots. This channel is called a root canal. When decay or damage occurs to this area, a procedure, also called a root canal, is used to correct and treat the problem.",
-          "We know that many people suffer from dental anxiety, especially when it comes to root canals. However, here at Carolina Oaks Dental Care, we put your comfort and oral health first. We provide efficient, effective treatment and we’ll work with you to ensure the entire procedure is relaxing and painless.",
-          "Sometimes, the roots and inside of your tooth become damaged, infected, or even begin to decay. There are several different symptoms that might be signs of decay, damage, or infection inside your roots and tooth. Here are a few to look for:",
-          "If you are currently experiencing any of these symptoms, immediately contact your trusted dentist in Clemson, SC. Ignoring these issues can lead to serious dental and physical health problems that could affect multiple teeth.",
-          "If the inside of your tooth has become infected, a root canal treatment is a safe and long-lasting solution. The procedure can save your tooth and prevent future infection in other teeth.",
-          "If you avoid treatment, other issues can occur. These serious issues include:"
-        ],
+        "paragraphs": [],
         "lists": [
           {
             "ordered": false,
@@ -582,17 +679,82 @@
             ]
           }
         ],
-        "html": "<p>There is a tiny channel that runs down the middle of your inner tooth through your roots. This channel is called a root canal. When decay or damage occurs to this area, a procedure, also called a root canal, is used to correct and treat the problem.</p>\n<p>We know that many people suffer from dental anxiety, especially when it comes to root canals. However, here at Carolina Oaks Dental Care, we put your comfort and oral health first. We provide efficient, effective treatment and we’ll work with you to ensure the entire procedure is relaxing and painless.</p>\n<h3>When to Consider Root Canal Treatment</h3>\n<p>Sometimes, the roots and inside of your tooth become damaged, infected, or even begin to decay. There are several different symptoms that might be signs of decay, damage, or infection inside your roots and tooth. Here are a few to look for:</p>\n<ul>\n<li>Tenderness and soreness near or around your tooth.</li>\n<li>Swelling around or near your tooth.</li>\n<li>Pain that occurs when you chew.</li>\n<li>Experiencing pain when pressure is applied to your tooth.</li>\n<li>New sensitivity to hot or cold beverages or food.</li>\n<li>Noticeable darkening of your tooth.</li>\n<li>Noticeable bumps on your gums near the infected tooth.</li>\n</ul>\n<p>If you are currently experiencing any of these symptoms, immediately contact your trusted dentist in Clemson, SC. Ignoring these issues can lead to serious dental and physical health problems that could affect multiple teeth.</p>\n<h3>Dangers of Avoiding Your Root Canal Treatment</h3>\n<p>If the inside of your tooth has become infected, a root canal treatment is a safe and long-lasting solution. The procedure can save your tooth and prevent future infection in other teeth.</p>\n<p>If you avoid treatment, other issues can occur. These serious issues include:</p>\n<ul>\n<li>Widespread infection</li>\n<li>Bacterial infections in the bloodstream also called sepsis.</li>\n<li>Abscessed teeth</li>\n<li>Disease in the teeth, gums, or jaw bone</li>\n<li>Tooth Loss</li>\n<li>Bone Loss</li>\n</ul>",
+        "html": "<p>There is a tiny channel that runs down the middle of your inner tooth through your roots. This channel is called a root canal. When decay or damage occurs to this area, a procedure, also called a root canal, is used to correct and treat the problem.</p>\n<p>We know that many people suffer from dental anxiety, especially when it comes to root canals. However, here at Carolina Oaks Dental Care, we put your comfort and oral health first. We provide efficient, effective treatment and we’ll work with you to ensure the entire procedure is relaxing and painless.</p>",
+        "images": []
+      },
+      {
+        "heading": "When to Consider Root Canal Treatment",
+        "paragraphs": [],
+        "lists": [
+          {
+            "ordered": false,
+            "items": [
+              "Tenderness and soreness near or around your tooth.",
+              "Swelling around or near your tooth.",
+              "Pain that occurs when you chew.",
+              "Experiencing pain when pressure is applied to your tooth.",
+              "New sensitivity to hot or cold beverages or food.",
+              "Noticeable darkening of your tooth.",
+              "Noticeable bumps on your gums near the infected tooth."
+            ]
+          },
+          {
+            "ordered": false,
+            "items": [
+              "Widespread infection",
+              "Bacterial infections in the bloodstream also called sepsis.",
+              "Abscessed teeth",
+              "Disease in the teeth, gums, or jaw bone",
+              "Tooth Loss",
+              "Bone Loss"
+            ]
+          }
+        ],
+        "html": "<p>Sometimes, the roots and inside of your tooth become damaged, infected, or even begin to decay. There are several different symptoms that might be signs of decay, damage, or infection inside your roots and tooth. Here are a few to look for:</p>\n<ul>\n<li>Tenderness and soreness near or around your tooth.</li>\n<li>Swelling around or near your tooth.</li>\n<li>Pain that occurs when you chew.</li>\n<li>Experiencing pain when pressure is applied to your tooth.</li>\n<li>New sensitivity to hot or cold beverages or food.</li>\n<li>Noticeable darkening of your tooth.</li>\n<li>Noticeable bumps on your gums near the infected tooth.</li>\n</ul>\n<p>If you are currently experiencing any of these symptoms, immediately contact your trusted dentist in Clemson, SC. Ignoring these issues can lead to serious dental and physical health problems that could affect multiple teeth.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dentist-visit.jpg",
             "alt": "The Dental Crown Procedure"
+          }
+        ],
+        "imagePosition": "right"
+      },
+      {
+        "heading": "Dangers of Avoiding Your Root Canal Treatment",
+        "paragraphs": [],
+        "lists": [
+          {
+            "ordered": false,
+            "items": [
+              "Tenderness and soreness near or around your tooth.",
+              "Swelling around or near your tooth.",
+              "Pain that occurs when you chew.",
+              "Experiencing pain when pressure is applied to your tooth.",
+              "New sensitivity to hot or cold beverages or food.",
+              "Noticeable darkening of your tooth.",
+              "Noticeable bumps on your gums near the infected tooth."
+            ]
           },
           {
-            "src": "wp-content/uploads/2022/04/toothach.jpg",
-            "alt": "Toothache"
+            "ordered": false,
+            "items": [
+              "Widespread infection",
+              "Bacterial infections in the bloodstream also called sepsis.",
+              "Abscessed teeth",
+              "Disease in the teeth, gums, or jaw bone",
+              "Tooth Loss",
+              "Bone Loss"
+            ]
           }
-        ]
+        ],
+        "html": "<p>If the inside of your tooth has become infected, a root canal treatment is a safe and long-lasting solution. The procedure can save your tooth and prevent future infection in other teeth.</p>\n<p>If you avoid treatment, other issues can occur. These serious issues include:</p>\n<ul>\n<li>Widespread infection</li>\n<li>Bacterial infections in the bloodstream also called sepsis.</li>\n<li>Abscessed teeth</li>\n<li>Disease in the teeth, gums, or jaw bone</li>\n<li>Tooth Loss</li>\n<li>Bone Loss</li>\n</ul>",
+        "images": [
+          {
+            "src": "wp-content/uploads/2022/04/toothach.jpg",
+            "alt": "Dangers of Avoiding Your Root Canal Treatment"
+          }
+        ],
+        "imagePosition": "left"
       }
     ]
   },
@@ -624,7 +786,8 @@
             "src": "wp-content/uploads/2022/04/teeth-whitening.jpg",
             "alt": "Teeth Whitening"
           }
-        ]
+        ],
+        "imagePosition": "right"
       }
     ]
   }

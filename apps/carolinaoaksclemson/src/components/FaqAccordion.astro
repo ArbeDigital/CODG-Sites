@@ -1,0 +1,95 @@
+---
+interface FaqItem {
+  question: string;
+  /** HTML string for the answer body (paragraphs, lists, links, etc.) */
+  answerHtml: string;
+}
+
+interface Props {
+  items: FaqItem[];
+  /** Open the first item by default */
+  openFirst?: boolean;
+}
+
+const { items, openFirst = true } = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section class="faq-accordion mx-auto w-full max-w-[1425px] px-6 py-10 md:px-12 md:py-14 xl:px-[90px]">
+      <div class="flex flex-col divide-y divide-[#d8d5d2] border-y border-[#d8d5d2]">
+        {items.map((item, i) => (
+          <details class="faq-item group py-6 md:py-8" open={openFirst && i === 0 ? true : undefined}>
+            <summary class="faq-summary flex cursor-pointer list-none items-center justify-between gap-4">
+              <h3 class="faq-question m-0! min-w-0 flex-1 text-[28px]! leading-9! font-semibold! md:text-[36px]! md:leading-[46px]!">
+                {item.question}
+              </h3>
+              <span class="faq-icon shrink-0" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer service-prose medium-p pt-4 pb-2 pr-10" set:html={item.answerHtml} />
+          </details>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .faq-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question {
+    color: rgb(0 0 0 / 0.65);
+    transition: color 0.2s ease;
+  }
+
+  .faq-item[open] .faq-question {
+    color: #f1c40f;
+  }
+
+  .faq-icon {
+    position: relative;
+    width: 1.35rem;
+    height: 1.35rem;
+    color: rgb(0 0 0 / 0.65);
+    border: 2px solid currentColor;
+    border-radius: 9999px;
+    transition: color 0.2s ease;
+  }
+
+  .faq-item[open] .faq-icon {
+    color: #f1c40f;
+  }
+
+  .faq-icon::before,
+  .faq-icon::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s ease;
+  }
+
+  /* horizontal bar (always) */
+  .faq-icon::before {
+    width: 9px;
+    height: 2px;
+  }
+
+  /* vertical bar (plus) — hide when open */
+  .faq-icon::after {
+    width: 2px;
+    height: 9px;
+  }
+
+  .faq-item[open] .faq-icon::after {
+    opacity: 0;
+  }
+
+  .faq-summary:hover .faq-question {
+    opacity: 0.85;
+  }
+</style>
