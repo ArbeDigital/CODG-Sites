@@ -87,7 +87,12 @@ import site from "../data/site.json";
 
   if (phone) {
     const formatPhone = (value: string) => {
-      const digits = value.replace(/\D/g, "").slice(0, 10);
+      let digits = value.replace(/\D/g, "");
+      // Drop a leading US country code so pasting +1… keeps the local number
+      if (digits.length > 10 && digits.startsWith("1")) {
+        digits = digits.slice(1);
+      }
+      digits = digits.slice(0, 10);
       if (digits.length === 0) return "";
       if (digits.length < 4) return "(" + digits;
       if (digits.length < 7)

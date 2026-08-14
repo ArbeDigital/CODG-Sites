@@ -22,12 +22,12 @@ const testimonials = home.testimonials;
     <h2 class="mt-3 text-brand">Rave Reviews From Our Happy Patients</h2>
     <div class="mt-6 h-px w-full bg-brand/20" aria-hidden="true"></div>
 
-    <div id="testimonial-slider" class="relative mt-8 min-h-[200px] md:min-h-[180px]">
+    <div id="testimonial-slider" class="relative mt-8 grid">
       {
         testimonials.map((t, i) => (
           <blockquote
             class:list={[
-              "testimonial absolute inset-x-0 transition-opacity duration-500",
+              "testimonial col-start-1 row-start-1 transition-opacity duration-500",
               i === 0 ? "is-active opacity-100" : "pointer-events-none opacity-0",
             ]}
             data-index={i}
