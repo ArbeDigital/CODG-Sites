@@ -2,6 +2,9 @@
 import ServiceLayout from "../../layouts/ServiceLayout.astro";
 import MediaSplit from "../../components/MediaSplit.astro";
 import ProcedureCards from "../../components/ProcedureCards.astro";
+import ProcessSteps from "../../components/ProcessSteps.astro";
+import TwoColumnProse from "../../components/TwoColumnProse.astro";
+import ProseCallout from "../../components/ProseCallout.astro";
 import FaqAccordion from "../../components/FaqAccordion.astro";
 import services from "../../data/services.json";
 import { publicImage } from "../../lib/images";
@@ -20,12 +23,21 @@ type ProcedureCard = {
   bodyHtml: string;
 };
 
+type ProcessStep = {
+  title: string;
+  bodyHtml: string;
+};
+
 type Section = (typeof service.sections)[number] & {
   imagePosition?: "left" | "right";
   layout?: string;
   introHtml?: string;
   cards?: ProcedureCard[];
   footerHtml?: string;
+  columns?: { html: string }[];
+  callout?: { heading: string; items: string[] };
+  processHeading?: string;
+  steps?: ProcessStep[];
 };
 
 type FaqItem = {
@@ -52,6 +64,32 @@ const faqs = ("faqs" in service ? (service as { faqs?: FaqItem[] }).faqs : undef
             introHtml={section.introHtml || ""}
             cards={section.cards}
             footerHtml={section.footerHtml}
+          />
+        );
+      }
+
+      if (section.layout === "processSteps" && section.steps?.length) {
+        return (
+          <ProcessSteps
+            heading={section.heading}
+            introHtml={section.html || ""}
+            processHeading={section.processHeading}
+            steps={section.steps}
+          />
+        );
+      }
+
+      if (section.layout === "twoColumnProse" && section.columns?.length) {
+        return <TwoColumnProse heading={section.heading} columns={section.columns} />;
+      }
+
+      if (section.layout === "proseCallout" && section.callout) {
+        return (
+          <ProseCallout
+            heading={section.heading}
+            html={section.html || ""}
+            calloutHeading={section.callout.heading}
+            calloutItems={section.callout.items}
           />
         );
       }
