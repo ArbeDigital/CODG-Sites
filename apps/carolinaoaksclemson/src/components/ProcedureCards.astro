@@ -21,7 +21,12 @@ const { heading, introHtml, cards, footerHtml } = Astro.props;
       <div class="medium-p" set:html={introHtml} />
     </div>
 
-    <div class="mt-8 grid gap-6 md:mt-10 md:grid-cols-2 md:gap-10 lg:gap-12">
+    <div
+      class:list={[
+        "mt-8 grid gap-6 md:mt-10 md:gap-8 lg:gap-10",
+        cards.length === 3 ? "md:grid-cols-3" : "md:grid-cols-2 lg:gap-12",
+      ]}
+    >
       {
         cards.map((card) => (
           <article class="rounded-[10px] bg-white p-8 md:p-[50px]">

@@ -161,36 +161,47 @@ const locations = site.sisterLocations;
 
 <div
   id="mobile-menu"
-  class="bg-brand invisible fixed inset-0 z-50 flex items-center justify-center overflow-y-auto opacity-0 transition-[opacity,visibility] duration-300"
+  class="bg-brand invisible fixed inset-0 z-50 flex flex-col opacity-0 transition-[opacity,visibility] duration-300"
   hidden
 >
-  <button
-    id="menu-close"
-    type="button"
-    class="absolute top-6 right-6 p-3 text-white transition-opacity hover:opacity-70"
-    aria-label="Close menu"
-  >
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-      <path d="M18 6 6 18M6 6l12 12"></path>
-    </svg>
-  </button>
+  <div class="flex items-center justify-between border-b border-white/15 px-5 py-4">
+    <a href="/" class="shrink-0" aria-label="Carolina Oaks Dental Care Clemson — Home">
+      <img
+        src="/images/CO_Clemson-logo.png"
+        alt="Carolina Oaks Dental Care of Clemson"
+        class="h-[44px] w-auto"
+        width="160"
+        height="44"
+      />
+    </a>
+    <button
+      id="menu-close"
+      type="button"
+      class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-white/25 text-white transition-colors hover:border-white/50 hover:bg-white/10"
+      aria-label="Close menu"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M18 6 6 18M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
 
-  <nav aria-label="Mobile" class="w-full max-w-lg px-8 py-20">
-    <ul class="flex flex-col items-center gap-5 text-center">
+  <nav aria-label="Mobile" class="min-h-0 flex-1 overflow-y-auto px-5 pt-2 pb-10">
+    <ul class="divide-y divide-white/15 border-b border-white/15">
       {
         primary.map((item) =>
           item.children ? (
-            <li class="w-full">
-              <div class="flex items-center justify-center gap-2">
+            <li>
+              <div class="flex items-center gap-3 py-4">
                 <a
                   href={item.href}
-                  class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize transition-opacity hover:opacity-70"
+                  class="font-heading min-w-0 flex-1 text-left text-[22px] leading-7 font-semibold text-white capitalize transition-opacity hover:opacity-75"
                 >
                   {item.label}
                 </a>
                 <button
                   type="button"
-                  class="mobile-submenu-toggle inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-opacity hover:opacity-70"
+                  class="mobile-submenu-toggle inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-white/35 bg-white/10 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] transition-colors hover:border-white/60 hover:bg-white/15"
                   aria-expanded="false"
                   aria-controls={`mobile-submenu-${item.label.toLowerCase()}`}
                   aria-label={`Show ${item.label} links`}
@@ -202,17 +213,20 @@ const locations = site.sisterLocations;
                     viewBox="0 0 10 6"
                     aria-hidden="true"
                   >
-                    <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </button>
               </div>
               <ul
                 id={`mobile-submenu-${item.label.toLowerCase()}`}
-                class="mobile-submenu mt-3 hidden flex-col gap-2"
+                class="mobile-submenu mb-4 ml-1 hidden flex-col border-l-2 border-gold/55 pl-4"
               >
                 {item.children.map((child) => (
-                  <li>
-                    <a href={child.href} class="text-[16px] text-white/85 transition-opacity hover:opacity-70">
+                  <li class="border-b border-white/10 last:border-b-0">
+                    <a
+                      href={child.href}
+                      class="block py-2.5 text-left text-[15px] leading-6 text-white/80 transition-colors hover:text-white"
+                    >
                       {child.label}
                     </a>
                   </li>
@@ -223,7 +237,7 @@ const locations = site.sisterLocations;
             <li>
               <a
                 href={item.href}
-                class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize transition-opacity hover:opacity-70"
+                class="font-heading block py-4 text-left text-[22px] leading-7 font-semibold text-white capitalize transition-opacity hover:opacity-75"
               >
                 {item.label}
               </a>
@@ -231,14 +245,14 @@ const locations = site.sisterLocations;
           )
         )
       }
-      <li class="w-full pt-2">
-        <div class="flex items-center justify-center gap-2">
-          <span class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize">
+      <li>
+        <div class="flex items-center gap-3 py-4">
+          <span class="font-heading min-w-0 flex-1 text-left text-[22px] leading-7 font-semibold text-white capitalize">
             Other Locations
           </span>
           <button
             type="button"
-            class="mobile-submenu-toggle inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-opacity hover:opacity-70"
+            class="mobile-submenu-toggle inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-white/35 bg-white/10 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] transition-colors hover:border-white/60 hover:bg-white/15"
             aria-expanded="false"
             aria-controls="mobile-submenu-locations"
             aria-label="Show other locations"
@@ -250,19 +264,22 @@ const locations = site.sisterLocations;
               viewBox="0 0 10 6"
               aria-hidden="true"
             >
-              <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </button>
         </div>
-        <ul id="mobile-submenu-locations" class="mobile-submenu mt-3 hidden flex-col gap-2">
+        <ul
+          id="mobile-submenu-locations"
+          class="mobile-submenu mb-4 ml-1 hidden flex-col border-l-2 border-gold/55 pl-4"
+        >
           {
             locations.map((loc) => (
-              <li>
+              <li class="border-b border-white/10 last:border-b-0">
                 <a
                   href={loc.url}
                   target="_blank"
                   rel="noopener"
-                  class="text-[16px] text-white/85 transition-opacity hover:opacity-70"
+                  class="block py-2.5 text-left text-[15px] leading-6 text-white/80 transition-colors hover:text-white"
                 >
                   {loc.name}
                 </a>
@@ -272,6 +289,13 @@ const locations = site.sisterLocations;
         </ul>
       </li>
     </ul>
+
+    <a
+      href="/contact-us/"
+      class="btn btn-jumbo mt-8 w-full bg-[#f1c40f] text-center hover:bg-[#f1c40f]"
+    >
+      Request An Appointment
+    </a>
   </nav>
 </div>
 
@@ -308,6 +332,11 @@ const locations = site.sisterLocations;
   #mobile-menu.is-open {
     visibility: visible;
     opacity: 1;
+  }
+
+  .mobile-submenu-toggle[aria-expanded="true"] {
+    border-color: color-mix(in srgb, var(--color-gold) 75%, white);
+    background-color: color-mix(in srgb, var(--color-gold) 22%, transparent);
   }
 
   .mobile-submenu-toggle[aria-expanded="true"] .mobile-submenu-chevron {
