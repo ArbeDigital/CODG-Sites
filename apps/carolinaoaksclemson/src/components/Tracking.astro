@@ -1,6 +1,6 @@
 ---
-// GTM, GA4, and Facebook domain verification — carried over from the original site.
-// Meta Pixel (if any) fires via GTM; do not invent a hard-coded pixel ID.
+// GTM + GA4 + Facebook domain verification (from the original WP site).
+// Meta Pixel fires via GTM — do not hard-code a pixel ID here.
 ---
 
 <meta
@@ -23,12 +23,13 @@
 </script>
 <!-- End Google Tag Manager -->
 
-<!-- Google Analytics (gtag.js) -->
+<!-- Google Analytics (gtag.js) — live site loads this outside GTM -->
 <script
   is:inline
   async
+  id="google_gtagjs"
   src="https://www.googletagmanager.com/gtag/js?id=G-4WQN0L7MMW"></script>
-<script is:inline>
+<script is:inline id="google_gtagjs-inline">
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
