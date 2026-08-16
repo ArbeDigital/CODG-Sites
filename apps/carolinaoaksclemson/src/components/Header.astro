@@ -178,32 +178,92 @@ const locations = site.sisterLocations;
   <nav aria-label="Mobile" class="w-full max-w-lg px-8 py-20">
     <ul class="flex flex-col items-center gap-5 text-center">
       {
-        primary.map((item) => (
-          <li>
-            <a href={item.href} class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize transition-opacity hover:opacity-70">
-              {item.label}
-            </a>
-            {item.children && (
-              <ul class="mt-3 flex flex-col gap-2">
+        primary.map((item) =>
+          item.children ? (
+            <li class="w-full">
+              <div class="flex items-center justify-center gap-2">
+                <a
+                  href={item.href}
+                  class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize transition-opacity hover:opacity-70"
+                >
+                  {item.label}
+                </a>
+                <button
+                  type="button"
+                  class="mobile-submenu-toggle inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-opacity hover:opacity-70"
+                  aria-expanded="false"
+                  aria-controls={`mobile-submenu-${item.label.toLowerCase()}`}
+                  aria-label={`Show ${item.label} links`}
+                >
+                  <svg
+                    class="mobile-submenu-chevron transition-transform duration-200"
+                    width="14"
+                    height="8"
+                    viewBox="0 0 10 6"
+                    aria-hidden="true"
+                  >
+                    <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                </button>
+              </div>
+              <ul
+                id={`mobile-submenu-${item.label.toLowerCase()}`}
+                class="mobile-submenu mt-3 hidden flex-col gap-2"
+              >
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="text-[15px] text-white/85 transition-opacity hover:opacity-70">
+                    <a href={child.href} class="text-[16px] text-white/85 transition-opacity hover:opacity-70">
                       {child.label}
                     </a>
                   </li>
                 ))}
               </ul>
-            )}
-          </li>
-        ))
+            </li>
+          ) : (
+            <li>
+              <a
+                href={item.href}
+                class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize transition-opacity hover:opacity-70"
+              >
+                {item.label}
+              </a>
+            </li>
+          )
+        )
       }
-      <li class="pt-4">
-        <p class="mb-3 text-[12px] tracking-[2px] text-white/60 uppercase">Other Locations</p>
-        <ul class="flex flex-col gap-2">
+      <li class="w-full pt-2">
+        <div class="flex items-center justify-center gap-2">
+          <span class="font-heading text-[28px] leading-[34px] font-bold text-white capitalize">
+            Other Locations
+          </span>
+          <button
+            type="button"
+            class="mobile-submenu-toggle inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-opacity hover:opacity-70"
+            aria-expanded="false"
+            aria-controls="mobile-submenu-locations"
+            aria-label="Show other locations"
+          >
+            <svg
+              class="mobile-submenu-chevron transition-transform duration-200"
+              width="14"
+              height="8"
+              viewBox="0 0 10 6"
+              aria-hidden="true"
+            >
+              <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+        </div>
+        <ul id="mobile-submenu-locations" class="mobile-submenu mt-3 hidden flex-col gap-2">
           {
             locations.map((loc) => (
               <li>
-                <a href={loc.url} target="_blank" rel="noopener" class="text-[18px] text-white transition-opacity hover:opacity-70">
+                <a
+                  href={loc.url}
+                  target="_blank"
+                  rel="noopener"
+                  class="text-[16px] text-white/85 transition-opacity hover:opacity-70"
+                >
                   {loc.name}
                 </a>
               </li>
@@ -249,6 +309,10 @@ const locations = site.sisterLocations;
     visibility: visible;
     opacity: 1;
   }
+
+  .mobile-submenu-toggle[aria-expanded="true"] .mobile-submenu-chevron {
+    transform: rotate(180deg);
+  }
 </style>
 
 <script>
@@ -267,15 +331,46 @@ const locations = site.sisterLocations;
 
   menu.removeAttribute("hidden");
 
+  const collapseSubmenus = () => {
+    menu.querySelectorAll<HTMLElement>(".mobile-submenu").forEach((submenu) => {
+      submenu.classList.add("hidden");
+      submenu.classList.remove("flex");
+    });
+    menu.querySelectorAll<HTMLButtonElement>(".mobile-submenu-toggle").forEach((btn) => {
+      btn.setAttribute("aria-expanded", "false");
+    });
+  };
+
   const setOpen = (open: boolean) => {
     menu.classList.toggle("is-open", open);
     openBtn.setAttribute("aria-expanded", String(open));
     document.body.style.overflow = open ? "hidden" : "";
+    if (!open) collapseSubmenus();
   };
 
   openBtn.addEventListener("click", () => setOpen(true));
   closeBtn.addEventListener("click", () => setOpen(false));
   menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+
+  menu.querySelectorAll<HTMLButtonElement>(".mobile-submenu-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const submenuId = btn.getAttribute("aria-controls");
+      const submenu = submenuId ? document.getElementById(submenuId) : null;
+      if (!submenu) return;
+
+      const willOpen = submenu.classList.contains("hidden");
+
+      // Accordion: only one submenu open at a time
+      collapseSubmenus();
+
+      if (willOpen) {
+        submenu.classList.remove("hidden");
+        submenu.classList.add("flex");
+        btn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
   window.addEventListener("keydown", (e) => {
     if (e.key === "Escape") setOpen(false);
   });
