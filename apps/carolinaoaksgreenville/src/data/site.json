@@ -1,0 +1,50 @@
+{
+  "name": "Carolina Oaks Dental Care",
+  "locationName": "Carolina Oaks Dental Care of Greenville",
+  "phone": "(864) 235-3949",
+  "phoneTel": "864-235-3949",
+  "address": {
+    "street": "498 S. Pleasantburg Dr",
+    "city": "Greenville",
+    "region": "SC",
+    "postal": "29607",
+    "lines": [
+      "498 S. Pleasantburg Dr",
+      "Greenville, SC 29607"
+    ],
+    "note": "The Carolina Oaks Greenville location is at the corner of S. Pleasantburg Drive and E. Faris Road across from Greenville Technical College.",
+    "medicaid": "This office does not accept Medicaid."
+  },
+  "hours": [
+    {
+      "days": "Mon",
+      "hours": "8:30am – 5:00pm",
+      "note": "Closed for Lunch 1:00pm – 2:00pm"
+    },
+    {
+      "days": "Tues, Wed and Thu",
+      "hours": "8:30am – 3:30pm"
+    }
+  ],
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13098.416477066587!2d-82.3644637!3d34.8410448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6ba36e5edd27117!2sCarolina%20Oaks%20Dental%20Care%20LLC!5e0!3m2!1sen!2sca!4v1648154375908!5m2!1sen!2sca",
+  "formspreeEndpoint": "https://formspree.io/f/mojolrvv",
+  "analytics": {
+    "gtm": "GTM-5HPPJN5",
+    "ga4": "G-E76SXNBXZN",
+    "facebookDomainVerification": "zw2z8wphwm6ll6aypqj0829aktu8ov"
+  },
+  "sisterLocations": [
+    {
+      "name": "Anderson",
+      "url": "https://carolinaoaksanderson.com/"
+    },
+    {
+      "name": "Clemson",
+      "url": "https://carolinaoaksclemson.com/"
+    },
+    {
+      "name": "Travelers Rest",
+      "url": "https://carolinaoakstr.com/"
+    }
+  ]
+}

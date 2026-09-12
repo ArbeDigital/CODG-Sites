@@ -1,0 +1,141 @@
+---
+import home from "../data/home.json";
+
+const testimonials = home.testimonials;
+---
+
+<section class="relative overflow-hidden bg-cream py-20 md:py-24">
+  <img
+    src="/images/shadow-leaves-left.png"
+    alt=""
+    aria-hidden="true"
+    class="pointer-events-none absolute top-0 left-0 max-w-[260px] opacity-40 max-md:-left-16"
+    width="400"
+    height="500"
+    loading="lazy"
+  />
+
+  <div class="relative mx-auto max-w-[900px] px-6 md:px-12">
+    <p class="text-[13px] font-semibold tracking-[2.5px] text-accent uppercase">
+      Client Testimonials
+    </p>
+    <h2 class="mt-3 text-brand">Rave Reviews From Our Happy Patients</h2>
+    <div class="mt-6 h-px w-full bg-brand/20" aria-hidden="true"></div>
+
+    <div id="testimonial-slider" class="relative mt-8">
+      {
+        testimonials.map((t, i) => (
+          <blockquote
+            class:list={[
+              "testimonial absolute inset-x-0 top-0 transition-opacity duration-500",
+              i === 0 ? "is-active opacity-100" : "pointer-events-none opacity-0",
+            ]}
+            data-index={i}
+            aria-hidden={i === 0 ? "false" : "true"}
+          >
+            <p class="text-[18px] leading-8 text-ink md:text-[20px] md:leading-9">
+              “{t.quote}”
+            </p>
+            <cite class="mt-6 block text-[15px] font-semibold tracking-[1.5px] text-brand not-italic">
+              {t.author}
+            </cite>
+          </blockquote>
+        ))
+      }
+    </div>
+
+    <div
+      id="testimonial-dots"
+      class="mt-10 flex items-center gap-3"
+      role="tablist"
+      aria-label="Testimonial slides"
+    >
+      {
+        testimonials.map((_, i) => (
+          <button
+            type="button"
+            class:list={["testimonial-dot", i === 0 && "is-active"]}
+            data-index={i}
+            aria-label={`Show testimonial ${i + 1}`}
+            aria-selected={i === 0 ? "true" : "false"}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonial-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+    transition:
+      background-color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .testimonial-dot:hover {
+    background-color: color-mix(in srgb, var(--color-accent) 55%, transparent);
+  }
+
+  .testimonial-dot.is-active {
+    background-color: transparent;
+    box-shadow: 0 0 0 1.5px var(--color-accent);
+    transform: scale(1.2);
+  }
+</style>
+
+<script>
+  const slider = document.getElementById("testimonial-slider");
+  const slides = Array.from(document.querySelectorAll<HTMLElement>(".testimonial"));
+  const dots = Array.from(document.querySelectorAll<HTMLButtonElement>(".testimonial-dot"));
+  let index = 0;
+  let timer: number | undefined;
+
+  const syncHeight = () => {
+    if (!slider || slides.length === 0) return;
+    // Temporarily clear so scrollHeight reflects content, then size to the tallest quote
+    slider.style.height = "auto";
+    const max = Math.max(...slides.map((slide) => slide.scrollHeight));
+    slider.style.height = `${max}px`;
+  };
+
+  const show = (next: number) => {
+    slides[index]?.classList.add("opacity-0", "pointer-events-none");
+    slides[index]?.classList.remove("opacity-100", "is-active");
+    slides[index]?.setAttribute("aria-hidden", "true");
+    dots[index]?.classList.remove("is-active");
+    dots[index]?.setAttribute("aria-selected", "false");
+
+    index = (next + slides.length) % slides.length;
+
+    slides[index]?.classList.remove("opacity-0", "pointer-events-none");
+    slides[index]?.classList.add("opacity-100", "is-active");
+    slides[index]?.setAttribute("aria-hidden", "false");
+    dots[index]?.classList.add("is-active");
+    dots[index]?.setAttribute("aria-selected", "true");
+  };
+
+  const restart = () => {
+    window.clearInterval(timer);
+    timer = window.setInterval(() => show(index + 1), 8000);
+  };
+
+  dots.forEach((dot) => {
+    dot.addEventListener("click", () => {
+      show(Number(dot.dataset.index));
+      restart();
+    });
+  });
+
+  syncHeight();
+  window.addEventListener("resize", syncHeight);
+  if (document.fonts?.ready) {
+    document.fonts.ready.then(syncHeight);
+  }
+
+  restart();
+</script>

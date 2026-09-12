@@ -1,0 +1,414 @@
+---
+import services from "../data/services.json";
+import site from "../data/site.json";
+
+interface Props {
+  transparent?: boolean;
+}
+
+const { transparent = false } = Astro.props;
+
+const primary = [
+  { label: "Services", href: "/services/", children: services.map((s) => ({ label: s.title, href: `/services/${s.slug}/` })) },
+  {
+    label: "About",
+    href: "/about-us/",
+    children: [
+      { label: "About Us", href: "/about-us/" },
+      { label: "Meet Dr. Carpenter", href: "/dr-tait-g-carpenter/" },
+      { label: "Meet Dr. Netzler", href: "/dr-molly-netzler/" },
+    ],
+  },
+  { label: "Blog", href: "/blog/" },
+  { label: "Forms", href: "/dental-forms/" },
+  { label: "Contact", href: "/contact-us/" },
+];
+
+const locations = site.sisterLocations;
+---
+
+<header
+  id="site-header"
+  data-transparent={transparent ? "true" : "false"}
+  class:list={[
+    "top-0 right-0 left-0 z-40 transition-[background-color,box-shadow,padding] duration-300",
+    transparent ? "fixed" : "sticky bg-white shadow-[0_1px_10px_rgba(0,0,0,0.12)]",
+  ]}
+>
+  <div class="mx-auto flex max-w-[1425px] items-center justify-between px-5 py-3 lg:justify-center lg:px-8 lg:py-5">
+    <a href="/" class="lg:hidden" aria-label="Carolina Oaks Dental Care Greenville — Home">
+      <img
+        src="/images/CO-Greenville.png"
+        alt="Carolina Oaks Dental Care of Greenville"
+        class="logo-dark h-[52px] w-auto"
+        width="180"
+        height="52"
+      />
+      <img
+        src="/images/greenville-logo-white.png"
+        alt=""
+        aria-hidden="true"
+        class="logo-light hidden h-[52px] w-auto"
+        width="180"
+        height="52"
+      />
+    </a>
+
+    <nav
+      class="hidden w-full max-w-[1300px] grid-cols-[1fr_auto_1fr] items-center gap-x-8 xl:gap-x-12 lg:grid"
+      aria-label="Primary"
+    >
+      <div class="flex items-center justify-end gap-6 xl:gap-8">
+        {
+          primary.slice(0, 3).map((item) =>
+            item.children ? (
+              <div class="group relative">
+                <a
+                  href={item.href}
+                  class="nav-link font-heading inline-flex items-center gap-1.5 px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+                >
+                  {item.label}
+                  <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                </a>
+                <ul class="invisible absolute top-full left-0 z-50 min-w-[260px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  {item.children.map((child) => (
+                    <li>
+                      <a href={child.href} class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand">
+                        {child.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <a
+                href={item.href}
+                class="nav-link font-heading px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+              >
+                {item.label}
+              </a>
+            )
+          )
+        }
+      </div>
+
+      <a href="/" class="shrink-0" aria-label="Carolina Oaks Dental Care Greenville — Home">
+        <img
+          src="/images/CO-Greenville.png"
+          alt="Carolina Oaks Dental Care of Greenville"
+          class="logo-dark h-[72px] w-auto"
+          width="220"
+          height="72"
+        />
+        <img
+          src="/images/greenville-logo-white.png"
+          alt=""
+          aria-hidden="true"
+          class="logo-light hidden h-[72px] w-auto"
+          width="220"
+          height="72"
+        />
+      </a>
+
+      <div class="flex items-center justify-start gap-6 xl:gap-8">
+        {
+          primary.slice(3).map((item) => (
+            <a
+              href={item.href}
+              class="nav-link font-heading px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+            >
+              {item.label}
+            </a>
+          ))
+        }
+
+        <div class="group relative">
+          <button
+            type="button"
+            class="nav-link font-heading inline-flex items-center gap-1.5 px-1 py-2 text-[15px] leading-5 font-bold tracking-[2px] uppercase transition-opacity hover:opacity-70"
+          >
+            Other Locations
+            <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true" class="opacity-70"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <ul class="invisible absolute top-full right-0 z-50 min-w-[200px] translate-y-1 bg-white py-3 opacity-0 shadow-[0_12px_40px_rgba(0,0,0,0.14)] transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            {
+              locations.map((loc) => (
+                <li>
+                  <a
+                    href={loc.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="block px-5 py-2 text-[14px] text-ink transition-colors hover:bg-[#f5efe9] hover:text-brand"
+                  >
+                    {loc.name}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <button
+      id="menu-open"
+      type="button"
+      class="nav-link flex items-center gap-3 lg:hidden"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <span class="font-heading text-[15px] font-bold tracking-[2px] uppercase">Menu</span>
+      <span class="flex flex-col gap-[5px]" aria-hidden="true">
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+        <span class="menu-line block h-[2px] w-[22px]"></span>
+      </span>
+    </button>
+  </div>
+</header>
+
+<div
+  id="mobile-menu"
+  class="bg-brand invisible fixed inset-0 z-50 flex flex-col opacity-0 transition-[opacity,visibility] duration-300"
+  hidden
+>
+  <div class="flex items-center justify-between border-b border-white/15 px-5 py-4">
+    <a href="/" class="shrink-0" aria-label="Carolina Oaks Dental Care Greenville — Home">
+      <img
+        src="/images/greenville-logo-white.png"
+        alt="Carolina Oaks Dental Care of Greenville"
+        class="h-[44px] w-auto"
+        width="160"
+        height="44"
+      />
+    </a>
+    <button
+      id="menu-close"
+      type="button"
+      class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-white/25 text-white transition-colors hover:border-white/50 hover:bg-white/10"
+      aria-label="Close menu"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M18 6 6 18M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
+
+  <nav aria-label="Mobile" class="min-h-0 flex-1 overflow-y-auto px-5 pt-2 pb-10">
+    <ul class="divide-y divide-white/15 border-b border-white/15">
+      {
+        primary.map((item) =>
+          item.children ? (
+            <li>
+              <div class="flex items-center gap-3 py-4">
+                <a
+                  href={item.href}
+                  class="font-heading min-w-0 flex-1 text-left text-[22px] leading-7 font-semibold text-white capitalize transition-opacity hover:opacity-75"
+                >
+                  {item.label}
+                </a>
+                <button
+                  type="button"
+                  class="mobile-submenu-toggle inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-white/35 bg-white/10 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] transition-colors hover:border-white/60 hover:bg-white/15"
+                  aria-expanded="false"
+                  aria-controls={`mobile-submenu-${item.label.toLowerCase()}`}
+                  aria-label={`Show ${item.label} links`}
+                >
+                  <svg
+                    class="mobile-submenu-chevron transition-transform duration-200"
+                    width="14"
+                    height="8"
+                    viewBox="0 0 10 6"
+                    aria-hidden="true"
+                  >
+                    <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+              <ul
+                id={`mobile-submenu-${item.label.toLowerCase()}`}
+                class="mobile-submenu mb-4 ml-1 hidden flex-col border-l-2 border-gold/55 pl-4"
+              >
+                {item.children.map((child) => (
+                  <li class="border-b border-white/10 last:border-b-0">
+                    <a
+                      href={child.href}
+                      class="block py-2.5 text-left text-[15px] leading-6 text-white/80 transition-colors hover:text-white"
+                    >
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ) : (
+            <li>
+              <a
+                href={item.href}
+                class="font-heading block py-4 text-left text-[22px] leading-7 font-semibold text-white capitalize transition-opacity hover:opacity-75"
+              >
+                {item.label}
+              </a>
+            </li>
+          )
+        )
+      }
+      <li>
+        <div class="flex items-center gap-3 py-4">
+          <span class="font-heading min-w-0 flex-1 text-left text-[22px] leading-7 font-semibold text-white capitalize">
+            Other Locations
+          </span>
+          <button
+            type="button"
+            class="mobile-submenu-toggle inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-white/35 bg-white/10 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] transition-colors hover:border-white/60 hover:bg-white/15"
+            aria-expanded="false"
+            aria-controls="mobile-submenu-locations"
+            aria-label="Show other locations"
+          >
+            <svg
+              class="mobile-submenu-chevron transition-transform duration-200"
+              width="14"
+              height="8"
+              viewBox="0 0 10 6"
+              aria-hidden="true"
+            >
+              <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <ul
+          id="mobile-submenu-locations"
+          class="mobile-submenu mb-4 ml-1 hidden flex-col border-l-2 border-gold/55 pl-4"
+        >
+          {
+            locations.map((loc) => (
+              <li class="border-b border-white/10 last:border-b-0">
+                <a
+                  href={loc.url}
+                  target="_blank"
+                  rel="noopener"
+                  class="block py-2.5 text-left text-[15px] leading-6 text-white/80 transition-colors hover:text-white"
+                >
+                  {loc.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </li>
+    </ul>
+
+    <a
+      href="/contact-us/"
+      class="btn btn-jumbo mt-8 w-full bg-[#f1c40f] text-center hover:bg-[#f1c40f]"
+    >
+      Request An Appointment
+    </a>
+  </nav>
+</div>
+
+<style>
+  #site-header .nav-link {
+    color: var(--color-ink);
+  }
+  #site-header .menu-line {
+    background-color: var(--color-ink);
+  }
+
+  #site-header.is-transparent {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  #site-header.is-transparent .nav-link {
+    color: #fff;
+  }
+  #site-header.is-transparent .menu-line {
+    background-color: #fff;
+  }
+  #site-header.is-transparent .logo-dark {
+    display: none;
+  }
+  #site-header.is-transparent .logo-light {
+    display: block;
+  }
+
+  #site-header[data-transparent="true"]:not(.is-transparent) {
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  #mobile-menu.is-open {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .mobile-submenu-toggle[aria-expanded="true"] {
+    border-color: color-mix(in srgb, var(--color-gold) 75%, white);
+    background-color: color-mix(in srgb, var(--color-gold) 22%, transparent);
+  }
+
+  .mobile-submenu-toggle[aria-expanded="true"] .mobile-submenu-chevron {
+    transform: rotate(180deg);
+  }
+</style>
+
+<script>
+  const header = document.getElementById("site-header")!;
+  const menu = document.getElementById("mobile-menu")!;
+  const openBtn = document.getElementById("menu-open")!;
+  const closeBtn = document.getElementById("menu-close")!;
+
+  if (header.dataset.transparent === "true") {
+    const update = () => {
+      header.classList.toggle("is-transparent", window.scrollY < 60);
+    };
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+  }
+
+  menu.removeAttribute("hidden");
+
+  const collapseSubmenus = () => {
+    menu.querySelectorAll<HTMLElement>(".mobile-submenu").forEach((submenu) => {
+      submenu.classList.add("hidden");
+      submenu.classList.remove("flex");
+    });
+    menu.querySelectorAll<HTMLButtonElement>(".mobile-submenu-toggle").forEach((btn) => {
+      btn.setAttribute("aria-expanded", "false");
+    });
+  };
+
+  const setOpen = (open: boolean) => {
+    menu.classList.toggle("is-open", open);
+    openBtn.setAttribute("aria-expanded", String(open));
+    document.body.style.overflow = open ? "hidden" : "";
+    if (!open) collapseSubmenus();
+  };
+
+  openBtn.addEventListener("click", () => setOpen(true));
+  closeBtn.addEventListener("click", () => setOpen(false));
+  menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+
+  menu.querySelectorAll<HTMLButtonElement>(".mobile-submenu-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const submenuId = btn.getAttribute("aria-controls");
+      const submenu = submenuId ? document.getElementById(submenuId) : null;
+      if (!submenu) return;
+
+      const willOpen = submenu.classList.contains("hidden");
+
+      // Accordion: only one submenu open at a time
+      collapseSubmenus();
+
+      if (willOpen) {
+        submenu.classList.remove("hidden");
+        submenu.classList.add("flex");
+        btn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") setOpen(false);
+  });
+</script>

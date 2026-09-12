@@ -1,0 +1,63 @@
+# Asset manifest for carolinaoaksgreenville Astro conversion
+# Copy from apps/carolinaoaksgreenville/<path> → apps/carolinaoaksgreenville/public/<dest>
+
+## Site / page images → public/images/
+wp-content/uploads/2017/01/CO-Greenville.png	→	public/images/CO-Greenville.png
+wp-content/uploads/2017/01/MedHx.pdf	→	public/images/MedHx.pdf
+wp-content/uploads/2017/01/PatientReg.pdf	→	public/images/PatientReg.pdf
+wp-content/uploads/2021/11/dr-carpenter-bio-1.jpg	→	public/images/dr-carpenter-bio-1.jpg
+wp-content/uploads/2021/11/dr-carpenter-circle.jpg	→	public/images/dr-carpenter-circle.jpg
+wp-content/uploads/2021/11/dr-netzler-circle.jpg	→	public/images/dr-netzler-circle.jpg
+wp-content/uploads/2022/02/cropped-favicon-greenville-180x180.png	→	public/images/cropped-favicon-greenville-180x180.png
+wp-content/uploads/2022/02/cropped-favicon-greenville-192x192.png	→	public/images/cropped-favicon-greenville-192x192.png
+wp-content/uploads/2022/02/cropped-favicon-greenville-32x32.png	→	public/images/cropped-favicon-greenville-32x32.png
+wp-content/uploads/2022/03/acorn-divider-grey.svg	→	public/images/acorn-divider-grey.svg
+wp-content/uploads/2022/03/criss-cross.png	→	public/images/criss-cross.png
+wp-content/uploads/2022/03/shadow-leaves-left.png	→	public/images/shadow-leaves-left.png
+wp-content/uploads/2022/03/shadow-leaves-right.png	→	public/images/shadow-leaves-right.png
+wp-content/uploads/2022/03/testimonial-cool-green-bg.jpg	→	public/images/testimonial-cool-green-bg.jpg
+wp-content/uploads/2022/04/Cosmetic-Dentistry.jpg	→	public/images/Cosmetic-Dentistry.jpg
+wp-content/uploads/2022/04/banner-about.jpg	→	public/images/banner-about.jpg
+wp-content/uploads/2022/04/banner-denture.jpg	→	public/images/banner-denture.jpg
+wp-content/uploads/2022/04/banner-family-dentistry.jpg	→	public/images/banner-family-dentistry.jpg
+wp-content/uploads/2022/04/banner-mouthguard.jpg	→	public/images/banner-mouthguard.jpg
+wp-content/uploads/2022/04/banner-root-canal-treatment.jpg	→	public/images/banner-root-canal-treatment.jpg
+wp-content/uploads/2022/04/banner-teeth-whitening.jpg	→	public/images/banner-teeth-whitening.jpg
+wp-content/uploads/2022/04/banner-veneers.jpg	→	public/images/banner-veneers.jpg
+wp-content/uploads/2022/04/dental-bridge.jpg	→	public/images/dental-bridge.jpg
+wp-content/uploads/2022/04/dental-crown-img.jpg	→	public/images/dental-crown-img.jpg
+wp-content/uploads/2022/04/dental-crown.jpg	→	public/images/dental-crown.jpg
+wp-content/uploads/2022/04/dental-dentures.jpg	→	public/images/dental-dentures.jpg
+wp-content/uploads/2022/04/dentistry-for-kids.jpg	→	public/images/dentistry-for-kids.jpg
+wp-content/uploads/2022/04/eating-dentures.jpg	→	public/images/eating-dentures.jpg
+wp-content/uploads/2022/04/family-dentistry.jpg	→	public/images/family-dentistry.jpg
+wp-content/uploads/2022/04/greenville-home-banner-1.jpg	→	public/images/greenville-home-banner-1.jpg
+wp-content/uploads/2022/04/greenville-logo-white-large.png	→	public/images/greenville-logo-white-large.png
+wp-content/uploads/2022/04/greenville-logo-white.png	→	public/images/greenville-logo-white.png
+wp-content/uploads/2022/04/happy-family-2.jpg	→	public/images/happy-family-2.jpg
+wp-content/uploads/2022/04/mouth-guards-football.jpg	→	public/images/mouth-guards-football.jpg
+wp-content/uploads/2022/04/mouth-guards-hockey.jpg	→	public/images/mouth-guards-hockey.jpg
+wp-content/uploads/2022/04/smiling-dentures.jpg	→	public/images/smiling-dentures.jpg
+wp-content/uploads/2022/04/teeth-whitening-blue-light.jpg	→	public/images/teeth-whitening-blue-light.jpg
+wp-content/uploads/2022/04/teeth-whitening.jpg	→	public/images/teeth-whitening.jpg
+wp-content/uploads/2022/04/toothach.jpg	→	public/images/toothach.jpg
+wp-content/uploads/2022/04/veneers-man.jpg	→	public/images/veneers-man.jpg
+wp-content/uploads/2022/04/veneers.jpg	→	public/images/veneers.jpg
+
+## Blog images → public/images/blog/
+wp-content/uploads/2017/02/Depositphotos_12866006_m-2015.jpg	→	public/images/blog/Depositphotos_12866006_m-2015.jpg
+wp-content/uploads/2017/02/tree-of-health-e1487442500450.jpg	→	public/images/blog/tree-of-health-e1487442500450.jpg
+wp-content/uploads/2017/03/Depositphotos_20179887_m-2015.jpg	→	public/images/blog/Depositphotos_20179887_m-2015.jpg
+wp-content/uploads/2017/03/beautiful-smiling-woman.jpg	→	public/images/blog/beautiful-smiling-woman.jpg
+wp-content/uploads/2017/04/family-photo.jpg	→	public/images/blog/family-photo.jpg
+wp-content/uploads/2017/04/senior-couple.jpg	→	public/images/blog/senior-couple.jpg
+wp-content/uploads/2022/04/AdobeStock_421243129-2-1024x683.jpeg	→	public/images/blog/AdobeStock_421243129-2-1024x683.jpeg
+wp-content/uploads/2022/10/AdobeStock_261217341-scaled.jpeg	→	public/images/blog/AdobeStock_261217341-scaled.jpeg
+wp-content/uploads/2023/02/AdobeStock_371221870-1024x683.jpeg	→	public/images/blog/AdobeStock_371221870-1024x683.jpeg
+wp-content/uploads/2023/03/AdobeStock_303731685-1024x683.jpeg	→	public/images/blog/AdobeStock_303731685-1024x683.jpeg
+
+## Notes
+- Home treatment CTA column backgrounds used WP attachment IDs 107/108/103/104 which are missing from the HTML mirror and 404 on the live media API.
+  Substituted service banner images (banner-family, banner-cosmetic-dentistry, banner-dental-general, banner-woman-smiling) for serviceCtas[].image.
+- Prefer full-size uploads over -NNxNN resized variants when copying.
+- Logo/favicon paths included for site chrome.

@@ -1,0 +1,67 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import { publicImage } from "../lib/images";
+
+interface Props {
+  title: string;
+  description: string;
+  intro?: string;
+  heroImage?: string;
+}
+
+const { title, description, intro, heroImage } = Astro.props;
+const heroSrc = publicImage(heroImage) || "/images/banner-family-dentistry.jpg";
+---
+
+<BaseLayout
+  title={`${title} | Carolina Oaks Dental Care Greenville`}
+  description={description}
+  ogImage={heroSrc}
+  transparentHeader
+>
+  <PageHero
+    title={title}
+    intro={intro}
+    image={heroSrc}
+    cta={{ label: "Request An Appointment", href: "/contact-us/" }}
+  />
+
+  <slot />
+</BaseLayout>
+
+<style is:global>
+  .service-prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .service-prose h3,
+  .service-prose h4 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .service-prose p + p {
+    margin-top: 1rem;
+  }
+  .service-prose ul {
+    margin: 1rem 0 1rem 1.25rem;
+    list-style: disc;
+  }
+  .service-prose ol {
+    margin: 1rem 0 1rem 1.25rem;
+    list-style: decimal;
+  }
+  .service-prose li + li {
+    margin-top: 0.35rem;
+  }
+  .service-prose a {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+  .service-prose img {
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+  }
+</style>

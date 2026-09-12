@@ -1,0 +1,72 @@
+---
+import { getCollection, render } from "astro:content";
+import BlogPostLayout from "../layouts/BlogPostLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import MediaSplit from "../components/MediaSplit.astro";
+import doctors from "../data/doctors.json";
+import { publicImage } from "../lib/images";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return [
+    ...posts.map((post) => ({
+      params: { slug: post.id },
+      props: { post, doctor: undefined },
+    })),
+    ...doctors.map((doctor) => ({
+      params: { slug: doctor.slug },
+      props: { post: undefined, doctor },
+    })),
+  ];
+}
+
+const { post, doctor } = Astro.props;
+const Content = post ? (await render(post)).Content : null;
+---
+
+{
+  doctor ? (
+    <BaseLayout
+      title={`${doctor.name} | Carolina Oaks Dental Care | Greenville Dentist`}
+      description={doctor.description}
+      ogImage={publicImage(doctor.image)}
+      transparentHeader
+    >
+      <PageHero
+        title={doctor.name}
+        image="/images/banner-about.jpg"
+        cta={{ label: "Request An Appointment", href: "/contact-us/" }}
+      />
+      <MediaSplit
+        heading={doctor.heading}
+        image={doctor.image}
+        imageAlt={doctor.imageAlt}
+        imagePosition="right"
+      >
+        {doctor.bio.map((p) => (
+          <p>{p}</p>
+        ))}
+      </MediaSplit>
+    </BaseLayout>
+  ) : post && Content ? (
+    <BlogPostLayout
+      title={post.data.title}
+      description={post.data.description}
+      image={post.data.image}
+      imageAlt={post.data.imageAlt}
+      pubDate={post.data.pubDate}
+    >
+      <Content />
+
+      <p class="mt-12 border-t border-brand/10 pt-8">
+        <a
+          href="/blog/"
+          class="text-[13px] font-bold tracking-[2px] text-accent uppercase"
+        >
+          ← Back to Blog
+        </a>
+      </p>
+    </BlogPostLayout>
+  ) : null
+}

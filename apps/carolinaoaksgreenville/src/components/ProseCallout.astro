@@ -1,0 +1,32 @@
+---
+interface Props {
+  heading: string;
+  html: string;
+  calloutHeading: string;
+  calloutItems: string[];
+}
+
+const { heading, html, calloutHeading, calloutItems } = Astro.props;
+---
+
+<section class="py-6 md:py-10">
+  <div class="mx-auto grid max-w-[1425px] items-start gap-8 px-6 md:grid-cols-2 md:gap-10 md:px-12 lg:gap-12 xl:px-[90px]">
+    <div class="service-prose medium-p">
+      <h3 class="mt-0!">{heading}</h3>
+      <div set:html={html} />
+    </div>
+
+    <aside class="rounded-[10px] bg-brand p-8 text-white md:p-[50px]">
+      <h4 class="mt-0! text-[24px]! leading-8! text-white! md:text-[28px]! md:leading-9!">
+        {calloutHeading}
+      </h4>
+      <ul class="mt-4 space-y-2">
+        {
+          calloutItems.map((item) => (
+            <li class="text-[16px] leading-7 text-white/95 md:text-[17px] md:leading-8">{item}</li>
+          ))
+        }
+      </ul>
+    </aside>
+  </div>
+</section>

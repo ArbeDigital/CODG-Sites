@@ -1,0 +1,11 @@
+---
+import LegalLayout from "../layouts/LegalLayout.astro";
+import privacyHtml from "../data/privacy.html?raw";
+---
+
+<LegalLayout
+  title="Privacy Policy | Carolina Oaks Dental Care"
+  description="Privacy policy for Carolina Oaks Dental Care of Greenville."
+>
+  <Fragment set:html={privacyHtml} />
+</LegalLayout>
