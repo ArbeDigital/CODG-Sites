@@ -26,4 +26,9 @@ const columns = [
   />
 
   <TwoColumnProse heading={about.heading} columns={columns} />
+
+  <section class="service-prose mx-auto max-w-[900px] px-6 pb-16 md:px-12">
+    <h2>{about.moreHeading}</h2>
+    {about.moreParagraphs.map((p) => <p class="medium-p mt-4">{p}</p>)}
+  </section>
 </BaseLayout>
