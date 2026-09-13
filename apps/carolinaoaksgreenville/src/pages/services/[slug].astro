@@ -1,0 +1,157 @@
+---
+import ServiceLayout from "../../layouts/ServiceLayout.astro";
+import MediaSplit from "../../components/MediaSplit.astro";
+import ProcedureCards from "../../components/ProcedureCards.astro";
+import ProcessSteps from "../../components/ProcessSteps.astro";
+import TwoColumnProse from "../../components/TwoColumnProse.astro";
+import ProseCallout from "../../components/ProseCallout.astro";
+import FaqAccordion from "../../components/FaqAccordion.astro";
+import services from "../../data/services.json";
+import { publicImage } from "../../lib/images";
+
+export function getStaticPaths() {
+  return services.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+
+type ProcedureCard = {
+  title?: string;
+  bodyHtml: string;
+};
+
+type ProcessStep = {
+  title: string;
+  bodyHtml: string;
+};
+
+type Section = (typeof service.sections)[number] & {
+  imagePosition?: "left" | "right";
+  layout?: string;
+  introHtml?: string;
+  cards?: ProcedureCard[];
+  cardColumns?: 1 | 2 | 3;
+  footerHtml?: string;
+  columns?: { html: string }[];
+  callout?: { heading: string; items: string[] };
+  processHeading?: string;
+  steps?: ProcessStep[];
+};
+
+type FaqItem = {
+  question: string;
+  answerHtml: string;
+};
+
+const sections = service.sections as Section[];
+const faqs = ("faqs" in service ? (service as { faqs?: FaqItem[] }).faqs : undefined) || [];
+---
+
+<ServiceLayout
+  title={service.title}
+  description={service.description}
+  intro={service.intro}
+  heroImage={service.heroImage}
+>
+  {
+    sections.map((section) => {
+      if (section.layout === "procedureCards" && section.cards?.length) {
+        return (
+          <ProcedureCards
+            heading={section.heading}
+            introHtml={section.introHtml || ""}
+            cards={section.cards}
+            columns={section.cardColumns}
+            footerHtml={section.footerHtml}
+          />
+        );
+      }
+
+      if (section.layout === "processSteps" && section.steps?.length) {
+        return (
+          <ProcessSteps
+            heading={section.heading}
+            introHtml={section.html || ""}
+            processHeading={section.processHeading}
+            steps={section.steps}
+          />
+        );
+      }
+
+      if (section.layout === "twoColumnProse" && section.columns?.length) {
+        return <TwoColumnProse heading={section.heading} columns={section.columns} />;
+      }
+
+      if (section.layout === "proseCallout" && section.callout) {
+        return (
+          <ProseCallout
+            heading={section.heading}
+            html={section.html || ""}
+            calloutHeading={section.callout.heading}
+            calloutItems={section.callout.items}
+          />
+        );
+      }
+
+      const splitImages = section.imagePosition && section.images?.length ? section.images : undefined;
+      const body = section.html ? (
+        <div class="medium-p" set:html={section.html} />
+      ) : (
+        <div class="medium-p">
+          {section.paragraphs?.map((p) => <p>{p}</p>)}
+          {section.lists?.map((list) =>
+            list.ordered ? (
+              <ol>
+                {list.items.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ol>
+            ) : (
+              <ul>
+                {list.items.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            )
+          )}
+        </div>
+      );
+
+      if (splitImages) {
+        return (
+          <MediaSplit
+            heading={section.heading}
+            images={splitImages.map((img) => ({
+              src: img.src,
+              alt: img.alt || `${service.title} at Carolina Oaks Dental Care of Greenville`,
+            }))}
+            imagePosition={section.imagePosition}
+          >
+            {body}
+          </MediaSplit>
+        );
+      }
+
+      return (
+        <section class="service-prose mx-auto max-w-[900px] px-6 py-8 md:px-12 md:py-10">
+          <h2>{section.heading}</h2>
+          {body}
+          {section.images?.map((img) => (
+            <img
+              src={publicImage(img.src)}
+              alt={img.alt || `${service.title} at Carolina Oaks Dental Care of Greenville`}
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+          ))}
+        </section>
+      );
+    })
+  }
+
+  <FaqAccordion items={faqs} />
+</ServiceLayout>

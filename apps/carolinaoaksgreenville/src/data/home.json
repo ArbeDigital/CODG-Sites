@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "headline": "A Brighter Smile For Brighter Days",
+    "subcopy": "If you’re looking for a down-to-earth, expert dentist in Greenville, SC, Carolina Oaks has you covered. Our knowledgeable dentists and friendly team offer high quality, full-service dentistry in a relaxing, comfortable space.",
+    "cta": {
+      "label": "Request An Appointment",
+      "href": "/contact-us/"
+    },
+    "image": "wp-content/uploads/2022/04/greenville-home-banner-1.jpg"
+  },
+  "welcome": {
+    "eyebrow": "Exceptional Care From Our Family to Yours",
+    "heading": "Your brightest, healthiest smile is our main goal",
+    "paragraphs": [
+      "At our dentist-owned and led practice, we’re proud to deliver high quality, trusted dental care to our friends and neighbors in the Greenville area. And while your oral health and safety are our top priorities, we also pull out all of the stops to make visits positive, comfortable and convenient. In fact, every aspect of our practice was designed with patient experience in mind. From routine care to emergency dental services, we’re here for you (and your smile) when you need it. Schedule an appointment with our Greenville, SC dentist today!"
+    ],
+    "features": [
+      "Expert Care",
+      "Fun, Friendly Atmosphere",
+      "Top-Notch Service"
+    ]
+  },
+  "doctors": [
+    {
+      "name": "Dr. Molly J. Netzler",
+      "credentials": "DMD",
+      "title": "Dr. Molly J. Netzler, DMD",
+      "image": "wp-content/uploads/2021/11/dr-netzler-circle.jpg",
+      "href": "/dr-molly-netzler/",
+      "bio": [
+        "As the daughter of a general dentist, Dr. Molly Netzler developed a love of dentistry at an early age. The Summerville native attended dental school at the Medical University of South Carolina. While there, she was one of 15 students chosen nationwide to train and do dental research at the National Institute of Dental and Craniofacial Research in Bethesda, MD. Dr. Netzler has been practicing at our Clemson location since 2014 and is thrilled to have transitioned to our Greenville office."
+      ]
+    },
+    {
+      "name": "Dr. Tait G. Carpenter",
+      "credentials": "DMD",
+      "title": "Dr. Tait G. Carpenter, DMD",
+      "image": "wp-content/uploads/2021/11/dr-carpenter-circle.jpg",
+      "href": "/dr-tait-g-carpenter/",
+      "bio": [
+        "Dr. Tait Carpenter grew up in Summerville, SC and went on to earn her Doctor of Dental Medicine Degree from the Medical University of South Carolina. Most recently, her continuing education has focused on teeth straightening, cosmetic dentistry and TMD treatment. Dr. Carpenter began practicing at the Carolina Oaks’ Clemson location in 2016. She is excited to now be offering general dentistry in Greenville and loves helping patients of all ages achieve healthy smiles."
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "It was my first time, and I had an amazing experience. The staff are all very friendly and my cleaning was the most comfortable one I’ve ever had. Excited to have found a trusted dental care office.",
+      "author": "Glory K"
+    },
+    {
+      "quote": "Great dentist office in awesome location…staff is extremely nice, professional, and accommodating. Would definitely recommend this office to anyone looking for a new dentist.",
+      "author": "Mike W"
+    },
+    {
+      "quote": "I am so happy I decided to pick Carolina Oaks as my new Dentist! They are so friendly. If you need a new dentist, go here! You won’t regret it!",
+      "author": "Lauren G"
+    },
+    {
+      "quote": "I was very impressed with how friendly and helpful everyone was. I love the location, its very convenient to where I work so making it very easy to visit during my lunch hour. Just a great experience, would definitely recommend.",
+      "author": "Scott M"
+    },
+    {
+      "quote": "After moving around the country the last few years I am embarrassed to admit making time for dentist appointments was not a high priority. I went in for a check up and cleaning today and they made me feel very comfortable and welcome. My cleaning was more than a bit over due and I was expecting to be very sore after. Just the opposite, she was very gentle and understating of my procrastination. I made my next appointments with no hesitation. Pleasant experience and that says a lot when it refers to a dentist appointment.",
+      "author": "Michele Z"
+    },
+    {
+      "quote": "Couldn’t be happier! The staff are so friendly and personable; appointments are quick yet thorough. The best service I’ve ever received at a dentist office.",
+      "author": "Jenni C"
+    }
+  ],
+  "serviceCtas": [
+    {
+      "title": "Family Dentistry",
+      "href": "/services/family-dentistry/",
+      "image": "wp-content/uploads/2022/04/banner-family-dentistry.jpg",
+      "blurb": "Our expert dentists and friendly team offer gentle, high quality family dentistry in Greenville, SC."
+    },
+    {
+      "title": "Teeth Whitening",
+      "href": "/services/teeth-whitening/",
+      "image": "wp-content/uploads/2022/04/banner-teeth-whitening.jpg",
+      "blurb": "With professional teeth whitening, you’ll leave our office with a whiter, brighter, more confident grin."
+    },
+    {
+      "title": "Dental Implants",
+      "href": "/services/dental-implants/",
+      "image": "wp-content/uploads/2022/04/banner-root-canal-treatment.jpg",
+      "blurb": "Dental implants are a lasting solution for one or more missing teeth. They’ll help you reclaim the function and appearance of your smile."
+    },
+    {
+      "title": "Dental Services",
+      "href": "/services/",
+      "image": "wp-content/uploads/2022/04/banner-about.jpg",
+      "blurb": "We provide general, restorative, cosmetic and implant dentistry, as well as emergency services, all in one convenient location."
+    }
+  ],
+  "doctorsHeading": "Meet the experienced and friendly doctors",
+  "dependableCare": {
+    "heading": "Providing Dependable Dental Services in Greenville, SC",
+    "paragraphs": [
+      "Carolina Oaks Dental Care offers exceptional dental care with a gentle, patient-focused approach and convenient locations. We know seeing the dentist can be difficult for many people, so we strive to make it easy and comfortable for all of our patients. With efficient and dependable care in a comfortable and enjoyable setting, you’ll look forward to your visits. Call us today at 864-235-3949 to schedule your appointment and we will ensure that you leave with a smile every time."
+    ]
+  },
+  "appointmentBanner": {
+    "image": "wp-content/uploads/2022/04/greenville-home-banner-1.jpg",
+    "cta": {
+      "label": "Request An Appointment",
+      "href": "/contact-us/"
+    }
+  }
+}

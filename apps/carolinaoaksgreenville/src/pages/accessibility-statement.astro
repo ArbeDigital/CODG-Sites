@@ -1,0 +1,11 @@
+---
+import LegalLayout from "../layouts/LegalLayout.astro";
+import accessibilityHtml from "../data/accessibility.html?raw";
+---
+
+<LegalLayout
+  title="Accessibility Statement | Carolina Oaks Dental Care"
+  description="Accessibility statement for Carolina Oaks Dental Care of Greenville."
+>
+  <Fragment set:html={accessibilityHtml} />
+</LegalLayout>

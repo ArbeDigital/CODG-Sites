@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Doctors from "../components/Doctors.astro";
+import ServiceCtaGrid from "../components/ServiceCtaGrid.astro";
+import Testimonials from "../components/Testimonials.astro";
+import home from "../data/home.json";
+
+const features = [
+  {
+    label: "Expert Care",
+    icon: "heart",
+  },
+  {
+    label: "Fun, Friendly Atmosphere",
+    icon: "like",
+  },
+  {
+    label: "Top-Notch Service",
+    icon: "comment",
+  },
+] as const;
+---
+
+<BaseLayout
+  title="Family Dental Clinic | Dentist in Greenville SC | Carolina Oaks Dental Care"
+  description="If you’re looking for a down-to-earth, expert dentist in Greenville, SC, Carolina Oaks has you covered. Our dentists and friendly team offer high quality, full-service dentistry in a relaxing, comfortable space."
+  transparentHeader
+  ogImage="/images/greenville-home-banner-1.jpg"
+>
+  <Hero />
+
+  <section class="relative z-10 -mt-px overflow-x-clip bg-white py-[6%]">
+    <img
+      src="/images/shadow-leaves-left.png"
+      alt=""
+      aria-hidden="true"
+      class="pointer-events-none absolute top-0 left-0 max-w-[280px] opacity-70 max-[690px]:-left-[120px]"
+      width="400"
+      height="500"
+      loading="lazy"
+    />
+    <div class="relative mx-auto max-w-[900px] px-6 text-center md:px-12">
+      <p class="font-serif-alt text-[18px] text-brand italic">{home.welcome.eyebrow}</p>
+      <h2 class="mt-3">{home.welcome.heading}</h2>
+      {
+        home.welcome.paragraphs.map((p) => (
+          <p class="medium-p mt-6 text-[18px] leading-8">{p}</p>
+        ))
+      }
+    </div>
+
+    <ul
+      class="relative mx-auto mt-10 flex max-w-[1100px] flex-col items-stretch gap-6 border-y border-[#d8d5d2] px-6 py-8 sm:flex-row sm:items-center sm:justify-between sm:gap-8 md:mt-12 md:px-12 md:py-10 xl:px-[90px]"
+    >
+      {
+        features.map((feature) => (
+          <li class="flex items-center gap-3 text-left">
+            <span class="shrink-0 text-[#19949f]" aria-hidden="true">
+              {feature.icon === "heart" && (
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                </svg>
+              )}
+              {feature.icon === "like" && (
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z" />
+                  <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3" />
+                </svg>
+              )}
+              {feature.icon === "comment" && (
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="14" rx="2" />
+                  <path d="M7 9h10M7 13h6" />
+                </svg>
+              )}
+            </span>
+            <span class="font-sans text-[16px] leading-6 font-medium tracking-[2px] text-[#291f1c] uppercase md:text-[18px] md:leading-7">
+              {feature.label}
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="relative mx-auto max-w-[900px] px-6 text-center md:px-12">
+      <a href={home.appointmentBanner.cta.href} class="btn btn-jumbo mt-10">
+        {home.appointmentBanner.cta.label}
+      </a>
+    </div>
+  </section>
+
+  <ServiceCtaGrid />
+  <Doctors />
+
+  <section class="bg-cream py-[6%]">
+    <div class="mx-auto max-w-[900px] px-6 text-center md:px-12">
+      <h2>{home.dependableCare.heading}</h2>
+      {
+        home.dependableCare.paragraphs.map((p) => (
+          <p class="medium-p mt-6 text-[18px] leading-8">{p}</p>
+        ))
+      }
+      <a href="/contact-us/" class="btn btn-jumbo mt-8">Request An Appointment</a>
+    </div>
+  </section>
+
+  <Testimonials />
+</BaseLayout>

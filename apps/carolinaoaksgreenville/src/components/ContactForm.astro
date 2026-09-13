@@ -1,0 +1,118 @@
+---
+import site from "../data/site.json";
+---
+
+<div class="rounded-[10px] bg-white p-8 shadow-[0_10px_40px_rgba(47,58,53,0.08)] md:p-10">
+  <h4 class="mb-6 text-[28px]! md:text-[32px]!">Send us a message</h4>
+
+  <form
+    action={site.formspreeEndpoint}
+    method="POST"
+    class="flex flex-col gap-5"
+  >
+    <input type="hidden" name="_next" value="https://carolinaoaksgreenville.com/thank-you/" />
+    <label class="form-label">
+      Full Name*
+      <input type="text" name="name" required class="form-field" autocomplete="name" />
+    </label>
+    <label class="form-label">
+      Email*
+      <input type="email" name="email" required class="form-field" autocomplete="email" />
+    </label>
+    <label class="form-label">
+      Phone*
+      <input
+        type="tel"
+        name="phone"
+        id="formspree-phone"
+        placeholder="(864) 555-1234"
+        pattern="\(\d{3}\) \d{3}-\d{4}"
+        maxlength="14"
+        inputmode="numeric"
+        title="Please enter a 10-digit phone number, e.g. (864) 555-1234"
+        required
+        class="form-field"
+        autocomplete="tel"
+      />
+    </label>
+    <label class="form-label">
+      Message
+      <textarea name="message" rows="8" class="form-field form-field--textarea"></textarea>
+    </label>
+    <button type="submit" class="btn btn-jumbo mt-2 w-fit cursor-pointer bg-[#f1c40f] hover:bg-[#f1c40f]">
+      Submit
+    </button>
+  </form>
+</div>
+
+<style>
+  .form-label {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3a3a3a;
+  }
+
+  .form-field {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.035);
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3a3a3a;
+    transition: border-color 0.2s ease;
+  }
+
+  .form-field:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    background-color: #fff;
+  }
+
+  .form-field--textarea {
+    padding: 20px;
+    min-height: 180px;
+    resize: vertical;
+  }
+</style>
+
+<script>
+  const phone = document.getElementById(
+    "formspree-phone"
+  ) as HTMLInputElement | null;
+
+  if (phone) {
+    const formatPhone = (value: string) => {
+      let digits = value.replace(/\D/g, "");
+      // Drop a leading US country code so pasting +1… keeps the local number
+      if (digits.length > 10 && digits.startsWith("1")) {
+        digits = digits.slice(1);
+      }
+      digits = digits.slice(0, 10);
+      if (digits.length === 0) return "";
+      if (digits.length < 4) return "(" + digits;
+      if (digits.length < 7)
+        return "(" + digits.slice(0, 3) + ") " + digits.slice(3);
+      return (
+        "(" +
+        digits.slice(0, 3) +
+        ") " +
+        digits.slice(3, 6) +
+        "-" +
+        digits.slice(6)
+      );
+    };
+
+    phone.addEventListener("input", () => {
+      const formatted = formatPhone(phone.value);
+      if (phone.value !== formatted) phone.value = formatted;
+    });
+    phone.addEventListener("blur", () => {
+      phone.value = formatPhone(phone.value);
+    });
+  }
+</script>

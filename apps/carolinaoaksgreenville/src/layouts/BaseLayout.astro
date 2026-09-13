@@ -1,0 +1,117 @@
+---
+import "../styles/global.css";
+import Tracking from "../components/Tracking.astro";
+import GtmNoscript from "../components/GtmNoscript.astro";
+import Header from "../components/Header.astro";
+import FooterCta from "../components/FooterCta.astro";
+import Footer from "../components/Footer.astro";
+import site from "../data/site.json";
+
+interface Props {
+  title: string;
+  description: string;
+  ogType?: "website" | "article";
+  ogImage?: string;
+  transparentHeader?: boolean;
+  showFooterCta?: boolean;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  ogType = "website",
+  ogImage = "/images/greenville-home-banner-1.jpg",
+  transparentHeader = false,
+  showFooterCta = true,
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImageUrl = new URL(ogImage, Astro.site);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": ["Dentist", "Organization"],
+  name: site.locationName,
+  url: "https://carolinaoaksgreenville.com",
+  telephone: `+1-${site.phoneTel}`,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: site.address.street,
+    addressLocality: site.address.city,
+    addressRegion: site.address.region,
+    postalCode: site.address.postal,
+    addressCountry: "US",
+  },
+  openingHours: [
+    "Monday 08:30-17:00",
+    "Tuesday,Wednesday,Thursday 08:30-15:30",
+  ],
+};
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta
+      name="robots"
+      content={
+        noindex
+          ? "noindex, follow"
+          : "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      }
+    />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap.xml" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Carolina Oaks Dental Care" />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/favicon-180x180.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Baskervville&family=Lora:wght@600;700&family=Poppins:wght@400;600;700&display=swap"
+    />
+
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+    <Tracking />
+  </head>
+  <body>
+    <GtmNoscript />
+
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-3"
+      >Skip to main content</a
+    >
+
+    <Header transparent={transparentHeader} />
+
+    <main id="main">
+      <slot />
+    </main>
+
+    {showFooterCta && <FooterCta />}
+    <Footer />
+  </body>
+</html>

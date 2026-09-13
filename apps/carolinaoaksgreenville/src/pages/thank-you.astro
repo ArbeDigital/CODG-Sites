@@ -1,0 +1,77 @@
+---
+import "../styles/global.css";
+import Tracking from "../components/Tracking.astro";
+import GtmNoscript from "../components/GtmNoscript.astro";
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thank You | Carolina Oaks Dental Care Greenville</title>
+    <meta
+      name="description"
+      content="Thank you for contacting Carolina Oaks Dental Care Greenville. We have received your message."
+    />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+
+    <!-- Conversion / thank-you page: keep GTM + GA4 so conversion tags can fire -->
+    <Tracking />
+  </head>
+  <body
+    class="text-[#2f3a35]"
+    style="background:
+      radial-gradient(
+        circle at top left,
+        rgba(232, 191, 58, 0.18),
+        transparent 32rem
+      ),
+      #f7faf8;"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <GtmNoscript />
+
+    <main class="flex min-h-screen items-center justify-center px-5 py-8">
+      <section
+        class="w-full max-w-[680px] rounded-3xl border border-accent/15 bg-white p-[clamp(32px,7vw,64px)] text-center shadow-[0_24px_70px_rgba(47,58,53,0.12)]"
+        aria-labelledby="thank-you-heading"
+      >
+        <img
+          class="mx-auto mb-9 h-auto w-[min(280px,78%)]"
+          src="/images/CO-Greenville.png"
+          alt="Carolina Oaks Dental Care of Greenville"
+          width="280"
+          height="100"
+        />
+        <h1
+          id="thank-you-heading"
+          class="text-accent! font-sans! text-[clamp(36px,7vw,58px)]! leading-[1.08]! font-bold! normal-case!"
+        >
+          Thank you!
+        </h1>
+        <div
+          class="bg-gold mx-auto my-[26px] h-1 w-[72px] rounded-full"
+          aria-hidden="true"
+        >
+        </div>
+        <p class="mx-auto max-w-[520px] text-lg leading-[1.7] text-[#63706a]">
+          Your message has been received. A member of our team will contact you
+          soon to help with the next steps.
+        </p>
+        <a
+          class="bg-accent mt-[34px] inline-block rounded-full px-7 py-[15px] font-bold text-white transition-[background-color,transform] duration-200 hover:-translate-y-px hover:bg-[#b54a1f]"
+          href="/">Return to Home</a
+        >
+      </section>
+    </main>
+  </body>
+</html>

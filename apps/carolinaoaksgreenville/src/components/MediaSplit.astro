@@ -1,0 +1,88 @@
+---
+import { publicImage } from "../lib/images";
+
+interface SplitImage {
+  src: string;
+  alt?: string;
+}
+
+interface Props {
+  heading: string;
+  image?: string;
+  imageAlt?: string;
+  images?: SplitImage[];
+  /** Which side the image appears on (desktop). Defaults to right. */
+  imagePosition?: "left" | "right";
+  imageSize?: "portrait" | "square";
+}
+
+const {
+  heading,
+  image,
+  imageAlt = "",
+  images,
+  imagePosition = "right",
+  imageSize = "portrait",
+} = Astro.props;
+
+const gallery = (images?.length
+  ? images
+  : image
+    ? [{ src: image, alt: imageAlt }]
+    : []
+).map((img) => ({
+  src: publicImage(img.src) || img.src,
+  alt: img.alt || heading,
+}));
+
+const isSquare = imageSize === "square";
+const stacked = gallery.length > 1;
+---
+
+<section class="media-split py-10 md:py-14">
+  <div
+    class:list={[
+      "mx-auto grid max-w-[1425px] items-center px-6 md:px-12 xl:px-[90px]",
+      isSquare
+        ? [
+            "gap-6 md:gap-8",
+            imagePosition === "left"
+              ? "lg:grid-cols-[minmax(0,300px)_minmax(0,1fr)]"
+              : "lg:grid-cols-[minmax(0,1fr)_minmax(0,300px)]",
+          ]
+        : "gap-8 md:gap-12 lg:grid-cols-2 xl:gap-16",
+    ]}
+  >
+    <div class:list={["service-prose", imagePosition === "left" ? "lg:order-2" : "lg:order-1"]}>
+      <h2 class="mt-0!">{heading}</h2>
+      <slot />
+    </div>
+
+    <div
+      class:list={[
+        stacked
+          ? "mx-auto flex w-full max-w-[520px] flex-col gap-4 lg:max-w-none"
+          : isSquare
+            ? "mx-auto w-full max-w-[300px]"
+            : "max-lg:mx-auto max-lg:w-full max-lg:max-w-[420px]",
+        imagePosition === "left" ? "lg:order-1" : "lg:order-2",
+      ]}
+    >
+      {
+        gallery.map((img) => (
+          <img
+            src={img.src}
+            alt={img.alt}
+            class:list={[
+              "w-full rounded-[12px] object-cover",
+              stacked ? "aspect-[4/3]" : isSquare ? "aspect-square" : "aspect-[2/3]",
+            ]}
+            width={isSquare ? 300 : stacked ? 640 : 500}
+            height={isSquare ? 300 : stacked ? 480 : 750}
+            loading="lazy"
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

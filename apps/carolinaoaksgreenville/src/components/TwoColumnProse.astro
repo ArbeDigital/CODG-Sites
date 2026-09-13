@@ -1,0 +1,23 @@
+---
+interface Props {
+  heading: string;
+  columns: { html: string }[];
+}
+
+const { heading, columns } = Astro.props;
+---
+
+<section class="py-10 md:py-14">
+  <div class="mx-auto max-w-[1425px] px-6 md:px-12 xl:px-[90px]">
+    <div class="service-prose">
+      <h2 class="mt-0! max-w-[900px]">{heading}</h2>
+    </div>
+    <div class="mt-6 grid gap-8 md:mt-8 md:grid-cols-2 md:gap-10 lg:gap-16">
+      {
+        columns.map((col) => (
+          <div class="service-prose medium-p" set:html={col.html} />
+        ))
+      }
+    </div>
+  </div>
+</section>

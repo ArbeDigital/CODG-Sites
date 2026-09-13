@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import TwoColumnProse from "../components/TwoColumnProse.astro";
+import about from "../data/about.json";
+import { publicImage } from "../lib/images";
+
+const heroSrc = publicImage(about.heroImage) || "/images/banner-about.jpg";
+const midpoint = Math.ceil(about.paragraphs.length / 2);
+const columns = [
+  { html: about.paragraphs.slice(0, midpoint).map((p) => `<p>${p}</p>`).join("") },
+  { html: about.paragraphs.slice(midpoint).map((p) => `<p>${p}</p>`).join("") },
+];
+---
+
+<BaseLayout
+  title="Carolina Oaks Dental Care of Greenville, SC"
+  description={about.description}
+  transparentHeader
+  ogImage={heroSrc}
+>
+  <PageHero
+    title={about.title}
+    image={heroSrc}
+    cta={{ label: "Request An Appointment", href: "/contact-us/" }}
+  />
+
+  <TwoColumnProse heading={about.heading} columns={columns} />
+
+  <section class="service-prose mx-auto max-w-[900px] px-6 pb-16 md:px-12">
+    <h2>{about.moreHeading}</h2>
+    {about.moreParagraphs.map((p) => <p class="medium-p mt-4">{p}</p>)}
+  </section>
+</BaseLayout>

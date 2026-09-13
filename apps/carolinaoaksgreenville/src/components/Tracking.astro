@@ -1,0 +1,39 @@
+---
+// GTM + GA4 + Facebook domain verification (from the original WP site).
+// Meta Pixel fires via GTM — do not hard-code a pixel ID here.
+---
+
+<meta
+  name="facebook-domain-verification"
+  content="zw2z8wphwm6ll6aypqj0829aktu8ov"
+/>
+
+<!-- Google Tag Manager -->
+<script is:inline>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-5HPPJN5");
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Analytics (gtag.js) — live site loads this outside GTM -->
+<script
+  is:inline
+  async
+  id="google_gtagjs"
+  src="https://www.googletagmanager.com/gtag/js?id=G-E76SXNBXZN"></script>
+<script is:inline id="google_gtagjs-inline">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-E76SXNBXZN", {});
+</script>
