@@ -3,6 +3,11 @@ import home from "../data/home.json";
 import { publicImage } from "../lib/images";
 
 const doctors = home.doctors;
+
+function meetCtaLabel(name: string) {
+  const lastName = name.replace(/^Dr\.\s+/i, "").trim().split(/\s+/).at(-1) ?? "";
+  return `Meet Dr. ${lastName}`;
+}
 ---
 
 <section class="bg-white py-[6%]">
@@ -33,6 +38,11 @@ const doctors = home.doctors;
               {doc.bio.map((p) => (
                 <p class="mt-4 text-[16px] leading-7">{p}</p>
               ))}
+              {doc.href && (
+                <a href={doc.href} class="btn btn-large mt-6">
+                  {meetCtaLabel(doc.name)}
+                </a>
+              )}
             </div>
           </article>
         ))

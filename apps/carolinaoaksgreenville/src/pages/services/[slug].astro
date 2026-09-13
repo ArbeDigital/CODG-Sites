@@ -19,7 +19,7 @@ export function getStaticPaths() {
 const { service } = Astro.props;
 
 type ProcedureCard = {
-  title: string;
+  title?: string;
   bodyHtml: string;
 };
 
@@ -33,6 +33,7 @@ type Section = (typeof service.sections)[number] & {
   layout?: string;
   introHtml?: string;
   cards?: ProcedureCard[];
+  cardColumns?: 1 | 2 | 3;
   footerHtml?: string;
   columns?: { html: string }[];
   callout?: { heading: string; items: string[] };
@@ -63,6 +64,7 @@ const faqs = ("faqs" in service ? (service as { faqs?: FaqItem[] }).faqs : undef
             heading={section.heading}
             introHtml={section.introHtml || ""}
             cards={section.cards}
+            columns={section.cardColumns}
             footerHtml={section.footerHtml}
           />
         );
@@ -94,7 +96,7 @@ const faqs = ("faqs" in service ? (service as { faqs?: FaqItem[] }).faqs : undef
         );
       }
 
-      const splitImage = section.imagePosition && section.images?.[0];
+      const splitImages = section.imagePosition && section.images?.length ? section.images : undefined;
       const body = section.html ? (
         <div class="medium-p" set:html={section.html} />
       ) : (
@@ -118,12 +120,14 @@ const faqs = ("faqs" in service ? (service as { faqs?: FaqItem[] }).faqs : undef
         </div>
       );
 
-      if (splitImage) {
+      if (splitImages) {
         return (
           <MediaSplit
             heading={section.heading}
-            image={splitImage.src}
-            imageAlt={splitImage.alt || `${service.title} at Carolina Oaks Dental Care of Greenville`}
+            images={splitImages.map((img) => ({
+              src: img.src,
+              alt: img.alt || `${service.title} at Carolina Oaks Dental Care of Greenville`,
+            }))}
             imagePosition={section.imagePosition}
           >
             {body}

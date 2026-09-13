@@ -8,31 +8,61 @@
     "sections": [
       {
         "heading": "What is a Dental bridge?",
-        "paragraphs": [
-          "A dental bridge is a restoration that literally “bridges” the gap created when a patient loses one or more teeth. Bridges are sometimes called “fixed bridges” because they are permanent and often last a lifetime without having to be replaced.",
-          "Our team offers high quality, natural-looking dental bridges in Greenville, SC. We can install a bridge to solve a variety of dental issues, including:",
-          "Missing teeth. The most common reason for a fixed bridge is to fill the gap left by teeth which have been knocked out or removed.",
-          "Maintaining proper facial shape. If tooth loss or damage has been done to a patient’s jaw, then a fixed bridge can help preserve the shape of your jaw.",
-          "Keeping remaining teeth in place. Fixed bridges can contribute to preventing any remaining teeth from drifting out of their original position.",
-          "Restoring proper speaking and chewing. Tooth loss can impact a patient’s ability to speak and chew food properly.",
-          "Restore a natural-looking smile. Patients who feel anxious about their smile due to missing teeth may benefit from a fixed bridge.",
-          "Upgrading dental appliances. Some patients who currently use removable partial dentures can have a convenient, permanent fixed bridge installed as an upgrade.",
-          "Here at Carolina Oaks Dental Care, we know how important it is to your overall oral health that you get the dental care you need in time, before other problems arise. If you are suffering from a missing tooth or teeth, please do not hesitate to get the issue resolved by your trusted dentist in Greenville, SC before you have more or worse problems.",
-          "A fixed bridge consists of two or more crowns, which are created to fit the teeth surrounding either side of the gap caused by missing teeth. These anchoring teeth, called “abutment teeth”, serve as the foundation for the false tooth, or teeth, which will be installed in-between the crowns.",
-          "The false teeth which are installed in the middle of the fixed bridge are called “pontics”, and can either be made from porcelain, alloys, gold, or any combination of the three.",
-          "Your trusted dentist in Greenville, SC will likely offer any, if not all, of these options when you visit for a fixed bridge consultation:",
-          "This style involves creating a crown for the surrounding abutment teeth in order to keep the false pontic tooth in place. These are the most common types of fixed bridges and are usually made of porcelain.",
-          "These bridges, also called resin-bonded bridges, are most often made of porcelain fused to metal, or plastic gums and teeth surrounded by a metal framework to keep it in place."
+        "html": "<p>A dental bridge is a restoration that literally “bridges” the gap created when a patient loses one or more teeth. Bridges are sometimes called “fixed bridges” because they are permanent and often last a lifetime without having to be replaced.</p>"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "When Does a Patient Need a Fixed Bridge?",
+        "introHtml": "<p>Our team offers high quality, natural-looking dental bridges in Greenville, SC. We can install a bridge to solve a variety of dental issues, including:</p>",
+        "cardColumns": 3,
+        "cards": [
+          {
+            "bodyHtml": "<p>Missing teeth. The most common reason for a fixed bridge is to fill the gap left by teeth which have been knocked out or removed.</p>"
+          },
+          {
+            "bodyHtml": "<p>Maintaining proper facial shape. If tooth loss or damage has been done to a patient’s jaw, then a fixed bridge can help preserve the shape of your jaw.</p>"
+          },
+          {
+            "bodyHtml": "<p>Keeping remaining teeth in place. Fixed bridges can contribute to preventing any remaining teeth from drifting out of their original position.</p>"
+          },
+          {
+            "bodyHtml": "<p>Restoring proper speaking and chewing. Tooth loss can impact a patient’s ability to speak and chew food properly.</p>"
+          },
+          {
+            "bodyHtml": "<p>Restore a natural-looking smile. Patients who feel anxious about their smile due to missing teeth may benefit from a fixed bridge.</p>"
+          },
+          {
+            "bodyHtml": "<p>Upgrading dental appliances. Some patients who currently use removable partial dentures can have a convenient, permanent fixed bridge installed as an upgrade.</p>"
+          }
         ],
-        "lists": [],
-        "html": "<p>A dental bridge is a restoration that literally “bridges” the gap created when a patient loses one or more teeth. Bridges are sometimes called “fixed bridges” because they are permanent and often last a lifetime without having to be replaced.</p>\n<h3>When Does a Patient Need a Fixed Bridge?</h3>\n<p>Our team offers high quality, natural-looking dental bridges in Greenville, SC. We can install a bridge to solve a variety of dental issues, including:</p>\n<p>Missing teeth. The most common reason for a fixed bridge is to fill the gap left by teeth which have been knocked out or removed.</p>\n<p>Maintaining proper facial shape. If tooth loss or damage has been done to a patient’s jaw, then a fixed bridge can help preserve the shape of your jaw.</p>\n<p>Keeping remaining teeth in place. Fixed bridges can contribute to preventing any remaining teeth from drifting out of their original position.</p>\n<p>Restoring proper speaking and chewing. Tooth loss can impact a patient’s ability to speak and chew food properly.</p>\n<p>Restore a natural-looking smile. Patients who feel anxious about their smile due to missing teeth may benefit from a fixed bridge.</p>\n<p>Upgrading dental appliances. Some patients who currently use removable partial dentures can have a convenient, permanent fixed bridge installed as an upgrade.</p>\n<p>Here at Carolina Oaks Dental Care, we know how important it is to your overall oral health that you get the dental care you need in time, before other problems arise. If you are suffering from a missing tooth or teeth, please do not hesitate to get the issue resolved by your trusted dentist in Greenville, SC before you have more or worse problems.</p>\n<h3>What Do Fixed Bridges Consist Of?</h3>\n<p>A fixed bridge consists of two or more crowns, which are created to fit the teeth surrounding either side of the gap caused by missing teeth. These anchoring teeth, called “abutment teeth”, serve as the foundation for the false tooth, or teeth, which will be installed in-between the crowns.</p>\n<p>The false teeth which are installed in the middle of the fixed bridge are called “pontics”, and can either be made from porcelain, alloys, gold, or any combination of the three.</p>\n<h3>What Kinds of Dental Bridges are There?</h3>\n<p>Your trusted dentist in Greenville, SC will likely offer any, if not all, of these options when you visit for a fixed bridge consultation:</p>\n<h4>Traditional bridges.</h4>\n<p>This style involves creating a crown for the surrounding abutment teeth in order to keep the false pontic tooth in place. These are the most common types of fixed bridges and are usually made of porcelain.</p>\n<h4>Maryland bonded bridges.</h4>\n<p>These bridges, also called resin-bonded bridges, are most often made of porcelain fused to metal, or plastic gums and teeth surrounded by a metal framework to keep it in place.</p>",
+        "footerHtml": "<p>Here at Carolina Oaks Dental Care, we know how important it is to your overall oral health that you get the dental care you need in time, before other problems arise. If you are suffering from a missing tooth or teeth, please do not hesitate to get the issue resolved by your trusted dentist in Greenville, SC before you have more or worse problems.</p>"
+      },
+      {
+        "heading": "What Do Fixed Bridges Consist Of?",
+        "html": "<p>A fixed bridge consists of two or more crowns, which are created to fit the teeth surrounding either side of the gap caused by missing teeth. These anchoring teeth, called “abutment teeth”, serve as the foundation for the false tooth, or teeth, which will be installed in-between the crowns.</p><p>The false teeth which are installed in the middle of the fixed bridge are called “pontics”, and can either be made from porcelain, alloys, gold, or any combination of the three.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dental-bridge.jpg",
             "alt": "Dental Bridge"
           }
         ],
-        "imagePosition": "right"
+        "imagePosition": "left"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "What Kinds of Dental Bridges are There?",
+        "introHtml": "<p>Your trusted dentist in Greenville, SC will likely offer any, if not all, of these options when you visit for a fixed bridge consultation:</p>",
+        "cardColumns": 2,
+        "cards": [
+          {
+            "title": "Traditional bridges.",
+            "bodyHtml": "<p>This style involves creating a crown for the surrounding abutment teeth in order to keep the false pontic tooth in place. These are the most common types of fixed bridges and are usually made of porcelain.</p>"
+          },
+          {
+            "title": "Maryland bonded bridges.",
+            "bodyHtml": "<p>These bridges, also called resin-bonded bridges, are most often made of porcelain fused to metal, or plastic gums and teeth surrounded by a metal framework to keep it in place.</p>"
+          }
+        ]
       }
     ]
   },
@@ -45,31 +75,7 @@
     "sections": [
       {
         "heading": "Cosmetic Solutions for a Confident Smile",
-        "paragraphs": [
-          "Our expert Greenville, SC cosmetic dentists provide a variety of cosmetic dental procedures that can improve the appearance of your smile and restore your confidence. They’ll work with you to create a personalized treatment plan that suits your needs and goals. Whether you have damaged teeth that require repairs, you need to have missing teeth replaced, or you would like to change the shape and alignment of your existing teeth, the experienced, professional team at Carolina Oaks Dental Care can help!",
-          "Your dentist in Greenville, SC can provide a variety of procedures to help eliminate issues with your smile, including:",
-          "Before you decide on a cosmetic dental procedure, it’s important to consult your Greenville, SC cosmetic dentist for assistance. They can help you choose the right process to solve your issue, and will make sure that you understand how to properly take care of and maintain any cosmetic changes to your teeth and jaw.",
-          "For your convenience, Carolina Oaks Dental Care provides a variety of cosmetic solutions that we can assist you with:",
-          "It can be easy for teeth to become discolored and stained over time. This is especially true of patients who are heavy smokers, consume food and drinks such as berries, black tea, wine or coffee, or who are taking specific medications. We can safely and effectively brighten your teeth for the radiant smile you’ve always wanted!",
-          "Bonding can improve the look of your teeth if you have significant gaps in between them, or if they have become broken, chipped, cracked, or stained. Bonding materials can also be used to fill in small cavities or to protect the root of the tooth if it has become exposed.",
-          "Veneers are custom restorations made of either porcelain or plastic, which fit over and cover the sides and front of the teeth to change their shape and color. Veneers tend to last longer than bonding, provide an even appearance, and are less expensive than crowns.",
-          "Crowns, which are sometimes called “caps”, are used to completely cover a tooth to restore it to its normal appearance. Crowns are often used to cover a large filling, hold a dental bridge in place, or when patients have misshapen or discolored teeth."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Altering the alignment, shape, and size of specific teeth.",
-              "Filling spaces and gaps between teeth.",
-              "Correcting or improving your bite.",
-              "Replacing old dental restorations.",
-              "Brighten and lighten the appearance of teeth.",
-              "Repair cracked, broken, or chipped teeth.",
-              "Replace missing teeth."
-            ]
-          }
-        ],
-        "html": "<p>Our expert Greenville, SC cosmetic dentists provide a variety of cosmetic dental procedures that can improve the appearance of your smile and restore your confidence. They’ll work with you to create a personalized treatment plan that suits your needs and goals. Whether you have damaged teeth that require repairs, you need to have missing teeth replaced, or you would like to change the shape and alignment of your existing teeth, the experienced, professional team at Carolina Oaks Dental Care can help!</p>\n<h3>What are the Benefits of Cosmetic Dentistry?</h3>\n<p>Your dentist in Greenville, SC can provide a variety of procedures to help eliminate issues with your smile, including:</p>\n<ul>\n<li>Altering the alignment, shape, and size of specific teeth.</li>\n<li>Filling spaces and gaps between teeth.</li>\n<li>Correcting or improving your bite.</li>\n<li>Replacing old dental restorations.</li>\n<li>Brighten and lighten the appearance of teeth.</li>\n<li>Repair cracked, broken, or chipped teeth.</li>\n<li>Replace missing teeth.</li>\n</ul>\n<h3>Some Cosmetic Dental Procedures We Offer</h3>\n<p>Before you decide on a cosmetic dental procedure, it’s important to consult your Greenville, SC cosmetic dentist for assistance. They can help you choose the right process to solve your issue, and will make sure that you understand how to properly take care of and maintain any cosmetic changes to your teeth and jaw.</p>\n<p><strong>For your convenience, Carolina Oaks Dental Care provides a variety of cosmetic solutions that we can assist you with:</strong></p>\n<h4>Teeth Whitening</h4>\n<p>It can be easy for teeth to become discolored and stained over time. This is especially true of patients who are heavy smokers, consume food and drinks such as berries, black tea, wine or coffee, or who are taking specific medications. We can safely and effectively brighten your teeth for the radiant smile you’ve always wanted!</p>\n<h4>Bonding</h4>\n<p>Bonding can improve the look of your teeth if you have significant gaps in between them, or if they have become broken, chipped, cracked, or stained. Bonding materials can also be used to fill in small cavities or to protect the root of the tooth if it has become exposed.</p>\n<h4>Veneers</h4>\n<p>Veneers are custom restorations made of either porcelain or plastic, which fit over and cover the sides and front of the teeth to change their shape and color. Veneers tend to last longer than bonding, provide an even appearance, and are less expensive than crowns.</p>\n<h4>Crowns</h4>\n<p>Crowns, which are sometimes called “caps”, are used to completely cover a tooth to restore it to its normal appearance. Crowns are often used to cover a large filling, hold a dental bridge in place, or when patients have misshapen or discolored teeth.</p>",
+        "html": "<p>Our expert Greenville, SC cosmetic dentists provide a variety of cosmetic dental procedures that can improve the appearance of your smile and restore your confidence. They’ll work with you to create a personalized treatment plan that suits your needs and goals. Whether you have damaged teeth that require repairs, you need to have missing teeth replaced, or you would like to change the shape and alignment of your existing teeth, the experienced, professional team at Carolina Oaks Dental Care can help!</p><h3>What are the Benefits of Cosmetic Dentistry?</h3><p>Your dentist in Greenville, SC can provide a variety of procedures to help eliminate issues with your smile, including:</p><ul><li>Altering the alignment, shape, and size of specific teeth.</li><li>Filling spaces and gaps between teeth.</li><li>Correcting or improving your bite.</li><li>Replacing old dental restorations.</li><li>Brighten and lighten the appearance of teeth.</li><li>Repair cracked, broken, or chipped teeth.</li><li>Replace missing teeth.</li></ul>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/Cosmetic-Dentistry.jpg",
@@ -77,6 +83,30 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "Some Cosmetic Dental Procedures We Offer",
+        "introHtml": "<p>Before you decide on a cosmetic dental procedure, it’s important to consult your Greenville, SC cosmetic dentist for assistance. They can help you choose the right process to solve your issue, and will make sure that you understand how to properly take care of and maintain any cosmetic changes to your teeth and jaw.</p><p><strong>For your convenience, Carolina Oaks Dental Care provides a variety of cosmetic solutions that we can assist you with:</strong></p>",
+        "cardColumns": 2,
+        "cards": [
+          {
+            "title": "Teeth Whitening",
+            "bodyHtml": "<p>It can be easy for teeth to become discolored and stained over time. This is especially true of patients who are heavy smokers, consume food and drinks such as berries, black tea, wine or coffee, or who are taking specific medications. We can safely and effectively brighten your teeth for the radiant smile you’ve always wanted!</p>"
+          },
+          {
+            "title": "Bonding",
+            "bodyHtml": "<p>Bonding can improve the look of your teeth if you have significant gaps in between them, or if they have become broken, chipped, cracked, or stained. Bonding materials can also be used to fill in small cavities or to protect the root of the tooth if it has become exposed.</p>"
+          },
+          {
+            "title": "Veneers",
+            "bodyHtml": "<p>Veneers are custom restorations made of either porcelain or plastic, which fit over and cover the sides and front of the teeth to change their shape and color. Veneers tend to last longer than bonding, provide an even appearance, and are less expensive than crowns.</p>"
+          },
+          {
+            "title": "Crowns",
+            "bodyHtml": "<p>Crowns, which are sometimes called “caps”, are used to completely cover a tooth to restore it to its normal appearance. Crowns are often used to cover a large filling, hold a dental bridge in place, or when patients have misshapen or discolored teeth.</p>"
+          }
+        ]
       }
     ]
   },
@@ -89,39 +119,33 @@
     "sections": [
       {
         "heading": "Restoring a Tooth’s Strength, Function and Appearance",
-        "paragraphs": [
-          "A dental crown is a covering that fits over an entire tooth to the gumline. Crowns are used to protect a tooth and restore its strength, function and appearance when damage or decay is too extensive to be repaired with a filling.",
-          "After performing an exam, your Greenville dentist will talk with you about your lifestyle, needs and budget to help you decide on the best type of crown for your smile. Once the dental crown is in place, you’ll be able to bite, chew and smile like you always did.",
-          "Crowns are common dental procedures which can be implemented to fix any of the following issues with a patient’s teeth:",
-          "If you’re suffering from any of these issues, don’t wait to get the dental care you need.  The experienced and gentle staff at Carolina Oaks Dental Care are here to help you resolve your oral issues effectively and efficiently, so that you can get back to your busy schedule with a healthy, radiant smile.",
-          "Getting a dental crown is a common procedure that usually takes two visits. Our team makes the process convenient and comfortable.",
-          "During the first visit, the dentist will prepare your tooth for the crown. A team member will then carefully take an impression of your tooth, or teeth. The impression will be used to craft a customized crown that fits perfectly.",
-          "Once your crown has been individually fabricated, the friendly team at Carolina Oaks Dental Care will bring you in for the fitting. Your Greenville, SC dentist will carefully fit the crown over your tooth. They’ll check the fit, bite and appearance of the crown, ensuring it looks and feels completely natural, before bonding it to your tooth. You’ll leave our office with a confident, healthy smile."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Broken or cracked teeth",
-              "Decaying teeth",
-              "Cosmetic enhancement purposes",
-              "Following a root canal procedure",
-              "In place of large fillings"
-            ]
-          }
-        ],
-        "html": "<p>A dental crown is a covering that fits over an entire tooth to the gumline. Crowns are used to protect a tooth and restore its strength, function and appearance when damage or decay is too extensive to be repaired with a filling.</p>\n<p>After performing an exam, your Greenville dentist will talk with you about your lifestyle, needs and budget to help you decide on the best type of crown for your smile. Once the dental crown is in place, you’ll be able to bite, chew and smile like you always did. </p>\n<h3>Do You Need a Crown?</h3>\n<p>Crowns are common dental procedures which can be implemented to fix any of the following issues with a patient’s teeth:</p>\n<ul>\n<li>Broken or cracked teeth</li>\n<li>Decaying teeth</li>\n<li>Cosmetic enhancement purposes</li>\n<li>Following a root canal procedure</li>\n<li>In place of large fillings</li>\n</ul>\n<p>If you’re suffering from any of these issues, don’t wait to get the dental care you need.  The experienced and gentle staff at Carolina Oaks Dental Care are here to help you resolve your oral issues effectively and efficiently, so that you can get back to your busy schedule with a healthy, radiant smile.</p>\n<p>Getting a dental crown is a common procedure that usually takes two visits. Our team makes the process convenient and comfortable.</p>\n<p>During the first visit, the dentist will prepare your tooth for the crown. A team member will then carefully take an impression of your tooth, or teeth. The impression will be used to craft a customized crown that fits perfectly.</p>\n<p>Once your crown has been individually fabricated, the friendly team at Carolina Oaks Dental Care will bring you in for the fitting. Your Greenville, SC dentist will carefully fit the crown over your tooth. They’ll check the fit, bite and appearance of the crown, ensuring it looks and feels completely natural, before bonding it to your tooth. You’ll leave our office with a confident, healthy smile. </p>",
+        "html": "<p>A dental crown is a covering that fits over an entire tooth to the gumline. Crowns are used to protect a tooth and restore its strength, function and appearance when damage or decay is too extensive to be repaired with a filling.</p><p>After performing an exam, your Greenville dentist will talk with you about your lifestyle, needs and budget to help you decide on the best type of crown for your smile. Once the dental crown is in place, you’ll be able to bite, chew and smile like you always did.</p>"
+      },
+      {
+        "heading": "Do You Need a Crown?",
+        "html": "<p>Crowns are common dental procedures which can be implemented to fix any of the following issues with a patient’s teeth:</p><ul><li>Broken or cracked teeth</li><li>Decaying teeth</li><li>Cosmetic enhancement purposes</li><li>Following a root canal procedure</li><li>In place of large fillings</li></ul><p>If you’re suffering from any of these issues, don’t wait to get the dental care you need. The experienced and gentle staff at Carolina Oaks Dental Care are here to help you resolve your oral issues effectively and efficiently, so that you can get back to your busy schedule with a healthy, radiant smile.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dental-crown.jpg",
             "alt": "Dental Crown"
-          },
-          {
-            "src": "wp-content/uploads/2022/04/dental-crown-img.jpg",
-            "alt": "Dental Crown"
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "processSteps",
+        "heading": "What to Expect",
+        "html": "<p>Getting a dental crown is a common procedure that usually takes two visits. Our team makes the process convenient and comfortable.</p>",
+        "steps": [
+          {
+            "title": "First visit",
+            "bodyHtml": "<p>During the first visit, the dentist will prepare your tooth for the crown. A team member will then carefully take an impression of your tooth, or teeth. The impression will be used to craft a customized crown that fits perfectly.</p>"
+          },
+          {
+            "title": "Second visit",
+            "bodyHtml": "<p>Once your crown has been individually fabricated, the friendly team at Carolina Oaks Dental Care will bring you in for the fitting. Your Greenville, SC dentist will carefully fit the crown over your tooth. They’ll check the fit, bite and appearance of the crown, ensuring it looks and feels completely natural, before bonding it to your tooth. You’ll leave our office with a confident, healthy smile.</p>"
+          }
+        ]
       }
     ]
   },
@@ -134,29 +158,38 @@
     "sections": [
       {
         "heading": "Your Destination for Dental Implants in Greenville, SC",
-        "paragraphs": [
-          "Millions of Americans struggle with tooth loss during their lifetime. Whether due to gum disease, tooth decay, injuries sustained while playing sports, or as a result of an accident, missing teeth are a common issue. Unfortunately, when missing teeth aren’t replaced, it can negatively impact your oral health and overall health.",
-          "Until recently, most patients who lost teeth had to choose between getting a fixed bridge or using removable dentures for the rest of their lives. Luckily, recent advancements in dentistry now allow our Greenville, SC dentists to offer dental implants. Implants are a beautiful, permanent, comfortable tooth replacement solution.",
-          "A dental implant is a permanent replacement tooth. The implant serves as a replacement for the roots of the tooth and provides a stable foundation for any additional fixed or removable teeth.",
-          "The dental implant is surgically inserted into the lower or upper jaw, which allows the replacement teeth to fit securely into the gums and imitate the appearance and feel of natural teeth.",
-          "Ask one of our dentists about how dental implants can provide a convenient solution to your dental issues. The trusted and caring staff at Carolina Oaks Dental Care are here to help you get the dental care you need to give you a confident and radiant smile.",
-          "Overall, dental implants have an extremely high success rate of 98%.",
-          "However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It is important to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.",
-          "Choosing to have a dental implant procedure offers a variety of positive benefits, including:",
-          "One of the biggest complaints that we hear from denture wearers is that dentures are inconvenient. Permanent dental implants look and feel like your natural tooth and are cared for similarly, so no inconveniences!",
-          "Many patients who have dentures struggle to eat properly, but dental implants make chewing and swallowing as natural as possible.",
-          "Some denture wearers struggle to speak while their dentures are in place. Dental implants enable more streamlined and natural feeling replacement teeth.",
-          "Dental implants mimic the feel and appearance of natural teeth and prevent the discomfort that dentures may cause a patient."
-        ],
-        "lists": [],
-        "html": "<p>Millions of Americans struggle with tooth loss during their lifetime. Whether due to gum disease, tooth decay, injuries sustained while playing sports, or as a result of an accident, missing teeth are a common issue. Unfortunately, when missing teeth aren’t replaced, it can negatively impact your oral health and overall health.</p>\n<p>Until recently, most patients who lost teeth had to choose between getting a fixed bridge or using removable dentures for the rest of their lives. Luckily, recent advancements in dentistry now allow our Greenville, SC dentists to offer dental implants. Implants are a beautiful, permanent, comfortable tooth replacement solution.</p>\n<h3>What are Dental Implants?</h3>\n<p>A dental implant is a permanent replacement tooth. The implant serves as a replacement for the roots of the tooth and provides a stable foundation for any additional fixed or removable teeth.</p>\n<p>The dental implant is surgically inserted into the lower or upper jaw, which allows the replacement teeth to fit securely into the gums and imitate the appearance and feel of natural teeth.</p>\n<p>Ask one of our dentists about how dental implants can provide a convenient solution to your dental issues. The trusted and caring staff at Carolina Oaks Dental Care are here to help you get the dental care you need to give you a confident and radiant smile.</p>\n<h3>Are Dental Implants Successful Replacements for Natural Teeth?</h3>\n<p>Overall, dental implants have an extremely high success rate of 98%.</p>\n<p>However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It is important to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.</p>\n<h3>How Do Patients Benefit from Dental Implants?</h3>\n<p>Choosing to have a dental implant procedure offers a variety of positive benefits, including:</p>\n<p>One of the biggest complaints that we hear from denture wearers is that dentures are inconvenient. Permanent dental implants look and feel like your natural tooth and are cared for similarly, so no inconveniences!</p>\n<p>Many patients who have dentures struggle to eat properly, but dental implants make chewing and swallowing as natural as possible.</p>\n<p>Some denture wearers struggle to speak while their dentures are in place. Dental implants enable more streamlined and natural feeling replacement teeth.</p>\n<p>Dental implants mimic the feel and appearance of natural teeth and prevent the discomfort that dentures may cause a patient.</p>",
+        "html": "<p>Millions of Americans struggle with tooth loss during their lifetime. Whether due to gum disease, tooth decay, injuries sustained while playing sports, or as a result of an accident, missing teeth are a common issue. Unfortunately, when missing teeth aren’t replaced, it can negatively impact your oral health and overall health.</p><p>Until recently, most patients who lost teeth had to choose between getting a fixed bridge or using removable dentures for the rest of their lives. Luckily, recent advancements in dentistry now allow our Greenville, SC dentists to offer dental implants. Implants are a beautiful, permanent, comfortable tooth replacement solution.</p>"
+      },
+      {
+        "heading": "What are Dental Implants?",
+        "html": "<p>A dental implant is a permanent replacement tooth. The implant serves as a replacement for the roots of the tooth and provides a stable foundation for any additional fixed or removable teeth.</p><p>The dental implant is surgically inserted into the lower or upper jaw, which allows the replacement teeth to fit securely into the gums and imitate the appearance and feel of natural teeth.</p><p>Ask one of our dentists about how dental implants can provide a convenient solution to your dental issues. The trusted and caring staff at Carolina Oaks Dental Care are here to help you get the dental care you need to give you a confident and radiant smile.</p><h3>Are Dental Implants Successful Replacements for Natural Teeth?</h3><p>Overall, dental implants have an extremely high success rate of 98%.</p><p>However, it’s important to note the success of a dental implant relies heavily on the patient, and how well they care for their replacement teeth. It is important to treat your dental implants as though they are your own, natural teeth, and to practice regular brushing and flossing to keep the surrounding teeth and gums healthy.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/Cosmetic-Dentistry.jpg",
-            "alt": "Cosmetic Dentistry"
+            "alt": "Dental Implants"
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "How Do Patients Benefit from Dental Implants?",
+        "introHtml": "<p>Choosing to have a dental implant procedure offers a variety of positive benefits, including:</p>",
+        "cardColumns": 2,
+        "cards": [
+          {
+            "bodyHtml": "<p>One of the biggest complaints that we hear from denture wearers is that dentures are inconvenient. Permanent dental implants look and feel like your natural tooth and are cared for similarly, so no inconveniences!</p>"
+          },
+          {
+            "bodyHtml": "<p>Many patients who have dentures struggle to eat properly, but dental implants make chewing and swallowing as natural as possible.</p>"
+          },
+          {
+            "bodyHtml": "<p>Some denture wearers struggle to speak while their dentures are in place. Dental implants enable more streamlined and natural feeling replacement teeth.</p>"
+          },
+          {
+            "bodyHtml": "<p>Dental implants mimic the feel and appearance of natural teeth and prevent the discomfort that dentures may cause a patient.</p>"
+          }
+        ]
       }
     ]
   },
@@ -169,28 +202,11 @@
     "sections": [
       {
         "heading": "What are Dentures?",
-        "paragraphs": [
-          "Dentures are removable dental appliances that serve as replacements for missing teeth and the surrounding gum tissue. Modern dentures are typically made with acrylic resin for the gums and teeth over an underlying structural base, which helps the dentures retain their proper shape.",
-          "Many people lose their teeth as they age due to gum disease, accidents, issues relating to decay and cavities, or a lack of proper dental care. Our team can help. We can get your smile back on track with quality, comfortable partial and complete dentures in Greenville, SC.",
-          "Dentures are commonplace, especially with older patients. Some reasons why you may need dentures are:",
-          "If you think you may need dentures, contact your trusted dentist office in Greenville, SC for a consultation. The caring and professional staff at Carolina Oaks Dental Care will take the time to address any questions or concerns you may have, as well as work with your schedule to get you a convenient appointment.",
-          "Getting dentures can consist of multiple appointments over the span of several weeks. This is because taking the right measurements, creating accurate impressions of your teeth, mouth, and jaw, and creating a custom denture to fit your mouth all take time and care.",
-          "Several of the visits will be “try-in” appointments, where your Greenville, SC dentist will work to ensure that your dentures have the proper shape, fit, and color so that they blend seamlessly in with your mouth.",
-          "Your final appointment will involve adjusting the denture and making sure that the final version of your complete denture is as comfortable as possible.",
-          "Many patients experience increased saliva flow, soreness, and occasionally some difficulty eating and speaking normally as their muscles become accustomed to the new dentures. However, this is normal, and if you follow the recommended cleaning and care guidelines provided by your dentist, then you should be back to normal in no time at all."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Loss of all or several teeth in a dental arch.",
-              "Preventing other teeth from moving due to lost teeth.",
-              "Enhancing the patient’s smile.",
-              "Improving functions such as chewing, eating, digestion and speech."
-            ]
-          }
-        ],
-        "html": "<p>Dentures are removable dental appliances that serve as replacements for missing teeth and the surrounding gum tissue. Modern dentures are typically made with acrylic resin for the gums and teeth over an underlying structural base, which helps the dentures retain their proper shape.</p>\n<p>Many people lose their teeth as they age due to gum disease, accidents, issues relating to decay and cavities, or a lack of proper dental care. Our team can help. We can get your smile back on track with quality, comfortable partial and complete dentures in Greenville, SC.</p>\n<h3>Common Reasons for Dentures</h3>\n<p>Dentures are commonplace, especially with older patients. Some reasons why you may need dentures are:</p>\n<ul>\n<li>Loss of all or several teeth in a dental arch.</li>\n<li>Preventing other teeth from moving due to lost teeth.</li>\n<li>Enhancing the patient’s smile.</li>\n<li>Improving functions such as chewing, eating, digestion and speech.</li>\n</ul>\n<p>If you think you may need dentures, contact your trusted dentist office in Greenville, SC for a consultation. The caring and professional staff at Carolina Oaks Dental Care will take the time to address any questions or concerns you may have, as well as work with your schedule to get you a convenient appointment.</p>\n<h3>What Is the Process of Getting Dentures?</h3>\n<p>Getting dentures can consist of multiple appointments over the span of several weeks. This is because taking the right measurements, creating accurate impressions of your teeth, mouth, and jaw, and creating a custom denture to fit your mouth all take time and care.</p>\n<p>Several of the visits will be “try-in” appointments, where your Greenville, SC dentist will work to ensure that your dentures have the proper shape, fit, and color so that they blend seamlessly in with your mouth.</p>\n<p>Your final appointment will involve adjusting the denture and making sure that the final version of your complete denture is as comfortable as possible.</p>\n<h3>What Can You Expect After Getting Dentures?</h3>\n<p>Many patients experience increased saliva flow, soreness, and occasionally some difficulty eating and speaking normally as their muscles become accustomed to the new dentures. However, this is normal, and if you follow the recommended cleaning and care guidelines provided by your dentist, then you should be back to normal in no time at all.</p>",
+        "html": "<p>Dentures are removable dental appliances that serve as replacements for missing teeth and the surrounding gum tissue. Modern dentures are typically made with acrylic resin for the gums and teeth over an underlying structural base, which helps the dentures retain their proper shape.</p><p>Many people lose their teeth as they age due to gum disease, accidents, issues relating to decay and cavities, or a lack of proper dental care. Our team can help. We can get your smile back on track with quality, comfortable partial and complete dentures in Greenville, SC.</p>"
+      },
+      {
+        "heading": "Common Reasons for Dentures",
+        "html": "<p>Dentures are commonplace, especially with older patients. Some reasons why you may need dentures are:</p><ul><li>Loss of all or several teeth in a dental arch.</li><li>Preventing other teeth from moving due to lost teeth.</li><li>Enhancing the patient’s smile.</li><li>Improving functions such as chewing, eating, digestion and speech.</li></ul><p>If you think you may need dentures, contact your trusted dentist office in Greenville, SC for a consultation. The caring and professional staff at Carolina Oaks Dental Care will take the time to address any questions or concerns you may have, as well as work with your schedule to get you a convenient appointment.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dental-dentures.jpg",
@@ -198,6 +214,25 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "processSteps",
+        "heading": "What Is the Process of Getting Dentures?",
+        "html": "<p>Getting dentures can consist of multiple appointments over the span of several weeks. This is because taking the right measurements, creating accurate impressions of your teeth, mouth, and jaw, and creating a custom denture to fit your mouth all take time and care.</p>",
+        "steps": [
+          {
+            "title": "Try-in appointments",
+            "bodyHtml": "<p>Several of the visits will be “try-in” appointments, where your Greenville, SC dentist will work to ensure that your dentures have the proper shape, fit, and color so that they blend seamlessly in with your mouth.</p>"
+          },
+          {
+            "title": "Final appointment",
+            "bodyHtml": "<p>Your final appointment will involve adjusting the denture and making sure that the final version of your complete denture is as comfortable as possible.</p>"
+          }
+        ]
+      },
+      {
+        "heading": "What Can You Expect After Getting Dentures?",
+        "html": "<p>Many patients experience increased saliva flow, soreness, and occasionally some difficulty eating and speaking normally as their muscles become accustomed to the new dentures. However, this is normal, and if you follow the recommended cleaning and care guidelines provided by your dentist, then you should be back to normal in no time at all.</p>"
       }
     ]
   },
@@ -210,31 +245,27 @@
     "sections": [
       {
         "heading": "Emergency Dental Services for the Whole Family",
-        "paragraphs": [
-          "Dental emergencies are common, especially in young children. In fact, one out of three kids will experience some form of dental trauma during their childhood.",
-          "The peak times when people need emergency dental care are as toddlers (18 to 40 months) and during the pre-adolescent and adolescent period. Small children are at risk for damaging their teeth as they begin to explore and interact with their environment. Older kids may experience a dental emergency resulting from a sports-related injury.",
-          "That said, dental trauma can happen at any age, including adulthood. At Carolina Oaks Dental Care, our team offers emergency dental services in Greenville, SC for patients of all ages. If you have an urgent dental concern, call our office at (864) 235-3949 and we’ll get you in for an appointment and out of pain as quickly as possible.",
-          "Below are some of the most common kinds of dental emergencies we treat at our practice:",
-          "Toothaches are common issues, especially during childhood. Tooth pain can be caused by:",
-          "Impacted food can usually be removed with a finger or a toothbrush, but any other issues should be addressed by a trusted dentist. If you’re looking for an emergency dentist in Greenville, SC, make sure to contact our office as soon as possible.",
-          "Dental avulsion, or a knocked-out tooth, is another common dental emergency.  The course of action that your dentist will take depends on whether the tooth in question is a deciduous (baby) tooth or a permanent tooth.",
-          "In most cases, your dentist will not attempt to re-implant an avulsed baby tooth because the re-implementation procedure risks causing damage to the permanent tooth below the gum.",
-          "However, if the avulsed tooth is an “adult” permanent tooth, then the dentist may try to re-implant the tooth unless the trauma has caused irreparable damage to the tooth and surrounding tissue.",
-          "Dental intrusion occurs when one or more teeth are pushed up into the jawbone as a result of dental trauma. If the teeth have been pushed in less than 3mm, then your dentist should be able to solve the issue, but if the force was strong enough to cause damage to the socket and tooth ligament, then root canal therapy may be necessary."
-        ],
-        "lists": [
+        "html": "<p>Dental emergencies are common, especially in young children. In fact, one out of three kids will experience some form of dental trauma during their childhood.</p><p>The peak times when people need emergency dental care are as toddlers (18 to 40 months) and during the pre-adolescent and adolescent period. Small children are at risk for damaging their teeth as they begin to explore and interact with their environment. Older kids may experience a dental emergency resulting from a sports-related injury.</p><p>That said, dental trauma can happen at any age, including adulthood. At Carolina Oaks Dental Care, our team offers emergency dental services in Greenville, SC for patients of all ages. If you have an urgent dental concern, call our office at (864) 235-3949 and we’ll get you in for an appointment and out of pain as quickly as possible.</p>"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "Types of Dental Emergencies",
+        "introHtml": "<p>Below are some of the most common kinds of dental emergencies we treat at our practice:</p>",
+        "cardColumns": 1,
+        "cards": [
           {
-            "ordered": false,
-            "items": [
-              "Tooth fractures",
-              "Impacted food",
-              "Tooth decay",
-              "Tooth trauma",
-              "Wisdom teeth eruption (preadolescence and adolescence)"
-            ]
+            "title": "Toothache",
+            "bodyHtml": "<p>Toothaches are common issues, especially during childhood. Tooth pain can be caused by:</p><ul><li>Tooth fractures</li><li>Impacted food</li><li>Tooth decay</li><li>Tooth trauma</li><li>Wisdom teeth eruption (preadolescence and adolescence)</li></ul><p>Impacted food can usually be removed with a finger or a toothbrush, but any other issues should be addressed by a trusted dentist. If you’re looking for an emergency dentist in Greenville, SC, make sure to contact our office as soon as possible.</p>"
+          },
+          {
+            "title": "Dental Avulsion",
+            "bodyHtml": "<p>Dental avulsion, or a knocked-out tooth, is another common dental emergency. The course of action that your dentist will take depends on whether the tooth in question is a deciduous (baby) tooth or a permanent tooth.</p><p>In most cases, your dentist will not attempt to re-implant an avulsed baby tooth because the re-implementation procedure risks causing damage to the permanent tooth below the gum.</p><p>However, if the avulsed tooth is an “adult” permanent tooth, then the dentist may try to re-implant the tooth unless the trauma has caused irreparable damage to the tooth and surrounding tissue.</p>"
+          },
+          {
+            "title": "Dental Intrusion",
+            "bodyHtml": "<p>Dental intrusion occurs when one or more teeth are pushed up into the jawbone as a result of dental trauma. If the teeth have been pushed in less than 3mm, then your dentist should be able to solve the issue, but if the force was strong enough to cause damage to the socket and tooth ligament, then root canal therapy may be necessary.</p>"
           }
-        ],
-        "html": "<p>Dental emergencies are common, especially in young children. In fact, one out of three kids will experience some form of dental trauma during their childhood.</p>\n<p>The peak times when people need emergency dental care are as toddlers (18 to 40 months) and during the pre-adolescent and adolescent period. Small children are at risk for damaging their teeth as they begin to explore and interact with their environment. Older kids may experience a dental emergency resulting from a sports-related injury.</p>\n<p>That said, dental trauma can happen at any age, including adulthood. At Carolina Oaks Dental Care, our team offers emergency dental services in Greenville, SC for patients of all ages. If you have an urgent dental concern, call our office at (864) 235-3949 and we’ll get you in for an appointment and out of pain as quickly as possible.</p>\n<h3>Types of Dental Emergencies</h3>\n<p>Below are some of the most common kinds of dental emergencies we treat at our practice:</p>\n<h4>Toothache</h4>\n<p>Toothaches are common issues, especially during childhood. Tooth pain can be caused by:</p>\n<ul>\n<li>Tooth fractures</li>\n<li>Impacted food</li>\n<li>Tooth decay</li>\n<li>Tooth trauma</li>\n<li>Wisdom teeth eruption (preadolescence and adolescence)</li>\n</ul>\n<p>Impacted food can usually be removed with a finger or a toothbrush, but any other issues should be addressed by a trusted dentist. If you’re looking for an emergency dentist in Greenville, SC, make sure to contact our office as soon as possible. </p>\n<h4>Dental Avulsion</h4>\n<p>Dental avulsion, or a knocked-out tooth, is another common dental emergency.  The course of action that your dentist will take depends on whether the tooth in question is a deciduous (baby) tooth or a permanent tooth.</p>\n<p>In most cases, your dentist will not attempt to re-implant an avulsed baby tooth because the re-implementation procedure risks causing damage to the permanent tooth below the gum.</p>\n<p>However, if the avulsed tooth is an “adult” permanent tooth, then the dentist may try to re-implant the tooth unless the trauma has caused irreparable damage to the tooth and surrounding tissue.</p>\n<h4>Dental Intrusion</h4>\n<p>Dental intrusion occurs when one or more teeth are pushed up into the jawbone as a result of dental trauma. If the teeth have been pushed in less than 3mm, then your dentist should be able to solve the issue, but if the force was strong enough to cause damage to the socket and tooth ligament, then root canal therapy may be necessary.</p>"
+        ]
       }
     ]
   },
@@ -247,33 +278,11 @@
     "sections": [
       {
         "heading": "Healthy Smiles at Every Stage of Life",
-        "paragraphs": [
-          "Oral health is very important to your overall well-being. The best way to set your family up for success is to find a trusted dentist that can provide services for all ages and stages of life. Having one dentist for your entire family makes keeping up with regular appointments easier and less stressful.",
-          "Carolina Oaks Dental Care can be your dental home. Our exceptional team strives to make visits positive and comfortable. Our goal is to create the foundation for your family’s lifelong oral health.",
-          "Your family dentist will be responsible for ensuring you and your family’s long-term oral health. With this in mind, it’s essential that you do your due diligence and find someone who you feel comfortable with and can trust to take care of all of your family’s dental needs.",
-          "Some questions to ask yourself when you start looking for a family dentist in Greenville, SC are:",
-          "As your trusted family dentists in Greenville, SC, our goal at Carolina Oaks Dental Care is to ensure that your visits are as enjoyable and as pleasant as possible. We understand that your time is valuable, which is why we are happy to book your whole family’s appointments at the same time, conveniently at the same location.",
-          "Our team of qualified dentists, dental hygienists, and dental assistants, will provide the highest level of service every time you and your family visit our clinic.",
-          "You can trust your Greenville, SC family dental care to us as we believe that educating our patients and their families on the importance of preventative care is essential to long-term oral health. Our focus on preventative dental care is why we deliver thorough exams every time you visit, which include oral cancer exams, checking the overall health of your gums and teeth, and taking X-rays when required.",
-          "We know that routine care, including regularly scheduled cleanings, flossing, fluoride and sealant application, can go a long way towards preventing diseases of the mouth."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Are their office hours convenient for your schedule?",
-              "Can you get to their office easily from your home and place of work?",
-              "Where was the dentist trained and educated?",
-              "What is the dentist’s approach when it comes to preventative dentistry?",
-              "What arrangements can be made for emergencies which occur outside of office hours?",
-              "What steps can your dentist take to help you feel comfortable during a dental procedure, and do they provide anesthesia?",
-              "Is information relating to payments made clear before the procedures are scheduled to take place?",
-              "Is the office clean and tidy? Do all of the equipment and instruments appear to be clean and sterile?",
-              "Are the dentists and their staff friendly and willing to answer any of your questions?"
-            ]
-          }
-        ],
-        "html": "<p>Oral health is very important to your overall well-being. The best way to set your family up for success is to find a trusted dentist that can provide services for all ages and stages of life. Having one dentist for your entire family makes keeping up with regular appointments easier and less stressful.</p>\n<p>Carolina Oaks Dental Care can be your dental home. Our exceptional team strives to make visits positive and comfortable. Our goal is to create the foundation for your family’s lifelong oral health.</p>\n<h3>What Should You Look for When Choosing a Family Dentist?</h3>\n<p>Your family dentist will be responsible for ensuring you and your family’s long-term oral health. With this in mind, it’s essential that you do your due diligence and find someone who you feel comfortable with and can trust to take care of all of your family’s dental needs.</p>\n<p>Some questions to ask yourself when you start looking for a family dentist in Greenville, SC are:</p>\n<ul>\n<li>Are their office hours convenient for your schedule?</li>\n<li>Can you get to their office easily from your home and place of work?</li>\n<li>Where was the dentist trained and educated?</li>\n<li>What is the dentist’s approach when it comes to preventative dentistry?</li>\n<li>What arrangements can be made for emergencies which occur outside of office hours?</li>\n<li>What steps can your dentist take to help you feel comfortable during a dental procedure, and do they provide anesthesia?</li>\n<li>Is information relating to payments made clear before the procedures are scheduled to take place?</li>\n<li>Is the office clean and tidy? Do all of the equipment and instruments appear to be clean and sterile?</li>\n<li>Are the dentists and their staff friendly and willing to answer any of your questions?</li>\n</ul>\n<h3>We’ll Help You Have a Healthy, Confident Smile</h3>\n<p>As your trusted family dentists in Greenville, SC, our goal at Carolina Oaks Dental Care is to ensure that your visits are as enjoyable and as pleasant as possible. We understand that your time is valuable, which is why we are happy to book your whole family’s appointments at the same time, conveniently at the same location.</p>\n<p>Our team of qualified dentists, dental hygienists, and dental assistants, will provide the highest level of service every time you and your family visit our clinic.</p>\n<h3>Our Commitment to Prevention and Education</h3>\n<p>You can trust your Greenville, SC family dental care to us as we believe that educating our patients and their families on the importance of preventative care is essential to long-term oral health. Our focus on preventative dental care is why we deliver thorough exams every time you visit, which include oral cancer exams, checking the overall health of your gums and teeth, and taking X-rays when required.</p>\n<p>We know that routine care, including regularly scheduled cleanings, flossing, fluoride and sealant application, can go a long way towards preventing diseases of the mouth.</p>",
+        "html": "<p>Oral health is very important to your overall well-being. The best way to set your family up for success is to find a trusted dentist that can provide services for all ages and stages of life. Having one dentist for your entire family makes keeping up with regular appointments easier and less stressful.</p><p>Carolina Oaks Dental Care can be your dental home. Our exceptional team strives to make visits positive and comfortable. Our goal is to create the foundation for your family’s lifelong oral health.</p>"
+      },
+      {
+        "heading": "What Should You Look for When Choosing a Family Dentist?",
+        "html": "<p>Your family dentist will be responsible for ensuring you and your family’s long-term oral health. With this in mind, it’s essential that you do your due diligence and find someone who you feel comfortable with and can trust to take care of all of your family’s dental needs.</p><p>Some questions to ask yourself when you start looking for a family dentist in Greenville, SC are:</p><ul><li>Are their office hours convenient for your schedule?</li><li>Can you get to their office easily from your home and place of work?</li><li>Where was the dentist trained and educated?</li><li>What is the dentist’s approach when it comes to preventative dentistry?</li><li>What arrangements can be made for emergencies which occur outside of office hours?</li><li>What steps can your dentist take to help you feel comfortable during a dental procedure, and do they provide anesthesia?</li><li>Is information relating to payments made clear before the procedures are scheduled to take place?</li><li>Is the office clean and tidy? Do all of the equipment and instruments appear to be clean and sterile?</li><li>Are the dentists and their staff friendly and willing to answer any of your questions?</li></ul>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/family-dentistry.jpg",
@@ -285,6 +294,18 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "twoColumnProse",
+        "heading": "We’ll Help You Have a Healthy, Confident Smile",
+        "columns": [
+          {
+            "html": "<p>As your trusted family dentists in Greenville, SC, our goal at Carolina Oaks Dental Care is to ensure that your visits are as enjoyable and as pleasant as possible. We understand that your time is valuable, which is why we are happy to book your whole family’s appointments at the same time, conveniently at the same location.</p><p>Our team of qualified dentists, dental hygienists, and dental assistants, will provide the highest level of service every time you and your family visit our clinic.</p>"
+          },
+          {
+            "html": "<h3>Our Commitment to Prevention and Education</h3><p>You can trust your Greenville, SC family dental care to us as we believe that educating our patients and their families on the importance of preventative care is essential to long-term oral health. Our focus on preventative dental care is why we deliver thorough exams every time you visit, which include oral cancer exams, checking the overall health of your gums and teeth, and taking X-rays when required.</p><p>We know that routine care, including regularly scheduled cleanings, flossing, fluoride and sealant application, can go a long way towards preventing diseases of the mouth.</p>"
+          }
+        ]
       }
     ]
   },
@@ -297,35 +318,11 @@
     "sections": [
       {
         "heading": "Custom Smile Protection",
-        "paragraphs": [
-          "Mouth guards, also commonly called “athletic mouth guards” or “sports guards,” are critical pieces of personal equipment worn during high-impact sports, such as football and hockey. At Carolina Oaks Dental Care, we offer custom mouth guards for athletes, as well as for patients who grind their teeth. A custom guard will give you the best possible fit and protection.",
-          "Mouth guards fit securely over the upper teeth and protect your or your child’s mouth from any injuries which may be sustained from an impact while playing sports.",
-          "Whether you’re tackling a quarterback, shooting a hockey puck, or take a nasty fall, mouth guards will protect the entire oral region and maintain the aesthetic appearance and health of your teeth, gums, and smile.",
-          "Mouth guards can also be worn to prevent grinding your teeth during sleep. If you’re experiencing soreness in your jaw, book an appointment with your family dentist in Greenville, SC now to learn more. The helpful and experienced staff at Carolina Oaks Dental Care will work with to get you in quickly and conveniently so you can get back to your busy schedule.",
-          "The majority of sporting organizations require that mouth guards be worn at all times while playing in order to protect your teeth, jaw, gums, and even the base of your brain.",
-          "Mouth guards also reduce instances of the following injuries:",
-          "Additionally, the American Academy of Pediatric Dentistry (AAPD) advocates that young children use mouth guards because children are especially prone to traumatic brain injury resulting from a sporting accident.",
-          "There are three kinds of mouth guards: stock mouth guards, boil and bite mouth guards, and customized mouth guards. If you’re not sure which kind is right for you, make an appointment with your trusted Greenville, SC dentist today. Here are some details about the most common types:",
-          "These universal, “one-style-fits-all” versions can be bought and immediately inserted into the mouth for use. However, these are the least popular style because they provide the least amount of protection, and can be uncomfortable to wear.",
-          "This style is called “boil and bite” because they need to be boiled in hot water to become pliable. Once heated, the guard can be fitted into the mouth and pressed against the teeth to create a mold which is customized to fit your mouth.",
-          "These custom-fit guards are specifically crafted by your dentist to fit to each individual’s teeth, bite, and jaw. These are the most expensive option, however, they are more comfortable, orthodontically accurate, and most approved by most dentists."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Cheek lesions",
-              "Lip lesions",
-              "Broken teeth",
-              "Gum and soft tissue injuries",
-              "Concussions",
-              "Jawbone fractures",
-              "Neck injuries",
-              "Tongue lesions"
-            ]
-          }
-        ],
-        "html": "<p>Mouth guards, also commonly called “athletic mouth guards” or “sports guards,” are critical pieces of personal equipment worn during high-impact sports, such as football and hockey. At Carolina Oaks Dental Care, we offer custom mouth guards for athletes, as well as for patients who grind their teeth. A custom guard will give you the best possible fit and protection. </p>\n<h3>How Do Mouth Guards Work?</h3>\n<p>Mouth guards fit securely over the upper teeth and protect your or your child’s mouth from any injuries which may be sustained from an impact while playing sports.</p>\n<p>Whether you’re tackling a quarterback, shooting a hockey puck, or take a nasty fall, mouth guards will protect the entire oral region and maintain the aesthetic appearance and health of your teeth, gums, and smile.</p>\n<p>Mouth guards can also be worn to prevent grinding your teeth during sleep. If you’re experiencing soreness in your jaw, book an appointment with your family dentist in Greenville, SC now to learn more. The helpful and experienced staff at Carolina Oaks Dental Care will work with to get you in quickly and conveniently so you can get back to your busy schedule.</p>\n<h3>Why Should You Use a Mouth Guard While Playing Sports?</h3>\n<p>The majority of sporting organizations require that mouth guards be worn at all times while playing in order to protect your teeth, jaw, gums, and even the base of your brain.</p>\n<p><strong>Mouth guards also reduce instances of the following injuries:</strong></p>\n<ul>\n<li>Cheek lesions</li>\n<li>Lip lesions</li>\n<li>Broken teeth</li>\n<li>Gum and soft tissue injuries</li>\n<li>Concussions</li>\n<li>Jawbone fractures</li>\n<li>Neck injuries</li>\n<li>Tongue lesions</li>\n</ul>\n<p>Additionally, the American Academy of Pediatric Dentistry (AAPD) advocates that young children use mouth guards because children are especially prone to traumatic brain injury resulting from a sporting accident.</p>\n<h3>What Kinds of Mouth Guard Options are Available?</h3>\n<p>There are three kinds of mouth guards: stock mouth guards, boil and bite mouth guards, and customized mouth guards. If you’re not sure which kind is right for you, make an appointment with your trusted Greenville, SC dentist today. Here are some details about the most common types:</p>\n<h4>Stock Mouth Guards</h4>\n<p>These universal, “one-style-fits-all” versions can be bought and immediately inserted into the mouth for use. However, these are the least popular style because they provide the least amount of protection, and can be uncomfortable to wear.</p>\n<h4>Boil and Bite Mouth Guards</h4>\n<p>This style is called “boil and bite” because they need to be boiled in hot water to become pliable. Once heated, the guard can be fitted into the mouth and pressed against the teeth to create a mold which is customized to fit your mouth.</p>\n<h4>Customized Mouth Guards</h4>\n<p>These custom-fit guards are specifically crafted by your dentist to fit to each individual’s teeth, bite, and jaw. These are the most expensive option, however, they are more comfortable, orthodontically accurate, and most approved by most dentists.</p>",
+        "html": "<p>Mouth guards, also commonly called “athletic mouth guards” or “sports guards,” are critical pieces of personal equipment worn during high-impact sports, such as football and hockey. At Carolina Oaks Dental Care, we offer custom mouth guards for athletes, as well as for patients who grind their teeth. A custom guard will give you the best possible fit and protection.</p>"
+      },
+      {
+        "heading": "How Do Mouth Guards Work?",
+        "html": "<p>Mouth guards fit securely over the upper teeth and protect your or your child’s mouth from any injuries which may be sustained from an impact while playing sports.</p><p>Whether you’re tackling a quarterback, shooting a hockey puck, or take a nasty fall, mouth guards will protect the entire oral region and maintain the aesthetic appearance and health of your teeth, gums, and smile.</p><p>Mouth guards can also be worn to prevent grinding your teeth during sleep. If you’re experiencing soreness in your jaw, book an appointment with your family dentist in Greenville, SC now to learn more. The helpful and experienced staff at Carolina Oaks Dental Care will work with to get you in quickly and conveniently so you can get back to your busy schedule.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/mouth-guards-hockey.jpg",
@@ -337,6 +334,30 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "heading": "Why Should You Use a Mouth Guard While Playing Sports?",
+        "html": "<p>The majority of sporting organizations require that mouth guards be worn at all times while playing in order to protect your teeth, jaw, gums, and even the base of your brain.</p><p><strong>Mouth guards also reduce instances of the following injuries:</strong></p><ul><li>Cheek lesions</li><li>Lip lesions</li><li>Broken teeth</li><li>Gum and soft tissue injuries</li><li>Concussions</li><li>Jawbone fractures</li><li>Neck injuries</li><li>Tongue lesions</li></ul><p>Additionally, the American Academy of Pediatric Dentistry (AAPD) advocates that young children use mouth guards because children are especially prone to traumatic brain injury resulting from a sporting accident.</p>"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "What Kinds of Mouth Guard Options are Available?",
+        "introHtml": "<p>There are three kinds of mouth guards: stock mouth guards, boil and bite mouth guards, and customized mouth guards. If you’re not sure which kind is right for you, make an appointment with your trusted Greenville, SC dentist today. Here are some details about the most common types:</p>",
+        "cardColumns": 3,
+        "cards": [
+          {
+            "title": "Stock Mouth Guards",
+            "bodyHtml": "<p>These universal, “one-style-fits-all” versions can be bought and immediately inserted into the mouth for use. However, these are the least popular style because they provide the least amount of protection, and can be uncomfortable to wear.</p>"
+          },
+          {
+            "title": "Boil and Bite Mouth Guards",
+            "bodyHtml": "<p>This style is called “boil and bite” because they need to be boiled in hot water to become pliable. Once heated, the guard can be fitted into the mouth and pressed against the teeth to create a mold which is customized to fit your mouth.</p>"
+          },
+          {
+            "title": "Customized Mouth Guards",
+            "bodyHtml": "<p>These custom-fit guards are specifically crafted by your dentist to fit to each individual’s teeth, bite, and jaw. These are the most expensive option, however, they are more comfortable, orthodontically accurate, and most approved by most dentists.</p>"
+          }
+        ]
       }
     ]
   },
@@ -349,30 +370,11 @@
     "sections": [
       {
         "heading": "Don’t Settle for Missing Teeth",
-        "paragraphs": [
-          "Missing teeth can cause discomfort, issues with speech, chewing and digestion, and aesthetic concerns. Luckily, our expert dentists can help. We offer high quality, custom partial dentures in Greenville, SC. A partial will replace your missing tooth, or teeth, restoring your smile and self-confidence.",
-          "Dentures are available in two types: complete dentures, and partial dentures. Complete dentures are required when a patient is missing all of their teeth in an arch, and acts as a complete replacement for that section of your teeth and sections of the gum as well.",
-          "Partial dentures, on the other hand, are necessary when a patient has a few teeth missing in a row, but otherwise, has enough remaining teeth that a complete denture is not needed.",
-          "Partial dentures benefit the wearer because they act as replacements for missing teeth. Our dentists create custom partials that mimic your original teeth as closely as possible, helping you to speak clearly, bite and chew properly, and smile confidently.",
-          "New partial dentures may feel a little odd or unusual during the first few weeks of use until the surrounding muscle has grown accustomed to their presence. Your cheeks and tongue will need to learn to keep them in place, and patients often experience excessive saliva during this period, as well as difficulty eating or talking.",
-          "However, if you are still experiencing discomfort several weeks after you have gone home with your partial dentures, make sure to contact your Greenville, SC dentist as soon as possible for a follow-up appointment.",
-          "One of the biggest challenges that patients experience after receiving their partial dentures is difficulty eating. This is why we recommend starting off with soft foods which have been cut into small pieces while you are getting accustomed to eating with your new dentures.",
-          "Some other tips to keep in mind are:",
-          "Learn more about how to safely use your partial denture by contacting your local dentists’ office in Greenville, SC."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Chew slowly and make sure to use both sides of your mouth",
-              "Avoid very hot or hard foods when possible",
-              "Be cautious when eating foods which have small, sharp bones in them",
-              "Avoid eating anything sticky while wearing your partial denture",
-              "Don’t chew gum while wearing your denture"
-            ]
-          }
-        ],
-        "html": "<p>Missing teeth can cause discomfort, issues with speech, chewing and digestion, and aesthetic concerns. Luckily, our expert dentists can help. We offer high quality, custom partial dentures in Greenville, SC. A partial will replace your missing tooth, or teeth, restoring your smile and self-confidence. </p>\n<h3>The Difference Between Partial and Complete Dentures</h3>\n<p>Dentures are available in two types: complete dentures, and partial dentures. Complete dentures are required when a patient is missing all of their teeth in an arch, and acts as a complete replacement for that section of your teeth and sections of the gum as well.</p>\n<p>Partial dentures, on the other hand, are necessary when a patient has a few teeth missing in a row, but otherwise, has enough remaining teeth that a complete denture is not needed.</p>\n<h3>What are the Benefits of Partial Dentures?</h3>\n<p>Partial dentures benefit the wearer because they act as replacements for missing teeth. Our dentists create custom partials that mimic your original teeth as closely as possible, helping you to speak clearly, bite and chew properly, and smile confidently. </p>\n<h3>What Will Your New Partial Dentures Feel Like?</h3>\n<p>New partial dentures may feel a little odd or unusual during the first few weeks of use until the surrounding muscle has grown accustomed to their presence. Your cheeks and tongue will need to learn to keep them in place, and patients often experience excessive saliva during this period, as well as difficulty eating or talking.</p>\n<p>However, if you are still experiencing discomfort several weeks after you have gone home with your partial dentures, make sure to contact your Greenville, SC dentist as soon as possible for a follow-up appointment.</p>\n<h3>Eating With Partial Dentures</h3>\n<p>One of the biggest challenges that patients experience after receiving their partial dentures is difficulty eating. This is why we recommend starting off with soft foods which have been cut into small pieces while you are getting accustomed to eating with your new dentures.</p>\n<p>Some other tips to keep in mind are:</p>\n<ul>\n<li>Chew slowly and make sure to use both sides of your mouth</li>\n<li>Avoid very hot or hard foods when possible</li>\n<li>Be cautious when eating foods which have small, sharp bones in them</li>\n<li>Avoid eating anything sticky while wearing your partial denture</li>\n<li>Don’t chew gum while wearing your denture</li>\n</ul>\n<p>Learn more about how to safely use your partial denture by contacting your local dentists’ office in Greenville, SC.</p>",
+        "html": "<p>Missing teeth can cause discomfort, issues with speech, chewing and digestion, and aesthetic concerns. Luckily, our expert dentists can help. We offer high quality, custom partial dentures in Greenville, SC. A partial will replace your missing tooth, or teeth, restoring your smile and self-confidence.</p>"
+      },
+      {
+        "heading": "The Difference Between Partial and Complete Dentures",
+        "html": "<p>Dentures are available in two types: complete dentures, and partial dentures. Complete dentures are required when a patient is missing all of their teeth in an arch, and acts as a complete replacement for that section of your teeth and sections of the gum as well.</p><p>Partial dentures, on the other hand, are necessary when a patient has a few teeth missing in a row, but otherwise, has enough remaining teeth that a complete denture is not needed.</p><h3>What are the Benefits of Partial Dentures?</h3><p>Partial dentures benefit the wearer because they act as replacements for missing teeth. Our dentists create custom partials that mimic your original teeth as closely as possible, helping you to speak clearly, bite and chew properly, and smile confidently.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/smiling-dentures.jpg",
@@ -384,6 +386,10 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "heading": "What Will Your New Partial Dentures Feel Like?",
+        "html": "<p>New partial dentures may feel a little odd or unusual during the first few weeks of use until the surrounding muscle has grown accustomed to their presence. Your cheeks and tongue will need to learn to keep them in place, and patients often experience excessive saliva during this period, as well as difficulty eating or talking.</p><p>However, if you are still experiencing discomfort several weeks after you have gone home with your partial dentures, make sure to contact your Greenville, SC dentist as soon as possible for a follow-up appointment.</p><h3>Eating With Partial Dentures</h3><p>One of the biggest challenges that patients experience after receiving their partial dentures is difficulty eating. This is why we recommend starting off with soft foods which have been cut into small pieces while you are getting accustomed to eating with your new dentures.</p><p>Some other tips to keep in mind are:</p><ul><li>Chew slowly and make sure to use both sides of your mouth</li><li>Avoid very hot or hard foods when possible</li><li>Be cautious when eating foods which have small, sharp bones in them</li><li>Avoid eating anything sticky while wearing your partial denture</li><li>Don’t chew gum while wearing your denture</li></ul><p>Learn more about how to safely use your partial denture by contacting your local dentists’ office in Greenville, SC.</p>"
       }
     ]
   },
@@ -396,25 +402,11 @@
     "sections": [
       {
         "heading": "Dental Care for Growing Smiles",
-        "paragraphs": [
-          "Because children’s teeth are growing and their jawbone structure is changing, they require individualized dental procedures and care to ensure their smile is developing properly. As a kids’ dentist in Greenville, SC, we can help. At Carolina Oaks Dental Care, we offer comprehensive, gentle dental services for children from infancy into adolescence.",
-          "Dentists can help parents and children understand the importance of proper dental hygiene and care. The primary focus is to ensure that a child’s baby teeth (also known as deciduous teeth) grow in properly and allow enough room for the adult teeth to emerge.",
-          "At Carolina Oaks Dental Care, in addition to monitoring kids’ development and helping them achieve outstanding oral health, we put a high level of effort into making our office a friendly, welcoming environment. By creating a safe space for kids and their parents to learn about dental care, we can alleviate the fear that can cause dental phobias to develop in some children. Our dentists also use behavioral techniques and kid-friendly, easy-to-understand language, which doesn’t include scary words like “drill” and “shot,” to make going to the dentist a positive experience for every child.",
-          "Some of the ways that our dentists at Carolina Oaks Dental Care are trained to help track and correct your child’s dental growth are:",
-          "Our dentists dedicate themselves to helping children and their families understand the importance of good oral care, and to preventing issues that can disrupt the development of healthy teeth in the future."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Monitoring dental progress. Your dentist in Greenville, SC will follow the development of baby teeth and provide any corrective treatment or procedures to encourage healthy dental development.",
-              "Working with families. Our dentists use easy-to-understand language and visual tools to communicate how to take care of children’s teeth to both the child and their parents.",
-              "Preventing issues. Helping families develop good brushing, flossing, and eating habits from the early stages in a child’s life can have positive effects which can last for decades. Additionally, dentists can help with issues like thumb sucking.",
-              "Solving oral problems early on. Working with our dentists is often the first step towards solving issues such as bruxism (grinding the teeth), malocclusion (an uneven bite, such as an underbite or overbite), and other oral problems."
-            ]
-          }
-        ],
-        "html": "<p>Because children’s teeth are growing and their jawbone structure is changing, they require individualized dental procedures and care to ensure their smile is developing properly. As a kids’ dentist in Greenville, SC, we can help. At Carolina Oaks Dental Care, we offer comprehensive, gentle dental services for children from infancy into adolescence. </p>\n<h3>What is Dentistry for Kids?</h3>\n<p>Dentists can help parents and children understand the importance of proper dental hygiene and care. The primary focus is to ensure that a child’s baby teeth (also known as deciduous teeth) grow in properly and allow enough room for the adult teeth to emerge.</p>\n<p>At Carolina Oaks Dental Care, in addition to monitoring kids’ development and helping them achieve outstanding oral health, we put a high level of effort into making our office a friendly, welcoming environment. By creating a safe space for kids and their parents to learn about dental care, we can alleviate the fear that can cause dental phobias to develop in some children.<br/>\nOur dentists also use behavioral techniques and kid-friendly, easy-to-understand language, which doesn’t include scary words like “drill” and “shot,” to make going to the dentist a positive experience for every child. </p>\n<h3>What are Some Areas of Dentistry for Kids?</h3>\n<p>Some of the ways that our dentists at Carolina Oaks Dental Care are trained to help track and correct your child’s dental growth are:</p>\n<ul>\n<li><strong>Monitoring dental progress. </strong>Your dentist in Greenville, SC will follow the development of baby teeth and provide any corrective treatment or procedures to encourage healthy dental development.</li>\n<li><strong>Working with families.</strong>Our dentists use easy-to-understand language and visual tools to communicate how to take care of children’s teeth to both the child and their parents.</li>\n<li><strong>Preventing issues. </strong>Helping families develop good brushing, flossing, and eating habits from the early stages in a child’s life can have positive effects which can last for decades. Additionally, dentists can help with issues like thumb sucking.</li>\n<li><strong>Solving oral problems early on. </strong>Working with our dentists is often the first step towards solving issues such as bruxism (grinding the teeth), malocclusion (an uneven bite, such as an underbite or overbite), and other oral problems.</li>\n</ul>\n<h3>Trust In Your Dentist</h3>\n<p>Our dentists dedicate themselves to helping children and their families understand the importance of good oral care, and to preventing issues that can disrupt the development of healthy teeth in the future.</p>",
+        "html": "<p>Because children’s teeth are growing and their jawbone structure is changing, they require individualized dental procedures and care to ensure their smile is developing properly. As a kids’ dentist in Greenville, SC, we can help. At Carolina Oaks Dental Care, we offer comprehensive, gentle dental services for children from infancy into adolescence.</p>"
+      },
+      {
+        "heading": "What is Dentistry for Kids?",
+        "html": "<p>Dentists can help parents and children understand the importance of proper dental hygiene and care. The primary focus is to ensure that a child’s baby teeth (also known as deciduous teeth) grow in properly and allow enough room for the adult teeth to emerge.</p><p>At Carolina Oaks Dental Care, in addition to monitoring kids’ development and helping them achieve outstanding oral health, we put a high level of effort into making our office a friendly, welcoming environment. By creating a safe space for kids and their parents to learn about dental care, we can alleviate the fear that can cause dental phobias to develop in some children. Our dentists also use behavioral techniques and kid-friendly, easy-to-understand language, which doesn’t include scary words like “drill” and “shot,” to make going to the dentist a positive experience for every child.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/dentistry-for-kids.jpg",
@@ -426,6 +418,10 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "heading": "What are Some Areas of Dentistry for Kids?",
+        "html": "<p>Some of the ways that our dentists at Carolina Oaks Dental Care are trained to help track and correct your child’s dental growth are:</p><ul><li><strong>Monitoring dental progress. </strong>Your dentist in Greenville, SC will follow the development of baby teeth and provide any corrective treatment or procedures to encourage healthy dental development.</li><li><strong>Working with families. </strong>Our dentists use easy-to-understand language and visual tools to communicate how to take care of children’s teeth to both the child and their parents.</li><li><strong>Preventing issues. </strong>Helping families develop good brushing, flossing, and eating habits from the early stages in a child’s life can have positive effects which can last for decades. Additionally, dentists can help with issues like thumb sucking.</li><li><strong>Solving oral problems early on. </strong>Working with our dentists is often the first step towards solving issues such as bruxism (grinding the teeth), malocclusion (an uneven bite, such as an underbite or overbite), and other oral problems.</li></ul><h3>Trust In Your Dentist</h3><p>Our dentists dedicate themselves to helping children and their families understand the importance of good oral care, and to preventing issues that can disrupt the development of healthy teeth in the future.</p>"
       }
     ]
   },
@@ -438,30 +434,11 @@
     "sections": [
       {
         "heading": "A Way to Save Your Natural Tooth",
-        "paragraphs": [
-          "Root canal therapy is necessary when the nerve of a tooth has become damaged due to decay or an infection. During the procedure, the living material inside the tooth, known as the pulp, is removed and replaced with specialized dental materials to preserve the tooth.",
-          "The most reliable way to determine whether or not you need root canal surgery is to contact a dentist in Greenville, SC who handles root canals. Here are a few signs that you may require a root canal procedure to save your natural tooth:",
-          "It’s important to remember that, sometimes, there are no symptoms to indicate that a problem is present. This is why it’s critical that you visit your dentist for regular checkups. Routine care allows the dentist to diagnose any issues as early as possible and resolve them before they get worse. Here at Carolina Oaks Dental Care, our goal is to prevent serious dental problems from developing so that you need to visit us as little as possible.",
-          "Root canals may be necessary for a variety of reasons; the most common include:",
-          "Decay has reached the ‘pulp’ of your tooth.",
-          "If your teeth are decayed, then a root canal may be necessary to prevent extraction of the tooth.",
-          "An abscess or infection.",
-          "If an infection has developed inside of your tooth, or on the root tip, then a root canal will be necessary.",
-          "Injury or trauma.",
-          "If you have damaged your tooth as a result of an accident or injury, then often a root canal may be necessary to preserve the tooth."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "You have abscess, or pimple, on the gums surrounding the tooth",
-              "Your tooth is sensitive to hot and cold food and drink",
-              "You experience recurring, severe toothache pain",
-              "The gums surrounding your tooth are swollen and tender"
-            ]
-          }
-        ],
-        "html": "<p>Root canal therapy is necessary when the nerve of a tooth has become damaged due to decay or an infection. During the procedure, the living material inside the tooth, known as the pulp, is removed and replaced with specialized dental materials to preserve the tooth.</p>\n<h3>What are the Signs That You Need a Root Canal?</h3>\n<p>The most reliable way to determine whether or not you need root canal surgery is to contact a dentist in Greenville, SC who handles root canals. Here are a few signs that you may require a root canal procedure to save your natural tooth:</p>\n<ul>\n<li>You have abscess, or pimple, on the gums surrounding the tooth</li>\n<li>Your tooth is sensitive to hot and cold food and drink</li>\n<li>You experience recurring, severe toothache pain</li>\n<li>The gums surrounding your tooth are swollen and tender</li>\n</ul>\n<p>It’s important to remember that, sometimes, there are no symptoms to indicate that a problem is present. This is why it’s critical that you visit your dentist for regular checkups. Routine care allows the dentist to diagnose any issues as early as possible and resolve them before they get worse. Here at Carolina Oaks Dental Care, our goal is to prevent serious dental problems from developing so that you need to visit us as little as possible.</p>\n<h3>Why Do You Need a Root Canal?</h3>\n<p>Root canals may be necessary for a variety of reasons; the most common include:</p>\n<p><strong>Decay has reached the ‘pulp’ of your tooth.</strong></p>\n<p>If your teeth are decayed, then a root canal may be necessary to prevent extraction of the tooth.</p>\n<p><strong>An abscess or infection.</strong></p>\n<p>If an infection has developed inside of your tooth, or on the root tip, then a root canal will be necessary.</p>\n<p><strong>Injury or trauma.</strong></p>\n<p>If you have damaged your tooth as a result of an accident or injury, then often a root canal may be necessary to preserve the tooth.</p>",
+        "html": "<p>Root canal therapy is necessary when the nerve of a tooth has become damaged due to decay or an infection. During the procedure, the living material inside the tooth, known as the pulp, is removed and replaced with specialized dental materials to preserve the tooth.</p>"
+      },
+      {
+        "heading": "What are the Signs That You Need a Root Canal?",
+        "html": "<p>The most reliable way to determine whether or not you need root canal surgery is to contact a dentist in Greenville, SC who handles root canals. Here are a few signs that you may require a root canal procedure to save your natural tooth:</p><ul><li>You have abscess, or pimple, on the gums surrounding the tooth</li><li>Your tooth is sensitive to hot and cold food and drink</li><li>You experience recurring, severe toothache pain</li><li>The gums surrounding your tooth are swollen and tender</li></ul><p>It’s important to remember that, sometimes, there are no symptoms to indicate that a problem is present. This is why it’s critical that you visit your dentist for regular checkups. Routine care allows the dentist to diagnose any issues as early as possible and resolve them before they get worse. Here at Carolina Oaks Dental Care, our goal is to prevent serious dental problems from developing so that you need to visit us as little as possible.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/toothach.jpg",
@@ -469,6 +446,23 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "Why Do You Need a Root Canal?",
+        "introHtml": "<p>Root canals may be necessary for a variety of reasons; the most common include:</p>",
+        "cardColumns": 3,
+        "cards": [
+          {
+            "bodyHtml": "<p><strong>Decay has reached the ‘pulp’ of your tooth.</strong></p><p>If your teeth are decayed, then a root canal may be necessary to prevent extraction of the tooth.</p>"
+          },
+          {
+            "bodyHtml": "<p><strong>An abscess or infection.</strong></p><p>If an infection has developed inside of your tooth, or on the root tip, then a root canal will be necessary.</p>"
+          },
+          {
+            "bodyHtml": "<p><strong>Injury or trauma.</strong></p><p>If you have damaged your tooth as a result of an accident or injury, then often a root canal may be necessary to preserve the tooth.</p>"
+          }
+        ]
       }
     ]
   },
@@ -481,31 +475,23 @@
     "sections": [
       {
         "heading": "Eliminating Stains for a More Radiant Smile",
-        "paragraphs": [
-          "Whether it’s due to a lifetime of drinking black coffee and tea, smoking cigarettes, or not being diligent about brushing and flossing, many adults worry about the color of their teeth. Though, over time, stains and discoloration are normal, you don’t have to live with a dull smile.",
-          "At Carolina Oaks Dental Care, we offer professional teeth whitening in Greenville, SC. The affordable, non-invasive procedure is a safe, effective way to eliminate stains and increase the brightness of your teeth, leaving you feeling confident in your dazzling smile.",
-          "Most patients come to our office for teeth whitening procedures when they are unhappy with the color of their teeth and feel self-conscious about their smile.",
-          "Some contributing factors which may have caused a patient’s teeth to begin changing color are:",
-          "If you’re not satisfied with the brightness of your smile, for whatever reason, consider having your teeth whitened safely and effectively by the experts at Carolina Oaks Dental Care, your trusted dentist in Greenville, SC.",
-          "At-home teeth whitening kits are commonly sold at drugstores and promise an easy, inexpensive treatment method for discolored teeth. However, most of these over-the-counter solutions are either too strong and can cause harm to your teeth and gums, or they are too weak and are ineffective. It is essential to trust your dentist when it comes to your oral care- even with whitening your teeth.",
-          "Your Greenville, SC dental experts at Carolina Oaks Dental Care can prevent you from bleaching or burning your gums, which is a common result of a faulty whitening kit. Additionally, an experienced professional can make sure that any fillings, crowns, or veneers on your teeth are a match to your new, bright smile, and can prevent splotchy-looking teeth."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Worn-out teeth. Over time, the outer layer of your teeth can wear and become discolored.",
-              "Staining due to medications. Some medicines, including tetracycline, can cause patients’ teeth to yellow and become discolored from extended use.",
-              "Discoloration. Teeth may become discolored as a result of smoking, poor oral care, or consuming foods such as black coffee, tea, or tannin-rich foods such as red and white wine."
-            ]
-          }
-        ],
-        "html": "<p>Whether it’s due to a lifetime of drinking black coffee and tea, smoking cigarettes, or not being diligent about brushing and flossing, many adults worry about the color of their teeth. Though, over time, stains and discoloration are normal, you don’t have to live with a dull smile. </p>\n<p>At Carolina Oaks Dental Care, we offer professional teeth whitening in Greenville, SC. The affordable, non-invasive procedure is a safe, effective way to eliminate stains and increase the brightness of your teeth, leaving you feeling confident in your dazzling smile. </p>\n<h3>When Do Patients Turn to Teeth Whitening?</h3>\n<p>Most patients come to our office for teeth whitening procedures when they are unhappy with the color of their teeth and feel self-conscious about their smile.</p>\n<p>Some contributing factors which may have caused a patient’s teeth to begin changing color are:</p>\n<ul>\n<li><strong>Worn-out teeth. </strong>Over time, the outer layer of your teeth can wear and become discolored.</li>\n<li><strong>Staining due to medications. </strong>Some medicines, including tetracycline, can cause patients’ teeth to yellow and become discolored from extended use.</li>\n<li><strong>Discoloration. </strong>Teeth may become discolored as a result of smoking, poor oral care, or consuming foods such as black coffee, tea, or tannin-rich foods such as red and white wine.</li>\n</ul>\n<p>If you’re not satisfied with the brightness of your smile, for whatever reason, consider having your teeth whitened safely and effectively by the experts at Carolina Oaks Dental Care, your trusted dentist in Greenville, SC.</p>\n<h3>Why Should Your Dentist Whiten Your Teeth?</h3>\n<p>At-home teeth whitening kits are commonly sold at drugstores and promise an easy, inexpensive treatment method for discolored teeth. However, most of these over-the-counter solutions are either too strong and can cause harm to your teeth and gums, or they are too weak and are ineffective. It is essential to trust your dentist when it comes to your oral care- even with whitening your teeth.</p>\n<p>Your Greenville, SC dental experts at Carolina Oaks Dental Care can prevent you from bleaching or burning your gums, which is a common result of a faulty whitening kit. Additionally, an experienced professional can make sure that any fillings, crowns, or veneers on your teeth are a match to your new, bright smile, and can prevent splotchy-looking teeth.</p>",
+        "html": "<p>Whether it’s due to a lifetime of drinking black coffee and tea, smoking cigarettes, or not being diligent about brushing and flossing, many adults worry about the color of their teeth. Though, over time, stains and discoloration are normal, you don’t have to live with a dull smile.</p><p>At Carolina Oaks Dental Care, we offer professional teeth whitening in Greenville, SC. The affordable, non-invasive procedure is a safe, effective way to eliminate stains and increase the brightness of your teeth, leaving you feeling confident in your dazzling smile.</p>"
+      },
+      {
+        "heading": "When Do Patients Turn to Teeth Whitening?",
+        "html": "<p>Most patients come to our office for teeth whitening procedures when they are unhappy with the color of their teeth and feel self-conscious about their smile.</p><p>Some contributing factors which may have caused a patient’s teeth to begin changing color are:</p><ul><li><strong>Worn-out teeth. </strong>Over time, the outer layer of your teeth can wear and become discolored.</li><li><strong>Staining due to medications. </strong>Some medicines, including tetracycline, can cause patients’ teeth to yellow and become discolored from extended use.</li><li><strong>Discoloration. </strong>Teeth may become discolored as a result of smoking, poor oral care, or consuming foods such as black coffee, tea, or tannin-rich foods such as red and white wine.</li></ul><p>If you’re not satisfied with the brightness of your smile, for whatever reason, consider having your teeth whitened safely and effectively by the experts at Carolina Oaks Dental Care, your trusted dentist in Greenville, SC.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/teeth-whitening.jpg",
             "alt": "Teeth Whitening"
-          },
+          }
+        ],
+        "imagePosition": "right"
+      },
+      {
+        "heading": "Why Should Your Dentist Whiten Your Teeth?",
+        "html": "<p>At-home teeth whitening kits are commonly sold at drugstores and promise an easy, inexpensive treatment method for discolored teeth. However, most of these over-the-counter solutions are either too strong and can cause harm to your teeth and gums, or they are too weak and are ineffective. It is essential to trust your dentist when it comes to your oral care- even with whitening your teeth.</p><p>Your Greenville, SC dental experts at Carolina Oaks Dental Care can prevent you from bleaching or burning your gums, which is a common result of a faulty whitening kit. Additionally, an experienced professional can make sure that any fillings, crowns, or veneers on your teeth are a match to your new, bright smile, and can prevent splotchy-looking teeth.</p>",
+        "images": [
           {
             "src": "wp-content/uploads/2022/04/teeth-whitening-blue-light.jpg",
             "alt": "Teeth Whitening"
@@ -524,37 +510,35 @@
     "sections": [
       {
         "heading": "What is a Tooth Extraction?",
-        "paragraphs": [
-          "A tooth extraction is a dental procedure that involves completely removing a severely damaged tooth. At Carolina Oaks Dental Care, our dentists perform simple extractions and surgical tooth extractions in Greenville, SC. While we always try to save your natural tooth, sometimes an extraction can’t be avoided. When that’s the case, we use a gentle approach and offer a variety of options for anesthesia to ensure the procedure is painless.",
-          "Tooth extractions may be necessary to remove permanent teeth that have been extensively damaged due to injury or decay and are causing problems within the mouth.",
-          "Often, a tooth needs to be removed after it has become damaged as the result of an injury or an accident. For example, patients who neglect to wear their mouth guard while playing sports may need to have teeth extracted after sustaining an injury while playing.",
-          "In other cases, the tooth may need to be extracted because it has become too damaged because of neglect or decay. In some instances, these issues may be resolved by installing crowns or veneers, but if the damage to the tooth is too extensive then your dentist in Greenville, SC will recommend extracting the tooth.",
-          "In some cases, a dentist will pull teeth to prepare a patient for orthodontic procedures, such as installing braces or preparing the patient to use a retainer.",
-          "Similar issues may include too many teeth present in the mouth to allow for proper orthodontic procedures to take place, or the teeth present in the mouth may be too big for the jaw, resulting in “crowding” teeth.",
-          "When a tooth pushes through the gums it is called “erupting” and in some cases the tooth (or teeth) may not be able to break through the layer of gum, becoming trapped and leading to painful swelling and inflammation.",
-          "Often, it is wisdom teeth which have trouble erupting, usually due to a crowded jaw or because they are facing the wrong way as they begin to emerge. In these circumstances, your dentist in Greenville, SC will extract the problem tooth to avoid an infection from forming inside the gums.",
-          "Having a tooth pulled is generally a safe and simple procedure, however, it’s important to take precautions to prevent infection.",
-          "With this in mind, it is essential that you inform our Greenville dental office about your complete medical history and any medications and/or supplements you may be taking.",
-          "Some other issues that your dentist needs to know about are:"
-        ],
-        "lists": [
+        "html": "<p>A tooth extraction is a dental procedure that involves completely removing a severely damaged tooth. At Carolina Oaks Dental Care, our dentists perform simple extractions and surgical tooth extractions in Greenville, SC. While we always try to save your natural tooth, sometimes an extraction can’t be avoided. When that’s the case, we use a gentle approach and offer a variety of options for anesthesia to ensure the procedure is painless.</p>"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "Reasons for Tooth Extractions",
+        "introHtml": "<p>Tooth extractions may be necessary to remove permanent teeth that have been extensively damaged due to injury or decay and are causing problems within the mouth.</p>",
+        "cardColumns": 1,
+        "cards": [
           {
-            "ordered": false,
-            "items": [
-              "If you have a congenital heart defect",
-              "If your immune system has been impaired or compromised",
-              "If you have liver disease",
-              "If you have a history of bacterial endocarditis",
-              "If you have any artificial joints, such as a hip replacement",
-              "If you have a replacement heart valve"
-            ]
+            "title": "Damage from Sports",
+            "bodyHtml": "<p>Often, a tooth needs to be removed after it has become damaged as the result of an injury or an accident. For example, patients who neglect to wear their mouth guard while playing sports may need to have teeth extracted after sustaining an injury while playing.</p><p>In other cases, the tooth may need to be extracted because it has become too damaged because of neglect or decay. In some instances, these issues may be resolved by installing crowns or veneers, but if the damage to the tooth is too extensive then your dentist in Greenville, SC will recommend extracting the tooth.</p>"
+          },
+          {
+            "title": "‘Crowded Mouth’ Problems",
+            "bodyHtml": "<p>In some cases, a dentist will pull teeth to prepare a patient for orthodontic procedures, such as installing braces or preparing the patient to use a retainer.</p><p>Similar issues may include too many teeth present in the mouth to allow for proper orthodontic procedures to take place, or the teeth present in the mouth may be too big for the jaw, resulting in “crowding” teeth.</p>"
+          },
+          {
+            "title": "Solving Issues with Erupting Teeth",
+            "bodyHtml": "<p>When a tooth pushes through the gums it is called “erupting” and in some cases the tooth (or teeth) may not be able to break through the layer of gum, becoming trapped and leading to painful swelling and inflammation.</p><p>Often, it is wisdom teeth which have trouble erupting, usually due to a crowded jaw or because they are facing the wrong way as they begin to emerge. In these circumstances, your dentist in Greenville, SC will extract the problem tooth to avoid an infection from forming inside the gums.</p>"
           }
-        ],
-        "html": "<p>A tooth extraction is a dental procedure that involves completely removing a severely damaged tooth. At Carolina Oaks Dental Care, our dentists perform simple extractions and surgical tooth extractions in Greenville, SC. While we always try to save your natural tooth, sometimes an extraction can’t be avoided. When that’s the case, we use a gentle approach and offer a variety of options for anesthesia to ensure the procedure is painless. </p>\n<h3>Reasons for Tooth Extractions</h3>\n<p>Tooth extractions may be necessary to remove permanent teeth that have been extensively damaged due to injury or decay and are causing problems within the mouth.</p>\n<h4>Damage from Sports</h4>\n<p>Often, a tooth needs to be removed after it has become damaged as the result of an injury or an accident. For example, patients who neglect to wear their mouth guard while playing sports may need to have teeth extracted after sustaining an injury while playing.</p>\n<p>In other cases, the tooth may need to be extracted because it has become too damaged because of neglect or decay. In some instances, these issues may be resolved by installing crowns or veneers, but if the damage to the tooth is too extensive then your dentist in Greenville, SC will recommend extracting the tooth.</p>\n<h4>‘Crowded Mouth’ Problems</h4>\n<p>In some cases, a dentist will pull teeth to prepare a patient for orthodontic procedures, such as installing braces or preparing the patient to use a retainer.</p>\n<p>Similar issues may include too many teeth present in the mouth to allow for proper orthodontic procedures to take place, or the teeth present in the mouth may be too big for the jaw, resulting in “crowding” teeth.</p>\n<h4>Solving Issues with Erupting Teeth</h4>\n<p>When a tooth pushes through the gums it is called “erupting” and in some cases the tooth (or teeth) may not be able to break through the layer of gum, becoming trapped and leading to painful swelling and inflammation.</p>\n<p>Often, it is wisdom teeth which have trouble erupting, usually due to a crowded jaw or because they are facing the wrong way as they begin to emerge. In these circumstances, your dentist in Greenville, SC will extract the problem tooth to avoid an infection from forming inside the gums.</p>\n<h3>What Your Dentist Needs to Know Before a Tooth Extraction</h3>\n<p>Having a tooth pulled is generally a safe and simple procedure, however, it’s important to take precautions to prevent infection. </p>\n<p>With this in mind, it is essential that you inform our Greenville dental office about your complete medical history and any medications and/or supplements you may be taking.</p>\n<p>Some other issues that your dentist needs to know about are:</p>\n<ul>\n<li>If you have a congenital heart defect</li>\n<li>If your immune system has been impaired or compromised</li>\n<li>If you have liver disease</li>\n<li>If you have a history of bacterial endocarditis</li>\n<li>If you have any artificial joints, such as a hip replacement</li>\n<li>If you have a replacement heart valve</li>\n</ul>",
+        ]
+      },
+      {
+        "heading": "What Your Dentist Needs to Know Before a Tooth Extraction",
+        "html": "<p>Having a tooth pulled is generally a safe and simple procedure, however, it’s important to take precautions to prevent infection.</p><p>With this in mind, it is essential that you inform our Greenville dental office about your complete medical history and any medications and/or supplements you may be taking.</p><p>Some other issues that your dentist needs to know about are:</p><ul><li>If you have a congenital heart defect</li><li>If your immune system has been impaired or compromised</li><li>If you have liver disease</li><li>If you have a history of bacterial endocarditis</li><li>If you have any artificial joints, such as a hip replacement</li><li>If you have a replacement heart valve</li></ul>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/toothach.jpg",
-            "alt": "Root Canal Treatment"
+            "alt": "Tooth Extractions"
           }
         ],
         "imagePosition": "right"
@@ -570,30 +554,11 @@
     "sections": [
       {
         "heading": "What are Dental Veneers?",
-        "paragraphs": [
-          "Dental veneers, also sometimes called porcelain veneers or dental laminates, are thin, custom-made shells that are bonded to the front and sides of your teeth, completely transforming the appearance of your smile. They can be used to change the color, shape, length or size of the teeth and correct any cosmetic flaws, including damage, spacing and discoloration.",
-          "At Carolina Oaks Dental Care, we offer high quality, custom dental veneers in Greenville, SC. One of our experienced dentists will work with you to design your dream smile. A lab will use their specifications to fabricate veneers that are gorgeous and natural looking.",
-          "A dental veneer can be made from a variety of materials, depending on the intended use of the veneer.",
-          "Some veneers are made from porcelain. These veneers are more stain-resistant than other types of veneers and appear more natural in photos because porcelain reflects the light in a manner similar to how the enamel on our natural teeth reflects the light.",
-          "Thinner veneers are often made with resin. These veneers are most often used when the tooth does not need to be modified before the veneer will be put in place, making them an additional alternative which your dentists may offer.",
-          "Dental veneers can be used to resolve a variety of common dental issues, including:",
-          "Choosing porcelain or resin veneers can have a positive impact on your life, helping you with the following issues:",
-          "Dental veneers can solve or mask existing problems with teeth such as gaps, crooked teeth, or teeth which have been worn down from grinding at night.",
-          "If your teeth are discolored due to a root canal or have become stained as a result of smoking or drinking black tea or coffee, then porcelain veneers can help your smile appear whiter."
-        ],
-        "lists": [
-          {
-            "ordered": false,
-            "items": [
-              "Worn out teeth. If a patient suffers from bruxism (grinding of the teeth), then their teeth may result in becoming worn down. Placing new veneers can restore the original shape and appearance of natural teeth.",
-              "Discoloration and staining. Over time, a patient’s teeth may become discolored or stained. This may be due to excessive fluoride, the presence of resin fillings, or even as a result of a root canal procedure.",
-              "Fill in gaps between the teeth. Veneers can be placed over a patient’s existing teeth to fill any unsightly gaps between teeth.",
-              "Irregular or misaligned teeth. If a patient’s teeth are misshapen, or if their teeth are uneven, then veneers may solve the issue.",
-              "Chipped or broken teeth. Veneers are common procedures for patients who have sustained damage to one or more of their front teeth."
-            ]
-          }
-        ],
-        "html": "<p>Dental veneers, also sometimes called porcelain veneers or dental laminates, are thin, custom-made shells that are bonded to the front and sides of your teeth, completely transforming the appearance of your smile. They can be used to change the color, shape, length or size of the teeth and correct any cosmetic flaws, including damage, spacing and discoloration.</p>\n<p>At Carolina Oaks Dental Care, we offer high quality, custom dental veneers in Greenville, SC. One of our experienced dentists will work with you to design your dream smile. A lab will use their specifications to fabricate veneers that are gorgeous and natural looking. </p>\n<h3>How Are Dental Veneers Made?</h3>\n<p>A dental veneer can be made from a variety of materials, depending on the intended use of the veneer.</p>\n<p>Some veneers are made from porcelain. These veneers are more stain-resistant than other types of veneers and appear more natural in photos because porcelain reflects the light in a manner similar to how the enamel on our natural teeth reflects the light.</p>\n<p>Thinner veneers are often made with resin. These veneers are most often used when the tooth does not need to be modified before the veneer will be put in place, making them an additional alternative which your dentists may offer.</p>\n<h3>What Do Veneers Do?</h3>\n<p>Dental veneers can be used to resolve a variety of common dental issues, including:</p>\n<ul>\n<li><strong>Worn out teeth. </strong>If a patient suffers from bruxism (grinding of the teeth), then their teeth may result in becoming worn down. Placing new veneers can restore the original shape and appearance of natural teeth.</li>\n<li><strong>Discoloration and staining. </strong>Over time, a patient’s teeth may become discolored or stained. This may be due to excessive fluoride, the presence of resin fillings, or even as a result of a root canal procedure.</li>\n<li><strong>Fill in gaps between the teeth. </strong>Veneers can be placed over a patient’s existing teeth to fill any unsightly gaps between teeth.</li>\n<li><strong>Irregular or misaligned teeth. </strong>If a patient’s teeth are misshapen, or if their teeth are uneven, then veneers may solve the issue.</li>\n<li><strong>Chipped or broken teeth. </strong>Veneers are common procedures for patients who have sustained damage to one or more of their front teeth.</li>\n</ul>\n<h3>What Are the Benefits of Dental Veneers?</h3>\n<p>Choosing porcelain or resin veneers can have a positive impact on your life, helping you with the following issues:</p>\n<h4>Hiding dental irregularities.</h4>\n<p>Dental veneers can solve or mask existing problems with teeth such as gaps, crooked teeth, or teeth which have been worn down from grinding at night.</p>\n<h4>Whiter, brighter teeth.</h4>\n<p>If your teeth are discolored due to a root canal or have become stained as a result of smoking or drinking black tea or coffee, then porcelain veneers can help your smile appear whiter.</p>",
+        "html": "<p>Dental veneers, also sometimes called porcelain veneers or dental laminates, are thin, custom-made shells that are bonded to the front and sides of your teeth, completely transforming the appearance of your smile. They can be used to change the color, shape, length or size of the teeth and correct any cosmetic flaws, including damage, spacing and discoloration.</p><p>At Carolina Oaks Dental Care, we offer high quality, custom dental veneers in Greenville, SC. One of our experienced dentists will work with you to design your dream smile. A lab will use their specifications to fabricate veneers that are gorgeous and natural looking.</p>"
+      },
+      {
+        "heading": "How Are Dental Veneers Made?",
+        "html": "<p>A dental veneer can be made from a variety of materials, depending on the intended use of the veneer.</p><p>Some veneers are made from porcelain. These veneers are more stain-resistant than other types of veneers and appear more natural in photos because porcelain reflects the light in a manner similar to how the enamel on our natural teeth reflects the light.</p><p>Thinner veneers are often made with resin. These veneers are most often used when the tooth does not need to be modified before the veneer will be put in place, making them an additional alternative which your dentists may offer.</p>",
         "images": [
           {
             "src": "wp-content/uploads/2022/04/veneers.jpg",
@@ -605,6 +570,26 @@
           }
         ],
         "imagePosition": "right"
+      },
+      {
+        "heading": "What Do Veneers Do?",
+        "html": "<p>Dental veneers can be used to resolve a variety of common dental issues, including:</p><ul><li><strong>Worn out teeth. </strong>If a patient suffers from bruxism (grinding of the teeth), then their teeth may result in becoming worn down. Placing new veneers can restore the original shape and appearance of natural teeth.</li><li><strong>Discoloration and staining. </strong>Over time, a patient’s teeth may become discolored or stained. This may be due to excessive fluoride, the presence of resin fillings, or even as a result of a root canal procedure.</li><li><strong>Fill in gaps between the teeth. </strong>Veneers can be placed over a patient’s existing teeth to fill any unsightly gaps between teeth.</li><li><strong>Irregular or misaligned teeth. </strong>If a patient’s teeth are misshapen, or if their teeth are uneven, then veneers may solve the issue.</li><li><strong>Chipped or broken teeth. </strong>Veneers are common procedures for patients who have sustained damage to one or more of their front teeth.</li></ul>"
+      },
+      {
+        "layout": "procedureCards",
+        "heading": "What Are the Benefits of Dental Veneers?",
+        "introHtml": "<p>Choosing porcelain or resin veneers can have a positive impact on your life, helping you with the following issues:</p>",
+        "cardColumns": 2,
+        "cards": [
+          {
+            "title": "Hiding dental irregularities.",
+            "bodyHtml": "<p>Dental veneers can solve or mask existing problems with teeth such as gaps, crooked teeth, or teeth which have been worn down from grinding at night.</p>"
+          },
+          {
+            "title": "Whiter, brighter teeth.",
+            "bodyHtml": "<p>If your teeth are discolored due to a root canal or have become stained as a result of smoking or drinking black tea or coffee, then porcelain veneers can help your smile appear whiter.</p>"
+          }
+        ]
       }
     ]
   }

@@ -43,6 +43,7 @@ const Content = post ? (await render(post)).Content : null;
         image={doctor.image}
         imageAlt={doctor.imageAlt}
         imagePosition="right"
+        imageSize="square"
       >
         {doctor.bio.map((p) => (
           <p>{p}</p>
