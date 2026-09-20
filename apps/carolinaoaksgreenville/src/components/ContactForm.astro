@@ -1,5 +1,7 @@
 ---
 import site from "../data/site.json";
+
+const thankYouUrl = new URL("/thank-you/", Astro.site).href;
 ---
 
 <div class="rounded-[10px] bg-white p-8 shadow-[0_10px_40px_rgba(47,58,53,0.08)] md:p-10">
@@ -8,9 +10,18 @@ import site from "../data/site.json";
   <form
     action={site.formspreeEndpoint}
     method="POST"
+    accept-charset="UTF-8"
     class="flex flex-col gap-5"
   >
-    <input type="hidden" name="_next" value="https://carolinaoaksgreenville.com/thank-you/" />
+    <input type="hidden" name="_next" value={thankYouUrl} />
+    <input type="hidden" name="_subject" value="Website contact — Greenville" />
+    <input
+      type="text"
+      name="_gotcha"
+      class="hidden"
+      tabindex="-1"
+      autocomplete="off"
+    />
     <label class="form-label">
       Full Name*
       <input type="text" name="name" required class="form-field" autocomplete="name" />

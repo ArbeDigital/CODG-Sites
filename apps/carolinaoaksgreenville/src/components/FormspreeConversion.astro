@@ -1,0 +1,49 @@
+---
+// Fires once per thank-you visit after a Formspree redirect.
+---
+
+<script is:inline>
+  (function () {
+    var storageKey = "formspree_contact_conversion";
+    try {
+      if (sessionStorage.getItem(storageKey)) return;
+      sessionStorage.setItem(storageKey, "1");
+    } catch (e) {}
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "form_submission",
+      form_source: "formspree",
+      form_name: "Contact",
+    });
+
+    var gtagSent = false;
+    var fbqSent = false;
+    var tries = 0;
+
+    function fire() {
+      if (!gtagSent && typeof gtag === "function") {
+        gtagSent = true;
+        gtag("event", "Form - Contact", {
+          form_source: "formspree",
+          form_name: "Contact",
+        });
+      }
+      if (!fbqSent && typeof fbq === "function") {
+        fbqSent = true;
+        fbq("track", "Lead", {
+          content_name: "Contact",
+          content_category: "Form",
+        });
+      }
+      return gtagSent && fbqSent;
+    }
+
+    if (fire()) return;
+
+    var timer = setInterval(function () {
+      tries += 1;
+      if (fire() || tries > 20) clearInterval(timer);
+    }, 250);
+  })();
+</script>

@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Tracking from "../components/Tracking.astro";
 import GtmNoscript from "../components/GtmNoscript.astro";
+import FormspreeConversion from "../components/FormspreeConversion.astro";
 ---
 
 <!doctype html>
@@ -24,7 +25,6 @@ import GtmNoscript from "../components/GtmNoscript.astro";
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
     />
 
-    <!-- Conversion / thank-you page: keep GTM + GA4 so conversion tags can fire -->
     <Tracking />
   </head>
   <body
@@ -73,5 +73,6 @@ import GtmNoscript from "../components/GtmNoscript.astro";
         >
       </section>
     </main>
+    <FormspreeConversion />
   </body>
 </html>
